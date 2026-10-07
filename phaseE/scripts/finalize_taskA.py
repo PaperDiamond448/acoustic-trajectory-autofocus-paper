@@ -124,6 +124,14 @@ def main():
                         'source':'Every successful phaseE_exportA run reread the three saved preflight MAT structures.'}
     for base in (LOCAL,REPO/'phaseE'):
         (base/'E0_preflight/SAVED_OUTPUT_READBACK.json').write_text(json.dumps(preflight_readback,indent=2)+'\n',encoding='utf-8')
+    preflight=LOCAL/'E0_preflight'
+    with (preflight/'OUTPUT_MANIFEST_sha256.csv').open('w',encoding='utf-8',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=['file','bytes','sha256','storage']);w.writeheader()
+        for p in sorted(preflight.iterdir()):
+            if p.is_file() and p.name!='OUTPUT_MANIFEST_sha256.csv':
+                w.writerow({'file':p.name,'bytes':p.stat().st_size,'sha256':sha(p),
+                            'storage':'local_only' if p.suffix in ('.mat','.log') else 'repository_and_local'})
+    shutil.copy2(preflight/'OUTPUT_MANIFEST_sha256.csv',REPO/'phaseE/E0_preflight/OUTPUT_MANIFEST_sha256.csv')
     excluded=lambda p: p.suffix in ('.h5','.mat','.log') or '.partial.' in p.name
     files=[p for p in OUT.iterdir() if p.is_file() and p.name!='OUTPUT_MANIFEST_sha256.csv']
     with (OUT/'OUTPUT_MANIFEST_sha256.csv').open('w',encoding='utf-8',newline='') as f:
