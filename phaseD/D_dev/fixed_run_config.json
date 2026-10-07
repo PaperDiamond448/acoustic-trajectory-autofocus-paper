@@ -1,0 +1,12 @@
+{
+  "stage": "fixed",
+  "phase_id": 51,
+  "records": 840,
+  "workers": 6,
+  "chunk_size": 10,
+  "source_signature": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+  "elapsed_wall_seconds": 2583.1763972,
+  "matlab_version": "9.14.0.2206163 (R2023a)",
+  "Delta": 10,
+  "rerun": ""
+}

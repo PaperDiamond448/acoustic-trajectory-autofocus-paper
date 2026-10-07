@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "records": 2400,
+  "rows": 9600,
+  "all_metrics_and_CSV_max_abs_difference": 5.684341886080802e-14,
+  "ADA_solver_round_hard_fail": 0,
+  "ADA_solver_round_budget_cap": 0,
+  "shards": 24,
+  "scope": "All original per-record checks unchanged in 100-record read-only shards; exact chunk/record/CSV/round coverage and unique keys independently verified in merge; no optimization"
+}

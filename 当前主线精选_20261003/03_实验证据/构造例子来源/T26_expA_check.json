@@ -1,0 +1,23 @@
+{
+  "rmse_absdiff": [
+    2.5208637260965006E-11,
+    2.0155549104727832E-11
+  ],
+  "rmse_dm_absdiff": [
+    2.6535312142028644E-11,
+    3.8917245294423086E-11
+  ],
+  "eta_absdiff": [
+    2.8619939751450829E-11,
+    2.9265478929119126E-11
+  ],
+  "max_absdiff": 3.8917245294423086E-11,
+  "tolerance": 1E-9,
+  "reproduces_preregistered_values": true,
+  "counterexample_holds": true,
+  "counterexample_holds_after_demeaning": true,
+  "B_error_not_pointwise_larger": true,
+  "frac_samples_absB_lt_absA": 0.39310344827586208,
+  "protocol": "MFT-W4-MODULE-20260918",
+  "eta_definition": "evaluate_record.m discrete: max_{|nu|<=2Hz} |FFT(z,nfft)|^2 / (sum|s|)^2"
+}

@@ -1,0 +1,92 @@
+{
+  "status": "FROZEN_BEFORE_ANY_REAL_MODULE",
+  "passed_cases": 105,
+  "duration_windows": 16,
+  "roles": {
+    "a": {
+      "tone_hz": 133,
+      "start_s": 1200,
+      "selection": "lowest visible weak peak_excess; ties smallest tone/earliest start"
+    },
+    "c": {
+      "tone_hz": 49,
+      "start_s": 1200,
+      "selection": "smallest passed strong tone at role-a interval"
+    },
+    "b": {
+      "tone_hz": 100,
+      "start_s": 600,
+      "end_s": 2100,
+      "segments": 5,
+      "selection": "longest maximal visible weak run; ties smallest tone/earliest start"
+    }
+  },
+  "all_maximal_weak_runs": [
+    {
+      "tone_hz": 52,
+      "start_s": 600,
+      "end_s": 1200,
+      "segments": 2
+    },
+    {
+      "tone_hz": 52,
+      "start_s": 2400,
+      "end_s": 2700,
+      "segments": 1
+    },
+    {
+      "tone_hz": 61,
+      "start_s": 2100,
+      "end_s": 2400,
+      "segments": 1
+    },
+    {
+      "tone_hz": 100,
+      "start_s": 600,
+      "end_s": 2100,
+      "segments": 5
+    },
+    {
+      "tone_hz": 103,
+      "start_s": 900,
+      "end_s": 1500,
+      "segments": 2
+    },
+    {
+      "tone_hz": 118,
+      "start_s": 1500,
+      "end_s": 1800,
+      "segments": 1
+    },
+    {
+      "tone_hz": 121,
+      "start_s": 0,
+      "end_s": 300,
+      "segments": 1
+    },
+    {
+      "tone_hz": 133,
+      "start_s": 1200,
+      "end_s": 1500,
+      "segments": 1
+    },
+    {
+      "tone_hz": 136,
+      "start_s": 900,
+      "end_s": 1200,
+      "segments": 1
+    }
+  ],
+  "tie_rule": "smallest frequency then earliest start; no module output inspected",
+  "files": {
+    "D:\\论文集\\phaseD\\X3_real\\X3_visibility.csv": "6381b70ad793ba37dcdd50b10265729f16864dcd3941d0582841ff461d47c16c",
+    "D:\\论文集\\phaseD\\X3_real\\X3_FROZEN_TESTSET.csv": "4a5608fec6c94d4c6e583b5f332ac8cbdb5a00df171f30863f2c7db884fe6163",
+    "D:\\论文集\\phaseD\\X3_real\\X3_FROZEN_DURATION_TESTSET.csv": "9400e5789a17685af46fc35e96d8392a0e8e8574d513c7cb084405ad7577b8be",
+    "D:\\论文集\\phaseD\\X3_real\\X3_A3_comparison.csv": "72473060f7fdf7ad8366e6260b71a01210426b5c9968402127542f8107fc9928",
+    "D:\\论文集\\phaseD\\X3_real\\SCREEN_COMPLETE.json": "cb8bedbfa736fc6d068e6eb86a338846792d9c5786fce8e9e7bad98d3c4a5c58",
+    "D:\\论文集\\phaseD\\codeX\\phaseX3_one.m": "e09ec0151b85c7291c7cbb987e6cb78eb111bf82da9604e4eba0c70c363e5cc9",
+    "D:\\论文集\\phaseD\\codeX\\phaseX3_metrics.m": "bcb80c50018654242a2ec5c90363a53fe7154e0477937fc52e8f4b24f725a661",
+    "D:\\论文集\\phaseD\\codeX\\run_phaseX3_real.m": "040fb31a32e7425d60aaeb19ed275907334cbc2c406c5d30928523734809b4b0"
+  },
+  "created_at": "2026-10-04T12:59:40.614546"
+}

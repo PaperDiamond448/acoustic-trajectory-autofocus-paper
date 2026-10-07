@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rows": 14000,
+  "chunks": 280,
+  "numeric_tolerance": 1E-12,
+  "numeric_max_abs_difference": 4.9737991503207013E-14,
+  "scope": "Every CSV field reconciled against original MAT row; no output files modified and no optimization"
+}

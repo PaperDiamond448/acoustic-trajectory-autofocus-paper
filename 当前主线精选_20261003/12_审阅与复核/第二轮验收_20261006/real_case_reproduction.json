@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "tone_hz": 100,
+  "segment_start_s": 900,
+  "duration_s": 300,
+  "source": "original acoustic file, channel 9, guarded DFT extraction",
+  "cached_baseband_identical": true,
+  "input_hash": "d39204a14031ce097707b440ef58e601",
+  "rows": [
+    {
+      "method": "SMR",
+      "peak_relative_periodogram_db": 3.6003760031028689,
+      "expected_peak_relative_periodogram_db": 3.60037600310287,
+      "peak_frequency_hz": 100,
+      "max_abs_db_difference": 1.3322676295501878E-15,
+      "max_abs_track_difference_hz": 4.9737991503207013E-13
+    },
+    {
+      "method": "VS_FM",
+      "peak_relative_periodogram_db": 5.3440565082225113,
+      "expected_peak_relative_periodogram_db": 5.34405650822251,
+      "peak_frequency_hz": 100,
+      "max_abs_db_difference": 8.8817841970012523E-16,
+      "max_abs_track_difference_hz": 4.9737991503207013E-13
+    }
+  ],
+  "gain_db": 1.7436805051196425,
+  "db_tolerance": 1E-6,
+  "track_tolerance_hz": 1E-8,
+  "triggered": false,
+  "rounds": 0
+}

@@ -1,0 +1,12 @@
+{
+  "status": "stop2_complete_awaiting_user_audit",
+  "branch": "C-A1",
+  "primary_method": "ADA_local_c04_t30_A",
+  "records": 2800,
+  "methods": 5,
+  "X_started": false,
+  "report_sha256": "65123ecc0d4155927254811179769d171b8b6d315cc1a11eb873f811debeda10",
+  "raw_outputs_unchanged": true,
+  "execution_exit_incident_verified": true,
+  "output_notes_source_sha256": "b0f5d3b7ddd19ac4f8b52f1db840364f59ec816710b0eada6a282a95a6128524"
+}

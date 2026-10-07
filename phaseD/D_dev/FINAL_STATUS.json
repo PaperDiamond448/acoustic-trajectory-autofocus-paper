@@ -1,0 +1,22 @@
+{
+  "status": "stop_point_1_complete_awaiting_user_rule_audit",
+  "method": "ADA_local_c04_t30_A",
+  "branch": "C-A",
+  "Delta_s": 10,
+  "P": 31,
+  "ADA": {
+    "mode": "local",
+    "cap_hz": 0.04,
+    "tau_s": 30,
+    "rerun": "A"
+  },
+  "frozen_method_sha256": "ff63f32c38fc17e99620faa074025c337df247bf823be4fa4b40e74860c0a89f",
+  "gates": "PASS",
+  "development_audit_checks": 1397,
+  "saved_configuration_rows": 39480,
+  "hard_fail_count": 0,
+  "figure_QA": "PASS",
+  "original_files_unchanged": 884,
+  "confirmation_started": false,
+  "resolved_representation_issue": "CSV binary flags; original data and numerical solvers unchanged; evidence retained in DEVIATIONS.md"
+}

@@ -1,0 +1,17 @@
+stage,method_or_frontend,method_rows,hard_fail_marked_rows,budget_cap_marked_rows
+X1,ADA_local_c04_t30_A,2400,0,0
+X1,F02,2400,0,0
+X1,SMR,2400,0,0
+X1,UNB,2400,0,0
+X2,MFT,1400,0,0
+X2,SUV,1400,0,0
+X2,V0,1400,0,0
+X2,VS,1400,0,0
+X3,F02,121,0,0
+X3,MFT,105,0,0
+X3,MFT_FM,105,0,0
+X3,SMR,121,0,0
+X3,SUV,105,0,0
+X3,SUV_FM,105,0,0
+X3,UNB,105,0,0
+X3,VS_FM,121,0,0

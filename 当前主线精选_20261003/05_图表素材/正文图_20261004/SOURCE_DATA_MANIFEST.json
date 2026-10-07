@@ -1,0 +1,82 @@
+{
+  "expA_curves.csv": {
+    "source": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\results\\expA\\expA_curves.csv",
+    "sha256": "a328a20d9e10cd488ec9d4d198d17e6e6f1d663fa3af0ebc30ab89bfec6ab9d4"
+  },
+  "T21_expA_mechanism.csv": {
+    "source": "D:\\论文集\\当前主线精选_20261003\\03_实验证据\\C_原稿批次P60_表\\T21_expA_mechanism.csv",
+    "sha256": "3050cd2ec63ed9a5ee321247ceb6b6884f8bd366b350326b9b6805dde25af34c"
+  },
+  "D1_summary.csv": {
+    "source": "D:\\论文集\\phaseD\\D_dev\\D1_summary.csv",
+    "sha256": "26a487d9d34f593b995f875681491bddfa7be0877a79c99f971570239e8a85bb"
+  },
+  "D2_summary.csv": {
+    "source": "D:\\论文集\\phaseD\\D_dev\\D2_summary.csv",
+    "sha256": "3074bb231127ed098978c69d59d73aa75d93d43354c137534cd0fc9c4ff90d72"
+  },
+  "C_cell_statistics.csv": {
+    "source": "D:\\论文集\\phaseD\\C_confirm\\C_cell_statistics.csv",
+    "sha256": "449d9469f56c07e4f8b647b156e30df23fb8f3c47e473532476055d81782eb10"
+  },
+  "C_summary.csv": {
+    "source": "D:\\论文集\\phaseD\\C_confirm\\C_summary.csv",
+    "sha256": "fa91664be3dc56c4b31339e0c41fcaad60338442cbc9eabec96fcde4594452ee"
+  },
+  "X1_summary.csv": {
+    "source": "D:\\论文集\\phaseD\\X1_duration\\X1_summary.csv",
+    "sha256": "18e6201dca2b2fb1e6992dd24b63c5538944f6bd187d84e137829a7435a7833c"
+  },
+  "X2_eta_bins.csv": {
+    "source": "D:\\论文集\\phaseD\\X2_frontend\\X2_eta_bins.csv",
+    "sha256": "d5d53e8c47e83bc654c881936bd59904ceff176c1b9d543743e5b965f1d2e7a8"
+  },
+  "X2_pooled.csv": {
+    "source": "D:\\论文集\\phaseD\\X2_frontend\\X2_pooled.csv",
+    "sha256": "12167a96d81bd284fd9bce0c9a5f732c42ebe8efbe4ec289a09bf4a273b43690"
+  },
+  "X3_increments.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\X3_increments.csv",
+    "sha256": "ad96b6b26d2f97c6832671a980c38d3251ed497f9d9ebf7e48de8b72babd4dcd"
+  },
+  "X3_cases.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\X3_cases.csv",
+    "sha256": "0082a1db2bcf2fc1b3f3e9111f4572639b22184f33126a089face4ba2bf5a970"
+  },
+  "f133_s1200_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\spectra\\f133_s1200_T300.csv",
+    "sha256": "a839110c0b555c524c4396623911c4667e5dcbbb7a36b063a33595f8abcf52f7"
+  },
+  "f49_s1200_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\spectra\\f49_s1200_T300.csv",
+    "sha256": "354ace4026565b3d3c04cf99a18a3c94f369ebaf743cc18e006f65e869d64f9f"
+  },
+  "f100_s600_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\tracks\\f100_s600_T300.csv",
+    "sha256": "7822e215281350db8e0762ff9ccd35ddb9faf36c9d6528a865cf125bd8ee2436"
+  },
+  "f100_s900_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\tracks\\f100_s900_T300.csv",
+    "sha256": "b17927347b9047043b1dff1b66c833877f2a1ec70903e2abb76dcc07d0ec9537"
+  },
+  "f100_s1200_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\tracks\\f100_s1200_T300.csv",
+    "sha256": "e013e057cb9c13741e7afca640188bf3f6bd231753c57957116a1250aa58afc8"
+  },
+  "f100_s1500_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\tracks\\f100_s1500_T300.csv",
+    "sha256": "af5321429fd268996d8a670d6ca3e2df7700497a8e2aabd8253e455891c5f067"
+  },
+  "f100_s1800_T300.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\tracks\\f100_s1800_T300.csv",
+    "sha256": "af54db2e661b3ed2a2fc9b2f90b04f9cc6b1520af75f9ed4c1e7a4097a103afc"
+  },
+  "X3_duration.csv": {
+    "source": "D:\\论文集\\phaseD\\X3_real\\X3_duration.csv",
+    "sha256": "f4a0aa27e4bd03694a39168309289f82bfff0b2c9aa26f8422f4d7e4de0b941b"
+  },
+  "E0_phase_corrected_perrecord.csv": {
+    "source": "D:\\论文集\\当前主线精选_20261003\\03_实验证据\\D_前端诊断_E0修正版\\E0_phase_corrected_perrecord.csv",
+    "sha256": "cb2beb95a5bb5a3a1e5aeb454f490956335ac178aae28a206b13cda479fca731"
+  }
+}

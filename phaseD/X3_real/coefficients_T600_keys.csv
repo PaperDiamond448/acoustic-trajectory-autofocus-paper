@@ -1,0 +1,13 @@
+tone_hz,segment_start_s,duration_s,input_hash,dataset,method,column_1based,P
+52,600,600,db4d0d63889844dd6a8daaed30e09e51,duration,SMR,1,61
+52,600,600,db4d0d63889844dd6a8daaed30e09e51,duration,F02,2,61
+52,600,600,db4d0d63889844dd6a8daaed30e09e51,duration,VS_FM,3,61
+100,600,600,6cb0ff81dac5a3ceb8e88e8b4155a90c,duration,SMR,4,61
+100,600,600,6cb0ff81dac5a3ceb8e88e8b4155a90c,duration,F02,5,61
+100,600,600,6cb0ff81dac5a3ceb8e88e8b4155a90c,duration,VS_FM,6,61
+103,900,600,0ed6317b9ab4a53340814ef6e3ee5c34,duration,SMR,7,61
+103,900,600,0ed6317b9ab4a53340814ef6e3ee5c34,duration,F02,8,61
+103,900,600,0ed6317b9ab4a53340814ef6e3ee5c34,duration,VS_FM,9,61
+100,900,600,53fab88e4171d74d5731afb2de75debd,duration,SMR,10,61
+100,900,600,53fab88e4171d74d5731afb2de75debd,duration,F02,11,61
+100,900,600,53fab88e4171d74d5731afb2de75debd,duration,VS_FM,12,61

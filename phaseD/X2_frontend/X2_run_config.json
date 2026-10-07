@@ -1,0 +1,12 @@
+{
+  "stage": "X2",
+  "phase_id": 54,
+  "records": 1400,
+  "workers": 6,
+  "chunk_size": 10,
+  "source_signature": "a8513c76cd64c5ed22f9a763cb99a0a8dd83490dd291c872a18685455f79bf43",
+  "elapsed_wall_seconds": 50.2579016,
+  "matlab_version": "9.14.0.2206163 (R2023a)",
+  "Delta": 10,
+  "timing": "Loaded six-process per-call wall times; no concurrent numerical experiment"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "visual_review": "PASS: all three final PNGs inspected panel by panel; no clipping, overlaps, missing intervals or mismatched legends",
+  "figures": {
+    "fig_D1_eta_runtime": {
+      "alignment": "PASS",
+      "minimum_font_pt": 7.0,
+      "collision": "PASS",
+      "file_sha256": {
+        "pdf": "670788a0862f8dc260f361e38c0bfa19e880039b758db15aa73dd0ee194cccdd",
+        "svg": "dfadbf4cc07a8eb8f97cfaa6449145d919eaab0d787e2e87ea4d0be273c47fb1",
+        "png": "bd5ea129083dd7162697ff757c837a0ef34b6c0eb2558465951a23331fd4cd09"
+      }
+    },
+    "fig_D1_observed_peak": {
+      "alignment": "PASS",
+      "minimum_font_pt": 7.0,
+      "collision": "PASS",
+      "file_sha256": {
+        "pdf": "e6caf35a4bc31add24f21e3861cb06407e291bb66ced99a36505a8244e03780b",
+        "svg": "ef205a6b64857988e42e5a874afafe07529ecfb216527c90fc2dcb713d50efab",
+        "png": "cb513bf7a04c4acb0da463534dc19265731d72183cd9f46191780dd6baaddad3"
+      }
+    },
+    "fig_D2_radius_gain_harm": {
+      "alignment": "PASS",
+      "minimum_font_pt": 7.0,
+      "collision": "PASS",
+      "file_sha256": {
+        "pdf": "c0bea17d9eaed750cd6be0c18375cf1ea6150f1b1d6eea3ae4c5deab60c6b332",
+        "svg": "4ec65c6b1e89ace7d0482ae0942e7b6e1e1e2290c64d64caf3941638b7a49bd2",
+        "png": "13241de46459631e54ae4e5ca8238fcbe998ab64ce8cb007c467655e9f320d59"
+      }
+    }
+  },
+  "visual_review_passed": true,
+  "visual_review_notes": "D1 methods use distinct markers and line patterns; peak panel letters are separated from legend; D2 gain/harm intervals and selected-ADA bands remain legible."
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+~$*
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+*.pem
+*_未排版.docx
+**/_预览/
+**/排版检查/
+**/_Word排版检查*/
+J1312340.hla.north.sio/
+J1312340.hla.north.sio.gz

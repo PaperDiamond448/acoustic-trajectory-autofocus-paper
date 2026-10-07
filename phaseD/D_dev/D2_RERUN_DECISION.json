@@ -1,0 +1,13 @@
+{
+  "selected": "A",
+  "triggered_records": 323,
+  "mean_abs_eta_difference": 0.01828164092680203,
+  "mean_abs_peak_difference_db": 0.20228510753855744,
+  "median_runtime_B_over_A": 0.6656958780990093,
+  "thresholds": [
+    0.005,
+    0.1,
+    0.6
+  ],
+  "all_strict_conditions_met": false
+}

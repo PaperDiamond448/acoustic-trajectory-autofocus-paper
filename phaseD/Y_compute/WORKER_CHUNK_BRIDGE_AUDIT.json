@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "records_compared": 2880,
+  "proof": "Every completed worker-file S is exactly isequaln to its committed chunk copy, including all numerical and metadata fields; no optimization"
+}

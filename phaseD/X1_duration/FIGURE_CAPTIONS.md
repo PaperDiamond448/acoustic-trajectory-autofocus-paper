@@ -1,0 +1,3 @@
+fig_X1_duration_efficiency_cost
+
+All 2,400 phase-53 records, 100 seeds per scene carried across three SNRs and four durations. Upper panels: equal-SNR-cell mean pure-target efficiency with 95% scene-stratified seed-cluster percentile intervals, 2,000 draws, seed 20261053. Lower panels: median BTA optimizer call wall time; shading spans median to 90th percentile and is not a confidence interval. Timing is measured with six Processes workers under load, not a serial benchmark. SMR is the same-duration bounded quadratic start; ADA is the frozen local 0.04-Hz/30-s/full-rerun method. Spacing remains 10 s; nodes, regularization and fixed per-stage budgets scale with duration. All records and negative gains are retained.

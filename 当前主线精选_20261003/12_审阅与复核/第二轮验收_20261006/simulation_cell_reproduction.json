@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scene": "S0",
+  "snr_db": -17,
+  "records": 200,
+  "seed_start": 7.2270916E+7,
+  "seed_end": 7.2271115E+7,
+  "eta_tolerance": 1E-8,
+  "db_tolerance": 1E-6,
+  "max_per_record_eta_difference": 4.4408920985006262E-16,
+  "max_per_record_gain_db_difference": 9.2370555648813024E-14,
+  "comparisons": [
+    {
+      "metric": "eta_LPS",
+      "expected_mean": 0.54834719875827709,
+      "reproduced_mean": 0.54834719875827709,
+      "difference": 0
+    },
+    {
+      "metric": "eta_final",
+      "expected_mean": 0.87675857610316466,
+      "reproduced_mean": 0.87675857610316466,
+      "difference": 0
+    },
+    {
+      "metric": "gain_eta",
+      "expected_mean": 0.32841137734488757,
+      "reproduced_mean": 0.32841137734488762,
+      "difference": 5.5511151231257827E-17
+    },
+    {
+      "metric": "gain_peak_db",
+      "expected_mean": 2.2463061127683641,
+      "reproduced_mean": 2.2463061127683654,
+      "difference": 1.3322676295501878E-15
+    }
+  ],
+  "scope": "VIT, LPS and frozen complete correction; no parameter changes"
+}

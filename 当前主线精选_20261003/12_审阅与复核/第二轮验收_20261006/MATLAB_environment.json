@@ -1,0 +1,14 @@
+{
+  "release": "2023a",
+  "version": "9.14.0.2206163 (R2023a)",
+  "optimization_license": 1,
+  "parallel_license": 1,
+  "source_manifest_verified": true,
+  "functions": {
+    "simulate": "D:\\论文集\\phaseD\\code\\simulate_baseband_T.m",
+    "frontend": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\common_frontend.m",
+    "solver": "D:\\论文集\\phaseD\\code\\estimate_proposed_T.m",
+    "real_loader": "D:\\论文集\\phaseA\\code\\phaseA_load_baseband.m",
+    "real_config": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\real_config.m"
+  }
+}

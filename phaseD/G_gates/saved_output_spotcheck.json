@@ -1,0 +1,6 @@
+{
+  "records_checked": 10,
+  "configuration_rows_checked": 200,
+  "status": "PASS",
+  "scope": "first saved chunk only; no record recomputation or optimizer retry"
+}

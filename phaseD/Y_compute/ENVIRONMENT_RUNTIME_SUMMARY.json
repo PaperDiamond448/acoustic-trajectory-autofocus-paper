@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "batch_summary": [
+    {
+      "stage": "X1",
+      "completed_short_batches": 24,
+      "records_newly_committed_in_completed_batches": 1580,
+      "completed_batch_work_seconds": 7809.0648931000005,
+      "unique_environment_log_files": 28,
+      "descriptive_log_span_seconds": 11004.984968185425,
+      "log_spans_unavailable": 2,
+      "assembly_only_seconds": 60.689715
+    },
+    {
+      "stage": "X2",
+      "completed_short_batches": 14,
+      "records_newly_committed_in_completed_batches": 1400,
+      "completed_batch_work_seconds": 4422.411829499999,
+      "unique_environment_log_files": 14,
+      "descriptive_log_span_seconds": 5338.549463510513,
+      "log_spans_unavailable": 0,
+      "assembly_only_seconds": 50.2579016
+    }
+  ],
+  "log_inventory": "ENVIRONMENT_LOG_INVENTORY.csv",
+  "x3_final_resume_seconds": 96.9814896,
+  "x3_first_105_case_commit_seconds": 385.5917989,
+  "timing_scope": "Method times are saved six-worker loaded call wall times. Completed short-batch work includes numerical calls, cached reads and saving, excludes MATLAB/pool startup, and excludes work committed before an incomplete batch exited. Log spans are descriptive estimates with gaps/overwrites, not a measured total execution wall time. Identical archived logs are deduplicated. Original final X1/X2 driver times are read-only assembly times. No restart cost is charged to a method."
+}

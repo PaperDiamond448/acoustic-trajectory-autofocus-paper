@@ -1,0 +1,9 @@
+{
+  "scope": "display only",
+  "original_source_unchanged": true,
+  "decision_inputs_affected": false,
+  "figure": "fig_D1_observed_peak",
+  "change": "top subplot boundary 0.84 -> 0.76 to separate panel b from shared legend",
+  "method_identity": "D1 F02 solid circle; UNB dashed triangle; unscaled Control dotted square; legend updated consistently",
+  "reason": "Rendered PDF collision audit found a text-box overlap; subsequent exports must use this wrapper."
+}

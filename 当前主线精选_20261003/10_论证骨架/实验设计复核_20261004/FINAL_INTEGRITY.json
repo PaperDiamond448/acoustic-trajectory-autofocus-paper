@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "core_frozen_algorithms": {
+    "phaseD_ada.m": "343d95bbbef10d63f50aa62cc967a570754c0bac18f4ff1d7a90d93bfdfe85f3",
+    "phaseD_dwell.m": "c82079616a7bc68d6a0911e3200ff9526b0b232ef6eb1eff79c5c8198113daf7",
+    "estimate_proposed_T.m": "b58931a38ec5ef0e45987072e12f89b481cbff69e405120b00d57fafe3a85315",
+    "build_family_T.m": "98336384fe29a4b994e6e3b0f7b67473570feccf86bb16b6b9a17461e96c2344",
+    "phaseD_regularization.m": "d3fabcb6bd4960a78be6342831eb2885b7042e16398b7991e49bf63b51676ba8"
+  },
+  "independent_reviews_unchanged": {
+    "review_1_method.md": "d029ad2f872e3e33db836b3842b5342cdc3696e3994a6a8b8624c259f71340c7",
+    "review_2_statistics.md": "7f2fe74be1139180fd75780fa6f14907afd7d0fcdedcdab11f9bcf86c737a9f0",
+    "review_3_realdata.md": "fa94df7edf045d82b152836e4dd10f47f04554df9c13f33589a4be8e928323a1"
+  },
+  "figure_source_copies_verified": 20,
+  "figures_verified": 15,
+  "manuscript_skeleton_v1_sha256": "28b76da50355ebd2474651f31eb18bee27ab1340283aefdf1c4aff773633ca5b"
+}

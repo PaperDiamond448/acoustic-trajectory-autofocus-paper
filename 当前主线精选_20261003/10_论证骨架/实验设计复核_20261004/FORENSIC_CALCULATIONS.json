@@ -1,0 +1,73 @@
+{
+  "C": {
+    "ADA_minus_SMR": 0.1936277188771265,
+    "F02_minus_SMR": 0.1842793269027323,
+    "ADA_minus_F02": 0.0093483919743942,
+    "ADA_minus_UNB_S0": -0.0059824189083542
+  },
+  "D2": {
+    "reference_method": "F04",
+    "retained_ratio": 0.9477880955542641
+  },
+  "X1_S2_SMR_eta": [
+    0.3536024538109784,
+    0.4134599576999088,
+    0.4078370628080482,
+    0.3907367683709001
+  ],
+  "X3": {
+    "groups": {
+      "strong": 60,
+      "shallow": 30,
+      "weak": 15
+    },
+    "weak_median_gain_db": 1.7436805051196402,
+    "weak_all_positive": true,
+    "weak_ADA_minus_F02": {
+      "positive": 4,
+      "negative": 1,
+      "unchanged": 10
+    },
+    "triggered": 5,
+    "FFT_max_abs_error": 9.20153979677707e-08,
+    "SMR_mean_outside_nominal_half_hz": 6,
+    "diagnostic_only_not_new_exclusion": true
+  },
+  "real_duration": {
+    "tones": [
+      52,
+      100,
+      103
+    ],
+    "starts": [
+      {
+        "tone_hz": 52,
+        "segment_start_s": 600
+      },
+      {
+        "tone_hz": 100,
+        "segment_start_s": 600
+      },
+      {
+        "tone_hz": 103,
+        "segment_start_s": 900
+      },
+      {
+        "tone_hz": 100,
+        "segment_start_s": 900
+      }
+    ]
+  },
+  "P60": {
+    "dPd_assoc_mean": 0.0625,
+    "ci_lo_with_calibration": 0.0383333333333333,
+    "ci_hi_with_calibration": 0.0929166666666667,
+    "threshold_P60": 93.7243646743398,
+    "threshold_B2": 50.9801208973477
+  },
+  "frozen_hashes": {
+    "PREREGISTRATION_PhaseD_20261003.md": "af3ab68bbdfd8ecefbd042e9faaac001a16c28a8f73a2fc071b3e315a6090df5",
+    "PREREGISTRATION_PhaseD_ADDENDUM_20261003.md": "fa6ccd779cb2ecfdff250778571963cdc77a170c187a95f85978a15638400344",
+    "D_dev/FROZEN_METHOD.json": "ff63f32c38fc17e99620faa074025c337df247bf823be4fa4b40e74860c0a89f"
+  }
+}

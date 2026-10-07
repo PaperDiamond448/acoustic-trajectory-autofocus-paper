@@ -1,0 +1,19 @@
+{
+  "D1_manifest_sha256": "dead802535ef4b100fdae598955c1b6a009946433c7316cbb78bb3d0ccc38306",
+  "D2_manifest_sha256": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+  "changes": [
+    {
+      "file": "D:\\论文集\\phaseD\\code\\phaseD_d2_one.m",
+      "old": "0301d0ccca446a39b017248179bf8a64749dca54b9ef63a6db97207a1960f01b",
+      "new": "156f94d551edeb15be4ae3b5c0daaaaf4380abd6b9bf596d5d63cb089bc4bf08"
+    },
+    {
+      "file": "D:\\论文集\\phaseD\\code\\plot_phaseD_dev.py",
+      "old": "305babdd1af49e3cfcf4ae4e0b08dc24d28476577cb32e0e0b6bfe98434376ae",
+      "new": "63ff0f59ead9a99e28edb630e46c381c896117aa1a313fc462ef2c5a1d6ec9e0"
+    }
+  ],
+  "affects_decision_inputs": false,
+  "reason": "D2 fixed-radius diagnostic bounds and explicit figure export; neither file was called by D1",
+  "metadata_path_correction": "Corrected escaped path display only; hashes and numerical source unchanged; original JSON archived in skill_audit."
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "visual_review": "PASS",
+  "figures": {
+    "fig_X1_duration_efficiency_cost": {
+      "alignment": "PASS",
+      "collision": "PASS",
+      "minimum_font_pt": 7.0,
+      "sha256": {
+        "png": "693070114104b4a3b577ca40c0ba4bdcbed4faaeaa22944434be72163178853b",
+        "pdf": "6768f9c9fedfa1ec79fa3d6f60103af0336f944e42008b722f922a0651eb29fd",
+        "svg": "8e6d1d1e20c5ea6eaa6956cf2bef14f72ae2c4c0c3df85cb3997ece2bab51a24"
+      }
+    },
+    "fig_X2_frontend_recovery": {
+      "alignment": "PASS",
+      "collision": "PASS",
+      "minimum_font_pt": 7.0,
+      "sha256": {
+        "png": "08022a31726397380e98916ce78b8aabb0d5b63df7ff6384538cd3e3ae74df04",
+        "pdf": "fe75647186492e8ac27d9b82b2c32441518adbd02337fd3c6fd5cea5bc9c9e71",
+        "svg": "99e03c4a995c23183eb7921fb9bccacf83130bea08fd217452e821514cc0b2bc"
+      }
+    },
+    "fig_X3_all_case_gains": {
+      "alignment": "PASS",
+      "collision": "PASS",
+      "minimum_font_pt": 7.0,
+      "sha256": {
+        "png": "261682b3cedd2c3bc1c6a522623e3face67fec03503c1c91e970cd86abbce731",
+        "pdf": "89515e20fa724117ec2adaf11c5aa57527614b4a285be0a3139a5b8567fefebf",
+        "svg": "e2c67889efe1827dc5fd120257ca9200486553f53e664a48cf4165a19b930771"
+      }
+    },
+    "fig_X3_prespecified_spectra": {
+      "alignment": "PASS",
+      "collision": "PASS",
+      "minimum_font_pt": 7.0,
+      "sha256": {
+        "png": "ae54148fecbf83a52dfd5fbde43927d317b759b65026c3263b4ce26271e47f55",
+        "pdf": "b6d864c7c60525139d98500cd300c0189b4dcd993e6e718e0839ffdcd40688b9",
+        "svg": "8e1a514c0988a2ab9b78c1b6f7a1bf2957eec618a040a51704984c8e201308d8"
+      }
+    },
+    "fig_X3_trajectory_duration": {
+      "alignment": "PASS",
+      "collision": "PASS",
+      "minimum_font_pt": 7.0,
+      "sha256": {
+        "png": "75abf5dc3fd1937cfa2f3b39a909fa7af2ce9f84e4e3f0e912b74313dd2cd5ab",
+        "pdf": "fff78b5e452cfc797fcbd18442f2caa9ab97c2822329251cc24ea46f755ad551",
+        "svg": "c77f9eed9888f1c1089e28cefc3d71a800e4e94df5adc8fa75c649fc89771767"
+      }
+    }
+  },
+  "visual_review_utc": "2026-10-04T11:51:06.425544+00:00",
+  "visual_review_scope": "All five final PNGs inspected: readable labels, no clipping or legend collisions, SMR white overlay outlined, negative duration gains visible, all passed cases retained; trajectory LOFAR segment gaps visible. Corresponding PDF/SVG hashes and automatic checks recorded below."
+}

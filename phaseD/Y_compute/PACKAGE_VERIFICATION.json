@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "file": "D:\\论文集\\phaseD\\PhaseD_X阶段完整核对包_20261004.zip",
+  "entries": 4489,
+  "bytes": 5725173329,
+  "sha256": "6947363f78b54889051dbfa1ff7528e58cb38d17b884ba6b4484aabc3af00d96",
+  "all_entry_hashes_verified": true,
+  "storage_adapter": "Same original delivery selection and SHA-256/CRC proofs; bounded-memory stream hashing."
+}

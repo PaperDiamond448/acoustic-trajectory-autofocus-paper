@@ -1,0 +1,6 @@
+{
+  "triggered_records": 323,
+  "run_B": true,
+  "rerun_if_sparse": "A",
+  "threshold": 30
+}

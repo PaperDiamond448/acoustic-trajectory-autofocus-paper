@@ -1,0 +1,9 @@
+{
+  "records": 2400,
+  "method_rows": 9600,
+  "bootstrap_seed": 20261053,
+  "bootstrap_replicates": 2000,
+  "unit": "Within-scene seed; all three SNRs and all four durations carried together; equal cell weights",
+  "hard_fail_rows": 0,
+  "budget_cap_rows": 0
+}

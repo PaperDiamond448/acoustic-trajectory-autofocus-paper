@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-04T11:51:06.425544+00:00",
+  "protected_manifest_counts": {
+    "codeX/SOURCE_MANIFEST_X_sha256.csv": 141,
+    "codeX/PROTECTED_STOP2_sha256.csv": 861,
+    "X3_real/X3_FREEZE_MANIFEST.csv": 339,
+    "Y_compute/ENVIRONMENT_ADAPTER_MANIFEST.csv": 2,
+    "codeX/POSTPROCESS_MANIFEST_sha256.csv": 11,
+    "Y_compute/FILEBRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/V7BRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/X3_CSV_READ_ADAPTER_MANIFEST.csv": 2,
+    "Y_compute/X3_FILEBRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/SHARDED_AUDIT_ADAPTER_MANIFEST.csv": 4,
+    "Y_compute/REGISTERED_BOUNDS_AUDIT_ADAPTER_MANIFEST.csv": 4,
+    "X3_real/CANONICAL_SCREEN_SOURCE_MANIFEST.csv": 4,
+    "BASELINE_MANIFEST_sha256.csv": 884,
+    "Y_compute/AUXILIARY_DELIVERY_MANIFEST.csv": 6
+  },
+  "all_required_audits": [
+    "Y_compute/INTEGRITY_AUDIT.json",
+    "Y_compute/SUPPLEMENT_INTEGRITY_AUDIT.json",
+    "Y_compute/WORKER_CHUNK_BRIDGE_AUDIT.json",
+    "Y_compute/REAL_WORKER_CHUNK_BRIDGE_AUDIT.json",
+    "X1_duration/SAVED_OUTPUTS_AUDIT.json",
+    "X2_frontend/SAVED_OUTPUTS_AUDIT.json",
+    "X3_real/SAVED_OUTPUTS_AUDIT.json",
+    "X3_real/INDEPENDENT_REAL_METRICS_AUDIT.json",
+    "Y_compute/qa/FIGURE_QA.json"
+  ],
+  "report_sha256": "5310022fb5c5236ba022447a9b78cb701a760376d6320f7095a4b590ddb7ee01",
+  "numeric_or_method_changes": 0,
+  "source_set_coverage": "X3_real/X3_source_set_coverage.csv"
+}

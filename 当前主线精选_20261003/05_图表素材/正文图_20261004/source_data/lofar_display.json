@@ -1,0 +1,14 @@
+{
+  "global_median_db": 21.44682815615895,
+  "display_limits_relative_db": [
+    -9.290496500695143,
+    12.991710340082385
+  ],
+  "limit_rule": "global 8th and 99.5th percentiles; all 1500 frames and full \u00b10.5 Hz source used",
+  "frequency_view_hz": [
+    -0.25,
+    0.35
+  ],
+  "smoothing": false,
+  "interpolation": false
+}

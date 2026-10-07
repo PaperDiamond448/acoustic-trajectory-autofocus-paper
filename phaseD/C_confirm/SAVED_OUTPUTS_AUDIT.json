@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "records": 2800,
+  "rows": 14000,
+  "triggered": 661,
+  "hard_fail_solver_outputs": 0,
+  "budget_cap_final_outputs": 0,
+  "recomputation_tolerance": 1E-12,
+  "metric_max_abs_difference": 0,
+  "track_max_abs_difference": 0,
+  "scope": "All records regenerated at phase 52; all five methods metrics reconstructed within 1e-12; full objective candidate selection, constraints, budgets, local expansion supports and saved nontrigger bitwise identity verified without optimisation"
+}

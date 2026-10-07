@@ -1,0 +1,11 @@
+{
+  "tone_hz": 100,
+  "start_s": 600,
+  "end_s": 2100,
+  "L": 200,
+  "D": 20,
+  "NFFT": 8192,
+  "frames_per_segment": 291,
+  "headerless_numeric_csv": true,
+  "gap_note": "Independent 300-s frames have 9-s gaps at segment boundaries; shown as gaps, not interpolated"
+}

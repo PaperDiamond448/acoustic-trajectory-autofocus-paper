@@ -1,0 +1,61 @@
+{
+  "gates": [
+    {
+      "gate": "G1",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "All family fields <=1e-12",
+      "detail": "Three archived E4a record inputs; all fields compared."
+    },
+    {
+      "gate": "G2",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "Samplewise exact equality of y and truth.gtrue",
+      "detail": "S0/S2, 3 historical seeds each."
+    },
+    {
+      "gate": "G3",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "Archived bounded/unbounded u, J290, eta absolute difference <=1e-8",
+      "detail": "Six E4a records, two box modes; archived chunk coefficients and metrics."
+    },
+    {
+      "gate": "G4",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "ADA tau=Inf output bitwise identical to fixed F02",
+      "detail": "No-trigger path reuses exact fixed-0.02 result; archive reproduction covered by G3."
+    },
+    {
+      "gate": "G5",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "Exact lambda_C=1e-3 and lambda_F=0.1 at Delta=15,T=300",
+      "detail": "Explicit exact-return baseline branch."
+    },
+    {
+      "gate": "G6",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "New and historical seed sets disjoint",
+      "detail": "Historical superset includes IDs through 5000, every historical scene."
+    },
+    {
+      "gate": "G7",
+      "status": "PASS",
+      "maximum_difference": 8.324418798721922E-8,
+      "criterion": "MD5 d39204a14031ce097707b440ef58e601; peak increment within 1e-4 of 1.757253 dB",
+      "detail": "Fresh original SIO extraction and old 21-node B240 configuration; full-record FFT matching original real-spectrum definition."
+    },
+    {
+      "gate": "G8",
+      "status": "PASS",
+      "maximum_difference": 0,
+      "criterion": "SUV output g exact equality to original implementation on 3 ExpB records",
+      "detail": "Original unchanged implementation versus new-name copy on W4 ExpB phase-24 records."
+    }
+  ],
+  "all_pass": true
+}

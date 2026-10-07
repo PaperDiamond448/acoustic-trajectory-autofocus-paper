@@ -1,0 +1,7 @@
+* -text
+*.docx binary
+*.pdf binary
+*.png binary
+*.npz binary
+*.mat binary
+*.bin binary

@@ -1,0 +1,16 @@
+{
+  "cases": 105,
+  "method_rows": 840,
+  "duration_windows": 16,
+  "duration_rows": 48,
+  "hard_fail_rows": 0,
+  "budget_cap_rows": 0,
+  "groups": {
+    "shallow": 30,
+    "strong": 60,
+    "weak": 15
+  },
+  "A3_flips": 0,
+  "no_significance_tests": true,
+  "source_level_note": "Set 5 120 dB inferred from 4-dB step; shallow level unpublished"
+}

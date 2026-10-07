@@ -1,0 +1,11 @@
+estimator,metric,eta
+MFT,uncompensated,0.0160334262830957
+MFT,full_estimator_track,0.0781579750325916
+MFT,slow_error_corrected_track,0.0126412036287742
+MFT,fast_error_corrected_track,0.0217868303418072
+MFT,oracle_gtrue,0.99999999999995
+VIT,uncompensated,0.0160334262830957
+VIT,full_estimator_track,0.818580425339821
+VIT,slow_error_corrected_track,0.975780782159709
+VIT,fast_error_corrected_track,0.818542187027186
+VIT,oracle_gtrue,0.99999999999995

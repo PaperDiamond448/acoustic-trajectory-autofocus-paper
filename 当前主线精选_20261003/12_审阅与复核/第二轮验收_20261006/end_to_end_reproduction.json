@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "environment": {
+    "release": "2023a",
+    "version": "9.14.0.2206163 (R2023a)",
+    "optimization_license": 1,
+    "parallel_license": 1,
+    "source_manifest_verified": true,
+    "functions": {
+      "simulate": "D:\\论文集\\phaseD\\code\\simulate_baseband_T.m",
+      "frontend": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\common_frontend.m",
+      "solver": "D:\\论文集\\phaseD\\code\\estimate_proposed_T.m",
+      "real_loader": "D:\\论文集\\phaseA\\code\\phaseA_load_baseband.m",
+      "real_config": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\real_config.m"
+    }
+  },
+  "real_case": {
+    "status": "PASS",
+    "tone_hz": 100,
+    "segment_start_s": 900,
+    "duration_s": 300,
+    "source": "original acoustic file, channel 9, guarded DFT extraction",
+    "cached_baseband_identical": true,
+    "input_hash": "d39204a14031ce097707b440ef58e601",
+    "rows": [
+      {
+        "method": "SMR",
+        "peak_relative_periodogram_db": 3.6003760031028689,
+        "expected_peak_relative_periodogram_db": 3.60037600310287,
+        "peak_frequency_hz": 100,
+        "max_abs_db_difference": 1.3322676295501878E-15,
+        "max_abs_track_difference_hz": 4.9737991503207013E-13
+      },
+      {
+        "method": "VS_FM",
+        "peak_relative_periodogram_db": 5.3440565082225113,
+        "expected_peak_relative_periodogram_db": 5.34405650822251,
+        "peak_frequency_hz": 100,
+        "max_abs_db_difference": 8.8817841970012523E-16,
+        "max_abs_track_difference_hz": 4.9737991503207013E-13
+      }
+    ],
+    "gain_db": 1.7436805051196425,
+    "db_tolerance": 1E-6,
+    "track_tolerance_hz": 1E-8,
+    "triggered": false,
+    "rounds": 0
+  },
+  "simulation_cell": {
+    "status": "PASS",
+    "scene": "S0",
+    "snr_db": -17,
+    "records": 200,
+    "seed_start": 7.2270916E+7,
+    "seed_end": 7.2271115E+7,
+    "eta_tolerance": 1E-8,
+    "db_tolerance": 1E-6,
+    "max_per_record_eta_difference": 4.4408920985006262E-16,
+    "max_per_record_gain_db_difference": 9.2370555648813024E-14,
+    "comparisons": [
+      {
+        "metric": "eta_LPS",
+        "expected_mean": 0.54834719875827709,
+        "reproduced_mean": 0.54834719875827709,
+        "difference": 0
+      },
+      {
+        "metric": "eta_final",
+        "expected_mean": 0.87675857610316466,
+        "reproduced_mean": 0.87675857610316466,
+        "difference": 0
+      },
+      {
+        "metric": "gain_eta",
+        "expected_mean": 0.32841137734488757,
+        "reproduced_mean": 0.32841137734488762,
+        "difference": 5.5511151231257827E-17
+      },
+      {
+        "metric": "gain_peak_db",
+        "expected_mean": 2.2463061127683641,
+        "reproduced_mean": 2.2463061127683654,
+        "difference": 1.3322676295501878E-15
+      }
+    ],
+    "scope": "VIT, LPS and frozen complete correction; no parameter changes"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "checklist_1_to_5": "closed within bounded claims",
+  "checklist_6_local_reproduction": "PASS",
+  "code_availability": "author-deferred; P0241 placeholder retained",
+  "simulation_cell": {
+    "status": "PASS",
+    "scene": "S0",
+    "snr_db": -17,
+    "records": 200,
+    "seed_start": 72270916.0,
+    "seed_end": 72271115.0,
+    "eta_tolerance": 1e-08,
+    "db_tolerance": 1e-06,
+    "max_per_record_eta_difference": 4.440892098500626e-16,
+    "max_per_record_gain_db_difference": 9.237055564881302e-14,
+    "comparisons": [
+      {
+        "metric": "eta_LPS",
+        "expected_mean": 0.5483471987582771,
+        "reproduced_mean": 0.5483471987582771,
+        "difference": 0
+      },
+      {
+        "metric": "eta_final",
+        "expected_mean": 0.8767585761031647,
+        "reproduced_mean": 0.8767585761031647,
+        "difference": 0
+      },
+      {
+        "metric": "gain_eta",
+        "expected_mean": 0.32841137734488757,
+        "reproduced_mean": 0.3284113773448876,
+        "difference": 5.551115123125783e-17
+      },
+      {
+        "metric": "gain_peak_db",
+        "expected_mean": 2.246306112768364,
+        "reproduced_mean": 2.2463061127683654,
+        "difference": 1.3322676295501878e-15
+      }
+    ],
+    "scope": "VIT, LPS and frozen complete correction; no parameter changes"
+  },
+  "real_case": {
+    "status": "PASS",
+    "tone_hz": 100,
+    "segment_start_s": 900,
+    "duration_s": 300,
+    "source": "original acoustic file, channel 9, guarded DFT extraction",
+    "cached_baseband_identical": true,
+    "input_hash": "d39204a14031ce097707b440ef58e601",
+    "rows": [
+      {
+        "method": "SMR",
+        "peak_relative_periodogram_db": 3.600376003102869,
+        "expected_peak_relative_periodogram_db": 3.60037600310287,
+        "peak_frequency_hz": 100,
+        "max_abs_db_difference": 1.3322676295501878e-15,
+        "max_abs_track_difference_hz": 4.973799150320701e-13
+      },
+      {
+        "method": "VS_FM",
+        "peak_relative_periodogram_db": 5.344056508222511,
+        "expected_peak_relative_periodogram_db": 5.34405650822251,
+        "peak_frequency_hz": 100,
+        "max_abs_db_difference": 8.881784197001252e-16,
+        "max_abs_track_difference_hz": 4.973799150320701e-13
+      }
+    ],
+    "gain_db": 1.7436805051196425,
+    "db_tolerance": 1e-06,
+    "track_tolerance_hz": 1e-08,
+    "triggered": false,
+    "rounds": 0
+  },
+  "geometry": {
+    "status": "PASS",
+    "original_script_run": true,
+    "original_outputs_preserved": true,
+    "max_numeric_difference_by_table": {
+      "实测峰归属_15例.csv": 0.0,
+      "积累时长窗口归属.csv": 0.0,
+      "逐帧偏差统计_15例.csv": 2.55351295663786e-14
+    },
+    "cases": 15,
+    "duration_windows": 16,
+    "threshold_sensitivity": [
+      {
+        "threshold_hz": 0.025,
+        "cases": 5,
+        "median_gain_db": 1.74368050511965
+      },
+      {
+        "threshold_hz": 0.04,
+        "cases": 7,
+        "median_gain_db": 1.74368050511965
+      },
+      {
+        "threshold_hz": 0.05,
+        "cases": 8,
+        "median_gain_db": 1.8189932269830011
+      },
+      {
+        "threshold_hz": 0.075,
+        "cases": 9,
+        "median_gain_db": 1.894305948846352
+      }
+    ],
+    "hundred_hz": {
+      "cases": 5,
+      "gain_min_db": 1.0265047368363118,
+      "gain_max_db": 2.7420993915557483,
+      "gain_median_db": 1.74368050511965,
+      "frac05_min": 0.9566666666666667,
+      "frac05_max": 1.0,
+      "p90_min_hz": 0.023427360284753722,
+      "p90_max_hz": 0.03954930622598597,
+      "paired_LPS_median_gain_db": 1.74368050511965,
+      "paired_TBD_median_gain_db": 0.0652752590105771
+    },
+    "sixty_one_hz": [
+      {
+        "tone": 61,
+        "start": 2100,
+        "median": 0.04623412583416453,
+        "p90": 0.1852512613426072,
+        "frac05": 0.54,
+        "cls": "对应",
+        "gain": 2.578387506633961,
+        "w10": 2.578387506633961,
+        "w05": -0.7133649777472657
+      }
+    ]
+  },
+  "layout": {
+    "status": "PASS",
+    "paragraph_count": 323,
+    "docx_matches_paragraph_snapshot": true,
+    "pdf_pages": 52,
+    "fig13_embedded_media": [
+      "word/media/rId69.png"
+    ],
+    "sqrt2_confirmed_in_Word_XML": true,
+    "rendered_pages": [
+      30,
+      31,
+      35
+    ],
+    "figure13_page": 35
+  },
+  "protected_file_count": 20,
+  "changed_protected_files": [],
+  "report": "D:\\论文集\\审稿评估_20261005\\第二轮验收_20261006\\第二轮修订验收意见_20261006.md"
+}

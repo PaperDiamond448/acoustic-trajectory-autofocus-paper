@@ -1,0 +1,491 @@
+{
+  "review_date": "2026-10-06",
+  "input_version": "修订稿_20261005",
+  "status_counts": {
+    "passed": 5,
+    "aggregation_ambiguity": 3,
+    "confirmed_internal_error": 2,
+    "unresolved_input_needed": 1,
+    "not_assessable": 1
+  },
+  "checks": [
+    {
+      "audit_id": "REV-AUD-01",
+      "status": "passed",
+      "location": "全文 P 编号",
+      "check": "重新只读提取 DOCX 主体段落，与提交文本逐字比较",
+      "result": {
+        "nonempty_paragraphs": 321,
+        "paragraph_text_matches_docx": true,
+        "tables": 8,
+        "paragraph_numbering_excludes_table_cells": true
+      }
+    },
+    {
+      "audit_id": "REV-AUD-02",
+      "status": "passed",
+      "location": "P0003、P0186、P0192、P0197、表6",
+      "check": "由逐例 CSV 复算完整分母、归属数和增量",
+      "result": {
+        "n": 15,
+        "all_positive": true,
+        "all_median_db": 1.74368050511965,
+        "summary": {
+          "VS_FM": {
+            "classes": {
+              "不对应": 6,
+              "不确定": 1,
+              "对应": 8
+            },
+            "accepted_gain_min": 0.1757764753507307,
+            "accepted_gain_max": 3.085423309407351,
+            "accepted_gain_median": 1.818993226983001
+          },
+          "MFT_FM": {
+            "classes": {
+              "不对应": 10,
+              "不确定": 3,
+              "对应": 2
+            },
+            "accepted_gain_min": 2.7537019501901576,
+            "accepted_gain_max": 3.224839213753845,
+            "accepted_gain_median": 2.9892705819720016
+          },
+          "SUV_FM": {
+            "classes": {
+              "不对应": 4,
+              "不确定": 3,
+              "对应": 8
+            },
+            "accepted_gain_min": 0.006551439852371621,
+            "accepted_gain_max": 0.31570624651526347,
+            "accepted_gain_median": 0.06666183085977338
+          }
+        },
+        "both_LPS_and_corrected_accepted": 8,
+        "tone100_n": 5,
+        "tone100_min_db": 1.0265047368363118,
+        "tone100_max_db": 2.7420993915557483,
+        "tone100_median_db": 1.74368050511965
+      }
+    },
+    {
+      "audit_id": "REV-AUD-03",
+      "status": "passed",
+      "location": "P0296、作者归属检查自检",
+      "check": "核对保存的原值与重算值；本次没有从基带重算连续 LOFAR",
+      "result": {
+        "max_excess_difference_db": 4.618527782440651e-14,
+        "max_continuity_difference": 3.3306690738754696e-16,
+        "max_gain_difference_db": 1.965094753586527e-14,
+        "ridge_fit_rms_median_hz": 0.06624444306130788
+      }
+    },
+    {
+      "audit_id": "REV-AUD-04",
+      "status": "aggregation_ambiguity",
+      "location": "P0189、P0192、P0232、P0296",
+      "check": "探索性阈值敏感性与逐帧映射一致性；没有改变原归属标签",
+      "result": {
+        "threshold_sensitivity": [
+          {
+            "threshold_hz": 0.025,
+            "n": 5,
+            "gain_median_db": 1.74368050511965,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.03,
+            "n": 5,
+            "gain_median_db": 1.74368050511965,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.04,
+            "n": 7,
+            "gain_median_db": 1.74368050511965,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.05,
+            "n": 8,
+            "gain_median_db": 1.818993226983001,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.06,
+            "n": 8,
+            "gain_median_db": 1.818993226983001,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.075,
+            "n": 9,
+            "gain_median_db": 1.8943059488463518,
+            "tone100_n": 5
+          },
+          {
+            "threshold_hz": 0.1,
+            "n": 9,
+            "gain_median_db": 1.8943059488463518,
+            "tone100_n": 5
+          }
+        ],
+        "frame_geometry": [
+          {
+            "tone_hz": 52,
+            "start_s": 600,
+            "median_dev_hz": 1.67330915067474,
+            "q90_dev_hz": 1.7596487272672157,
+            "fraction_within_0p05": 0.0,
+            "fraction_within_0p10": 0.0
+          },
+          {
+            "tone_hz": 52,
+            "start_s": 900,
+            "median_dev_hz": 0.51566634873193,
+            "q90_dev_hz": 0.5672769698963954,
+            "fraction_within_0p05": 0.0,
+            "fraction_within_0p10": 0.0
+          },
+          {
+            "tone_hz": 52,
+            "start_s": 2400,
+            "median_dev_hz": 0.06970984547640668,
+            "q90_dev_hz": 0.13843844395989463,
+            "fraction_within_0p05": 0.38,
+            "fraction_within_0p10": 0.6333333333333333
+          },
+          {
+            "tone_hz": 61,
+            "start_s": 2100,
+            "median_dev_hz": 0.04623412583416453,
+            "q90_dev_hz": 0.1852512613426072,
+            "fraction_within_0p05": 0.54,
+            "fraction_within_0p10": 0.7366666666666667
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 600,
+            "median_dev_hz": 0.017165728326475005,
+            "q90_dev_hz": 0.03954930622598455,
+            "fraction_within_0p05": 0.9566666666666667,
+            "fraction_within_0p10": 1.0
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 900,
+            "median_dev_hz": 0.013821509950133759,
+            "q90_dev_hz": 0.031746810457005385,
+            "fraction_within_0p05": 1.0,
+            "fraction_within_0p10": 1.0
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1200,
+            "median_dev_hz": 0.008393979888090541,
+            "q90_dev_hz": 0.03221672686769921,
+            "fraction_within_0p05": 0.96,
+            "fraction_within_0p10": 1.0
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1500,
+            "median_dev_hz": 0.011847864210196235,
+            "q90_dev_hz": 0.02342736028475514,
+            "fraction_within_0p05": 1.0,
+            "fraction_within_0p10": 1.0
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1800,
+            "median_dev_hz": 0.005565322585894705,
+            "q90_dev_hz": 0.029916130005548797,
+            "fraction_within_0p05": 0.9966666666666667,
+            "fraction_within_0p10": 1.0
+          },
+          {
+            "tone_hz": 103,
+            "start_s": 900,
+            "median_dev_hz": 0.031694774295601746,
+            "q90_dev_hz": 0.26061393920304715,
+            "fraction_within_0p05": 0.6133333333333333,
+            "fraction_within_0p10": 0.6866666666666666
+          },
+          {
+            "tone_hz": 103,
+            "start_s": 1200,
+            "median_dev_hz": 0.23835749857224897,
+            "q90_dev_hz": 0.5575102241313177,
+            "fraction_within_0p05": 0.2633333333333333,
+            "fraction_within_0p10": 0.3433333333333333
+          },
+          {
+            "tone_hz": 118,
+            "start_s": 1500,
+            "median_dev_hz": 0.2984507014419222,
+            "q90_dev_hz": 0.5599179440179839,
+            "fraction_within_0p05": 0.0,
+            "fraction_within_0p10": 0.0
+          },
+          {
+            "tone_hz": 121,
+            "start_s": 0,
+            "median_dev_hz": 1.785093373222459,
+            "q90_dev_hz": 1.8100539675251426,
+            "fraction_within_0p05": 0.0,
+            "fraction_within_0p10": 0.0
+          },
+          {
+            "tone_hz": 133,
+            "start_s": 1200,
+            "median_dev_hz": 2.877496647676381,
+            "q90_dev_hz": 2.9627488801158792,
+            "fraction_within_0p05": 0.0,
+            "fraction_within_0p10": 0.0
+          },
+          {
+            "tone_hz": 136,
+            "start_s": 900,
+            "median_dev_hz": 0.033840337955524546,
+            "q90_dev_hz": 0.18940054812865414,
+            "fraction_within_0p05": 0.5833333333333334,
+            "fraction_within_0p10": 0.8033333333333333
+          }
+        ],
+        "limits": "只检验几何一致性，不证明物理声源身份；原判据在分析前写定的时点未独立认证"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-05",
+      "status": "aggregation_ambiguity",
+      "location": "P0198、P0230、作者回复第四节",
+      "check": "复核已有两种脊线中心比较窗口；窗口缩窄会排除原最大峰，不等于证明目标退化",
+      "result": {
+        "accepted_cases_window_comparison": [
+          {
+            "tone_hz": 61,
+            "start_s": 2100,
+            "window_0p10_gain_db": 2.578387506633961,
+            "window_0p05_gain_db": -0.7133649777472657
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 600,
+            "window_0p10_gain_db": 1.8943059488463518,
+            "window_0p05_gain_db": 1.8943059488463518
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 900,
+            "window_0p10_gain_db": 1.74368050511965,
+            "window_0p05_gain_db": 1.74368050511965
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1200,
+            "window_0p10_gain_db": 1.0918323163469899,
+            "window_0p05_gain_db": 1.0918323163469899
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1500,
+            "window_0p10_gain_db": 1.0265047368363118,
+            "window_0p05_gain_db": 1.0265047368363118
+          },
+          {
+            "tone_hz": 100,
+            "start_s": 1800,
+            "window_0p10_gain_db": 2.7420993915557483,
+            "window_0p05_gain_db": 2.7420993915557483
+          },
+          {
+            "tone_hz": 103,
+            "start_s": 900,
+            "window_0p10_gain_db": 0.1757764753507307,
+            "window_0p05_gain_db": 0.1757764753507307
+          },
+          {
+            "tone_hz": 136,
+            "start_s": 900,
+            "window_0p10_gain_db": 3.085423309407351,
+            "window_0p05_gain_db": 3.085423309407351
+          }
+        ],
+        "key_case": "61 Hz 2100 s：2.5784 dB 转为 -0.7134 dB；应披露定位与窗口敏感性"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-12",
+      "status": "aggregation_ambiguity",
+      "location": "P0197、P0224",
+      "check": "不同前端按各自修正后归属筛选的子集不相同；追加增量也不等于最终链路性能",
+      "result": {
+        "both_chains_same_ridge_n": 6,
+        "VIT_LPS_common_median_db": 1.41775641073332,
+        "SUV_common_median_db": 0.06666183085977338,
+        "same100_n": 5,
+        "VIT_LPS_same100_median_db": 1.74368050511965,
+        "SUV_same100_median_db": 0.06527525901057712,
+        "interpretation": "可用同一 100 Hz 五个时段做配对描述，不能用不同事后子集宣布普遍排序"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-06",
+      "status": "passed",
+      "location": "表4、P0159、P0226",
+      "check": "复算跨前端绝对效率、增量和逐条退化",
+      "result": {
+        "VS": {
+          "n": 1400,
+          "eta_in": 0.6301319776174719,
+          "eta_out": 0.7415185108946682,
+          "gain": 0.11138653327719646,
+          "loss_gt_0p01_n": 16,
+          "loss_gt_0p01_fraction": 0.011428571428571429,
+          "negative_gain_n": 94,
+          "negative_gain_fraction": 0.06714285714285714,
+          "correction_runtime_median_s": 2.3876736000000003,
+          "scene_seed_clusters": 200
+        },
+        "MFT": {
+          "n": 1400,
+          "eta_in": 0.3318989326642154,
+          "eta_out": 0.4379150702554284,
+          "gain": 0.106016137591213,
+          "loss_gt_0p01_n": 25,
+          "loss_gt_0p01_fraction": 0.017857142857142856,
+          "negative_gain_n": 148,
+          "negative_gain_fraction": 0.10571428571428572,
+          "correction_runtime_median_s": 2.9388674999999997,
+          "scene_seed_clusters": 200
+        },
+        "SUV": {
+          "n": 1400,
+          "eta_in": 0.774629688339005,
+          "eta_out": 0.7825524589557634,
+          "gain": 0.00792277061675847,
+          "loss_gt_0p01_n": 113,
+          "loss_gt_0p01_fraction": 0.08071428571428571,
+          "negative_gain_n": 387,
+          "negative_gain_fraction": 0.2764285714285714,
+          "correction_runtime_median_s": 2.1308593,
+          "scene_seed_clusters": 200
+        },
+        "V0": {
+          "n": 1400,
+          "eta_in": 0.6189030256743159,
+          "eta_out": 0.7416976341233805,
+          "gain": 0.12279460844906473,
+          "loss_gt_0p01_n": 10,
+          "loss_gt_0p01_fraction": 0.007142857142857143,
+          "negative_gain_n": 61,
+          "negative_gain_fraction": 0.04357142857142857,
+          "correction_runtime_median_s": 2.2047363,
+          "scene_seed_clusters": 200
+        }
+      }
+    },
+    {
+      "audit_id": "REV-AUD-07",
+      "status": "passed",
+      "location": "P0129、P0133",
+      "check": "复算确认组逐条收益比例与种子簇数",
+      "result": {
+        "ALL": {
+          "n": 2800,
+          "positive_fraction": 0.9496428571428571,
+          "loss_gt_0p01_n": 28,
+          "loss_gt_0p01_fraction": 0.01,
+          "scene_seed_clusters": 400
+        },
+        "S0": {
+          "n": 1400,
+          "positive_fraction": 0.9285714285714286,
+          "loss_gt_0p01_n": 2,
+          "loss_gt_0p01_fraction": 0.0014285714285714286,
+          "scene_seed_clusters": 200
+        },
+        "S2": {
+          "n": 1400,
+          "positive_fraction": 0.9707142857142858,
+          "loss_gt_0p01_n": 26,
+          "loss_gt_0p01_fraction": 0.018571428571428572,
+          "scene_seed_clusters": 200
+        }
+      }
+    },
+    {
+      "audit_id": "REV-AUD-08",
+      "status": "confirmed_internal_error",
+      "location": "图13(d)、P0210、P0214",
+      "check": "核对 CSV、绘图逻辑及实际图例",
+      "result": {
+        "uncertain_case": {
+          "tone_hz": "103",
+          "start_s": "900",
+          "duration_s": "450",
+          "gain_max_peak_db": "0.377824213372542",
+          "SMR_median_dev_hz": "0.06897572055702739",
+          "SMR_class": "不确定",
+          "VS_FM_median_dev_hz": "0.07338201493001861",
+          "VS_FM_class": "不确定"
+        },
+        "display": "103 Hz 900 s 起、450 s 为归属不确定，却用空心标记且图例写为最大峰不在筛选脊线",
+        "fix": "增加不确定标记，或把空心图例改为未通过在脊线上的判据（含不确定）"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-09",
+      "status": "confirmed_internal_error",
+      "location": "P0297、归属检查规则的阈值依据",
+      "check": "由实际 200 点对称 Hann 窗计算第一零点，明确全宽与半宽",
+      "result": {
+        "first_null_hz": 0.20100502512562815,
+        "response_at_first_null": 7.950111173357225e-18,
+        "null_to_null_width_hz": 0.4020100502512563,
+        "issue": "10 s Hann 主瓣零点间全宽约 0.40 Hz，0.20 Hz 是单侧半宽；0.05 Hz 不是全宽的四分之一"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-10",
+      "status": "unresolved_input_needed",
+      "location": "P0076、P0219",
+      "check": "区分输入误差与输出改变量",
+      "result": {
+        "issue": "完整方法与 LPS 的平均差不等于锚轨迹相对目标的常值偏差；尚未给出锚轨迹真值偏差分布",
+        "fix": "删除把常值偏差明显小于幅度界作为已检验事实的表述，或补已有仿真轨迹与真值的偏差分布"
+      }
+    },
+    {
+      "audit_id": "REV-AUD-11",
+      "status": "not_assessable",
+      "location": "端到端复现、物理目标身份、开发时点",
+      "check": "本次为源码与保存结果的只读复核，不重跑估计器或真实背景注入",
+      "result": {
+        "not_established": [
+          "全部链路端到端运行一致性",
+          "目标分量真值",
+          "参数规则运行前锁定的独立时间证据",
+          "稿件 P0241 的对外代码获取路径"
+        ]
+      }
+    }
+  ],
+  "protected_input_sha256": {
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\论文修订稿_中文_20261005.docx": "be2a0260d17101eb754d3df43864ca71d4a1f3169a4cfeb5bab9e6b9be173dd8",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\回复审稿\\修订稿Word正文段落.txt": "4a58be0b414afee2ac8f3c17be2aafd383e0981f7eecb65be23997bbfcf63ff3",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\回复审稿\\修改说明与逐条回复_20261005.md": "c1592306808205a493f71b9b5616bb7728cb06132dc3daa58bf566158668a466",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\补充分析_实测峰归属\\归属检查规则.md": "fb94ca2c3f78ad13cfa7a06c2613e6fc22f767358f24a08641e34dade49549b2",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\补充分析_实测峰归属\\peak_attribution.py": "ac2f05c79f0eda31c93214f87232d7f4bd4ed0f1092ec31a731f5df16fc7a7f2",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\补充分析_实测峰归属\\实测峰归属_15例.csv": "25a113092869a94cab2845a8baab9f7523bb441f547fbc74a35ba75531288d14",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\修订稿_20261005\\补充分析_实测峰归属\\积累时长窗口归属.csv": "df348302e26946aced49ecd4d70ad53a3c708a819a19609bf91cc9ced222d049",
+    "D:\\论文集\\phaseD\\X2_frontend\\X2_records.csv": "c8bfde1bf11440a783a56efd037b1afedee359cdb826350b74fbdb773fc55e10",
+    "D:\\论文集\\phaseD\\C_confirm\\C_records.csv": "0cbb4ae652edf1b39b0e163981f755d5aa88b1611ddc84ed3f40b62eb6f89fa7",
+    "D:\\论文集\\当前主线精选_20261003\\11_正文稿\\论文初稿_中文_20261005_排版修订.docx": "51dab96a16421f893ecbd6ff4327e632f81f378d7b622d926ac99746eadccc26",
+    "D:\\论文集\\审稿评估_20261005\\Reviewer1_独立审阅.md": "4f5092a9912fe6d2ea632391fa6d3ff2684074462a272b72469dd30f13d21b6c",
+    "D:\\论文集\\审稿评估_20261005\\Reviewer2_独立审阅.md": "a190c641969866b389f96a43c5fd3e9701236b58904c659bc9fe405bfeb18f1e",
+    "D:\\论文集\\审稿评估_20261005\\Reviewer3_独立审阅.md": "ca2bfec02c4c64ee84c1e07dd88749faa56ed98d3a3a1e096dc0f3e197518033"
+  },
+  "protected_inputs_unchanged": true
+}

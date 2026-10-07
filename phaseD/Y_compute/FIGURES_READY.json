@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "figures": 5,
+  "formats": [
+    "PNG600dpi",
+    "PDF",
+    "SVG"
+  ],
+  "automatic_and_visual_review": "qa/FIGURE_QA.json",
+  "completed_utc": "2026-10-04T11:51:06.425544+00:00"
+}

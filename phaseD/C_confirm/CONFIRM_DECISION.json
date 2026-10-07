@@ -1,0 +1,109 @@
+{
+  "protocol": "ASL-D-20261003",
+  "phase_id": 52,
+  "records": 2800,
+  "rows": 14000,
+  "frozen_method": "ADA_local_c04_t30_A",
+  "endpoints": {
+    "P1": {
+      "mean": 0.009348391974394214,
+      "lo": 0.008077874530030664,
+      "hi": 0.010685224663385229,
+      "rule": "lower > 0",
+      "passed": true
+    },
+    "P2": {
+      "mean": 0.002338861709730979,
+      "lo": 5.941646878206364e-05,
+      "hi": 0.0048140555212672536,
+      "rule": "lower > -0.005",
+      "passed": true
+    },
+    "P3": {
+      "mean": -0.17928571428571427,
+      "lo": -0.1975,
+      "hi": -0.16071428571428573,
+      "rule": "upper < 0",
+      "passed": true
+    },
+    "S1": {
+      "rule": "No cell with upper < -0.005",
+      "passed": true,
+      "deteriorated_cells": []
+    }
+  },
+  "branch": "C-A1",
+  "primary_method": "ADA_local_c04_t30_A",
+  "by_scene": {
+    "S0": {
+      "FM_minus_F02": {
+        "mean": 0.005046896464897409,
+        "lo": 0.003713006761292337,
+        "hi": 0.006435709586152301
+      },
+      "FM_minus_UNB": {
+        "mean": -0.005982418908354276,
+        "lo": -0.00750522950620853,
+        "hi": -0.004510357811036734
+      },
+      "H_FM_minus_H_UNB": {
+        "mean": -0.019285714285714288,
+        "lo": -0.029285714285714286,
+        "hi": -0.01069642857142867
+      }
+    },
+    "S2": {
+      "FM_minus_F02": {
+        "mean": 0.01364988748389102,
+        "lo": 0.01152088662145475,
+        "hi": 0.015830016083454426
+      },
+      "FM_minus_UNB": {
+        "mean": 0.010660142327816235,
+        "lo": 0.006141553617979325,
+        "hi": 0.015408904985214557
+      },
+      "H_FM_minus_H_UNB": {
+        "mean": -0.3392857142857143,
+        "lo": -0.3742857142857143,
+        "hi": -0.3042678571428572
+      }
+    }
+  },
+  "bootstrap": {
+    "seed": 20261052,
+    "replicates": 2000,
+    "generator": "numpy.default_rng PCG64",
+    "sampling": "Two scene-stratified 2000x200 seed draw arrays generated sequentially, carrying all seven SNRs. Then 14 cell 2000x200 paired record draw arrays, scene then SNR order. Arrays reused for all paired metrics.",
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "python": "3.10.0"
+  },
+  "diagnostics": {
+    "hard_fail_counts": {
+      "ADA_local_c04_t30_A": 0,
+      "F02": 0,
+      "F04": 0,
+      "SMR": 0,
+      "UNB": 0
+    },
+    "budget_cap_counts": {
+      "ADA_local_c04_t30_A": 0,
+      "F02": 0,
+      "F04": 0,
+      "SMR": 0,
+      "UNB": 0
+    },
+    "expansion_count": 661,
+    "negative_eta_gain_vs_F02_count": 96
+  },
+  "status": "stop2_complete_awaiting_user_audit",
+  "confirmation_csv_sha256": "0cbb4ae652edf1b39b0e163981f755d5aa88b1611ddc84ed3f40b62eb6f89fa7",
+  "X_started": false,
+  "execution_environment_incident": {
+    "exit_code": "0xc0000374",
+    "saved_outputs_validation": "PASS",
+    "optimizer_retries": 0,
+    "incident_record": "ENVIRONMENT_EXIT_INCIDENT.json"
+  }
+}

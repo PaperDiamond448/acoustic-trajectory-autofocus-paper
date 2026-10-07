@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rows": 888,
+  "independent_implementation": "NumPy FFT, trapezoidal phase integration, spectrum/GPS formulas written separately from MATLAB",
+  "tolerance": 1e-07,
+  "metric_max_absolute_differences": {
+    "peak_relative_periodogram_db": 1.354472090042691e-11,
+    "peak_frequency_hz": 5.115907697472721e-13,
+    "prominence_db": 7.953460112730681e-11,
+    "width_3db_hz": 5.686076609556778e-14,
+    "gps_mean_offset_hz": 1.817296313433303e-14,
+    "gps_demeaned_rms_hz": 1.4948112192492147e-14
+  },
+  "shared_300_s_rerun_rows": 12,
+  "raw_export_note": "CSV decimal precision; original MATLAB inputs and frozen numerical results unchanged"
+}

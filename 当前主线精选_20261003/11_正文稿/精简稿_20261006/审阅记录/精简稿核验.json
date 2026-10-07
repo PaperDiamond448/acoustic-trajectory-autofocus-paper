@@ -1,0 +1,133 @@
+{
+  "protected_revision_files_unchanged": 46,
+  "source_build_hashes_match": true,
+  "numbered_equations_1_to_16_unchanged": true,
+  "appendix_A_unchanged": true,
+  "references_unchanged": 30,
+  "headings": [
+    "2.1",
+    "2.2",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "5.1",
+    "5.2",
+    "5.3",
+    "A.1",
+    "A.2",
+    "A.3",
+    "B.1",
+    "B.2",
+    "B.3",
+    "B.4",
+    "B.5",
+    "B.6",
+    "B.7",
+    "B.8",
+    "B.9"
+  ],
+  "counts": {
+    "第1节_引言.md": {
+      "original_revision": {
+        "Chinese_characters": 2884,
+        "non_whitespace_characters_excluding_math": 3625
+      },
+      "shortened": {
+        "Chinese_characters": 1568,
+        "non_whitespace_characters_excluding_math": 1987
+      }
+    },
+    "第2-3节_问题描述与方法.md": {
+      "original_revision": {
+        "Chinese_characters": 4734,
+        "non_whitespace_characters_excluding_math": 6093
+      },
+      "shortened": {
+        "Chinese_characters": 2480,
+        "non_whitespace_characters_excluding_math": 3076
+      }
+    },
+    "第4节_仿真.md": {
+      "original_revision": {
+        "Chinese_characters": 4130,
+        "non_whitespace_characters_excluding_math": 6603
+      },
+      "shortened": {
+        "Chinese_characters": 2155,
+        "non_whitespace_characters_excluding_math": 3205
+      }
+    },
+    "第5节_实测.md": {
+      "original_revision": {
+        "Chinese_characters": 3669,
+        "non_whitespace_characters_excluding_math": 6538
+      },
+      "shortened": {
+        "Chinese_characters": 1496,
+        "non_whitespace_characters_excluding_math": 2141
+      }
+    },
+    "第6-7节_讨论与结论.md": {
+      "original_revision": {
+        "Chinese_characters": 3098,
+        "non_whitespace_characters_excluding_math": 4065
+      },
+      "shortened": {
+        "Chinese_characters": 472,
+        "non_whitespace_characters_excluding_math": 577
+      }
+    },
+    "total": {
+      "original_revision": {
+        "Chinese_characters": 18515,
+        "non_whitespace_characters_excluding_math": 26924
+      },
+      "shortened": {
+        "Chinese_characters": 8171,
+        "non_whitespace_characters_excluding_math": 10986
+      }
+    }
+  },
+  "outputs": {
+    "正文版": {
+      "sha256": "2a1f1a82ceeb5b0f4931231f9417076951021cc35cd9d3c7259d368652018339",
+      "images": 16,
+      "native_equations": 272,
+      "tables": 9,
+      "pages": 43,
+      "visual_pages_inspected": 43
+    },
+    "审阅目录版": {
+      "sha256": "77ad132aa590bd99e5cf2548bc283e1c706a1ebc5a4b263af824bc4a54a73d0f",
+      "images": 16,
+      "native_equations": 272,
+      "tables": 9,
+      "pages": 44,
+      "visual_pages_inspected": 44
+    }
+  },
+  "all_references_1_to_30_cited": true,
+  "visual_qa": {
+    "complete": true,
+    "method": "Full-resolution inspection of every page: 43 paired comparisons and the separate review contents page.",
+    "layout": "No clipped formulas, overlapping objects, split table rows, or isolated headings found.",
+    "body_through_conclusion": {
+      "正文版": [
+        1,
+        23
+      ],
+      "审阅目录版": [
+        3,
+        24
+      ]
+    },
+    "toc_page_numbers_verified": true,
+    "footers_sequential": true
+  }
+}

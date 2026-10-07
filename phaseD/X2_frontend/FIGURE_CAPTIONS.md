@@ -1,0 +1,3 @@
+fig_X2_frontend_recovery
+
+All 1,400 phase-54 records for each of four frontends are retained. Descriptive means within ten preregistered 0.1-wide input-efficiency bins, shown at bin centers; empty bins remain gaps. Right panel includes only input η<0.95 and averages the paired recovery fraction (η_out−η_in)/(1−η_in). No uncertainty bars imply independent bins or records; equal-cell all-record and input-usable seed-cluster intervals, as well as bin counts, are supplied in companion tables. VS starts from SMR around VIT, MFT and SUV start at zero around their final readout, and V0 starts from unrefined VIT. Every module uses the unchanged frozen ADA method. Negative output increments are included.

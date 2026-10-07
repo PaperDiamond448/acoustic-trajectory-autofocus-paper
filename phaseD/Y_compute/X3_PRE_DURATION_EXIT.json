@@ -1,0 +1,18 @@
+{
+  "status": "105_CASES_SAVED_NO_DURATION_CHUNK_COMMITTED",
+  "sha256": {
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk001.mat": "697429377429c2781c43770ee509faf09b9b1e9b4cb93eacbed10c79bf3e43ef",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk002.mat": "2a58b995bbdfcf99b562a2010312e05b7cbfb60c69cf2b5e8065ad93f5472f0e",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk003.mat": "6712c42a4a234ed476ef145a7970a81b3a220e8f53b4030b951370aa67dd0298",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk004.mat": "a876b455b77dbf554fb113bb136ff918586af2e8dcaf07d72748a535990015cb",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk005.mat": "c4dc8431ab4b65597617e85dc98402bfcd71b77c10c32181b5c7f463815bbed5",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk006.mat": "f87d0aacbfe63153a01d9ab2d63978d087e66a2f42404cb17c36277a9597b4a8",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk007.mat": "4f9b54f4a096324d564c4fcee17d097eb802a29847c045332dd44e20784a69c6",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk008.mat": "ff2d288849072fd591203e438f33911aac13603695e822bd71b86365667d05e9",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk009.mat": "932f9bd2b35803bedab20516226d77967d544946b20003bcfaadd032fb148664",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk010.mat": "bb834d3cf6e3c7e92db764ac2973c8091adbe74e4880ac59bec9a3b3bcf73a86",
+    "D:\\论文集\\phaseD\\X3_real\\chunks\\kind1_chunk011.mat": "950090a5031cde65b851f5a8a734976de417d418355329784d8b0a17a6c6e5eb"
+  },
+  "orphan_duration_output_archive": "D:\\论文集\\phaseD\\X3_real\\qa\\pre_duration_environment_exit_1791108759",
+  "event": "Observed 0xc0000374 after all case commits, during first duration batch; only complete chunks remain authoritative."
+}

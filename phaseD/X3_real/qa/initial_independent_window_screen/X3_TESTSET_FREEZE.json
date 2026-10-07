@@ -1,0 +1,98 @@
+{
+  "status": "FROZEN_BEFORE_ANY_REAL_MODULE",
+  "passed_cases": 106,
+  "duration_windows": 16,
+  "roles": {
+    "a": {
+      "tone_hz": 133,
+      "start_s": 1200,
+      "selection": "lowest visible weak peak_excess; ties smallest tone/earliest start"
+    },
+    "c": {
+      "tone_hz": 49,
+      "start_s": 1200,
+      "selection": "smallest passed strong tone at role-a interval"
+    },
+    "b": {
+      "tone_hz": 100,
+      "start_s": 600,
+      "end_s": 2100,
+      "segments": 5,
+      "selection": "longest maximal visible weak run; ties smallest tone/earliest start"
+    }
+  },
+  "all_maximal_weak_runs": [
+    {
+      "tone_hz": 52,
+      "start_s": 600,
+      "end_s": 1200,
+      "segments": 2
+    },
+    {
+      "tone_hz": 52,
+      "start_s": 2400,
+      "end_s": 2700,
+      "segments": 1
+    },
+    {
+      "tone_hz": 61,
+      "start_s": 2100,
+      "end_s": 2400,
+      "segments": 1
+    },
+    {
+      "tone_hz": 100,
+      "start_s": 600,
+      "end_s": 2100,
+      "segments": 5
+    },
+    {
+      "tone_hz": 103,
+      "start_s": 900,
+      "end_s": 1500,
+      "segments": 2
+    },
+    {
+      "tone_hz": 106,
+      "start_s": 1200,
+      "end_s": 1500,
+      "segments": 1
+    },
+    {
+      "tone_hz": 118,
+      "start_s": 1500,
+      "end_s": 1800,
+      "segments": 1
+    },
+    {
+      "tone_hz": 121,
+      "start_s": 0,
+      "end_s": 300,
+      "segments": 1
+    },
+    {
+      "tone_hz": 133,
+      "start_s": 1200,
+      "end_s": 1500,
+      "segments": 1
+    },
+    {
+      "tone_hz": 136,
+      "start_s": 900,
+      "end_s": 1200,
+      "segments": 1
+    }
+  ],
+  "tie_rule": "smallest frequency then earliest start; no module output inspected",
+  "files": {
+    "D:\\论文集\\phaseD\\X3_real\\X3_visibility.csv": "502cda00c7be16cdf671ddbfab0898597288b53864f9dc601ed5b6e5c59f949d",
+    "D:\\论文集\\phaseD\\X3_real\\X3_FROZEN_TESTSET.csv": "8bb2da4db1bcdfc088c74e514bccefa9fb72fac7e3a3724b5a52058df504c9e7",
+    "D:\\论文集\\phaseD\\X3_real\\X3_FROZEN_DURATION_TESTSET.csv": "9400e5789a17685af46fc35e96d8392a0e8e8574d513c7cb084405ad7577b8be",
+    "D:\\论文集\\phaseD\\X3_real\\X3_A3_comparison.csv": "517b28f7b0070fb7b6273da4967216bbe20e4b2fff6da336065ea4c22b5f5eff",
+    "D:\\论文集\\phaseD\\X3_real\\SCREEN_COMPLETE.json": "cff911cebce691a66b358cca80f2f0ccdd6e8d95f4e64bbb541e6b9d99d4ac98",
+    "D:\\论文集\\phaseD\\codeX\\phaseX3_one.m": "e09ec0151b85c7291c7cbb987e6cb78eb111bf82da9604e4eba0c70c363e5cc9",
+    "D:\\论文集\\phaseD\\codeX\\phaseX3_metrics.m": "bcb80c50018654242a2ec5c90363a53fe7154e0477937fc52e8f4b24f725a661",
+    "D:\\论文集\\phaseD\\codeX\\run_phaseX3_real.m": "040fb31a32e7425d60aaeb19ed275907334cbc2c406c5d30928523734809b4b0"
+  },
+  "created_at": "2026-10-04T12:25:08.564380"
+}

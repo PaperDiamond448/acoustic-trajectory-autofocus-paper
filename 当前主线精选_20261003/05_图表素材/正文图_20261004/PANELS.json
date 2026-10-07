@@ -1,0 +1,80 @@
+{
+  "fig01_geometry": [
+    "Geometry schematic, not to scale",
+    "Exact deterministic Doppler curve"
+  ],
+  "fig02_error_structure": [
+    "Two fixed errors",
+    "Their time integrals",
+    "Resulting normalized spectra"
+  ],
+  "fig03_adaptive_method": [
+    "Entire algorithm schematic; no quantitative comparison"
+  ],
+  "fig04_knot_spacing": [
+    "Efficiency or peak in no-interference scene",
+    "Same in local interference",
+    "Cost in no-interference scene",
+    "Cost in local interference"
+  ],
+  "fig05_radius_development": [
+    "Development gain without interference",
+    "Development gain with interference",
+    "Development degradation without interference",
+    "Development degradation with interference"
+  ],
+  "fig06_confirmation_gain": [
+    "Paired efficiency gain without interference",
+    "Paired efficiency gain with interference",
+    "Paired peak gain without interference",
+    "Paired peak gain with interference"
+  ],
+  "fig07_confirmation_tradeoff": [
+    "Confirmation gain without interference",
+    "Confirmation gain with interference",
+    "Confirmation degradation without interference",
+    "Confirmation degradation with interference"
+  ],
+  "fig08_duration_gain_cost": [
+    "Efficiency versus duration without interference",
+    "Efficiency versus duration with interference",
+    "Solver time without interference",
+    "Solver time with interference"
+  ],
+  "fig09_frontend_generality": [
+    "Descriptive binned increment",
+    "Descriptive normalized recovery",
+    "All-record paired uncertainty",
+    "Bin support counts"
+  ],
+  "fig10_real_all_cases": [
+    "All weak-source cases",
+    "All strong-source cases",
+    "All shallow-source cases"
+  ],
+  "fig11_real_spectra": [
+    "Weak case full search band",
+    "Strong case full search band",
+    "Weak edge-peak zoom, not target identification",
+    "Strong central-peak zoom"
+  ],
+  "fig12_real_trajectory_duration": [
+    "Continuous observed LOFAR",
+    "Saved trajectories and GPS reference",
+    "All sixteen duration windows"
+  ],
+  "figS01_knot_spectral_peak": [
+    "Efficiency or peak in no-interference scene",
+    "Same in local interference"
+  ],
+  "figS02_confirmation_paired": [
+    "Adaptive versus fixed without interference",
+    "Adaptive versus fixed with interference",
+    "Adaptive versus no box without interference",
+    "Adaptive versus no box with interference"
+  ],
+  "figS03_frontend_diagnostic": [
+    "All historical frontend errors",
+    "All historical slow-error values"
+  ]
+}

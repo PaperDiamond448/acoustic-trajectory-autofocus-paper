@@ -1,0 +1,67 @@
+{
+  "第1节_引言.md": {
+    "before": {
+      "Chinese_characters": 2884,
+      "non_whitespace_characters_excluding_math": 3625
+    },
+    "after": {
+      "Chinese_characters": 1568,
+      "non_whitespace_characters_excluding_math": 1984
+    }
+  },
+  "第2-3节_问题描述与方法.md": {
+    "before": {
+      "Chinese_characters": 4734,
+      "non_whitespace_characters_excluding_math": 6093
+    },
+    "after": {
+      "Chinese_characters": 2480,
+      "non_whitespace_characters_excluding_math": 3076
+    }
+  },
+  "第4节_仿真.md": {
+    "before": {
+      "Chinese_characters": 2041,
+      "non_whitespace_characters_excluding_math": 3083
+    },
+    "after": {
+      "Chinese_characters": 2136,
+      "non_whitespace_characters_excluding_math": 3185
+    }
+  },
+  "第5节_实测.md": {
+    "before": {
+      "Chinese_characters": 3669,
+      "non_whitespace_characters_excluding_math": 6538
+    },
+    "after": {
+      "Chinese_characters": 1496,
+      "non_whitespace_characters_excluding_math": 2141
+    }
+  },
+  "第6-7节_讨论与结论.md": {
+    "before": {
+      "Chinese_characters": 3098,
+      "non_whitespace_characters_excluding_math": 4065
+    },
+    "after": {
+      "Chinese_characters": 472,
+      "non_whitespace_characters_excluding_math": 577
+    }
+  },
+  "figure_number_map": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "6",
+    "5": "7",
+    "6": "8",
+    "7": "9",
+    "8": "4",
+    "9": "5",
+    "10": "12",
+    "11": "B1",
+    "12": "11",
+    "13": "10"
+  }
+}

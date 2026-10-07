@@ -1,0 +1,7 @@
+Exception: D:\论文集\phaseD\code\run_phaseD_dev.ps1:11
+Line |
+  11 |  … XITCODE -ne 0) { throw "Analysis $taskMode failed; no rule change." }
+     |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Analysis rerun failed; no rule change.
+
+

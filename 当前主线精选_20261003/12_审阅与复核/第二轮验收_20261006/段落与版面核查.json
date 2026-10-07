@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "paragraph_count": 323,
+  "docx_matches_paragraph_snapshot": true,
+  "pdf_pages": 52,
+  "fig13_embedded_media": [
+    "word/media/rId69.png"
+  ],
+  "sqrt2_confirmed_in_Word_XML": true,
+  "rendered_pages": [
+    30,
+    31,
+    35
+  ],
+  "figure13_page": 35
+}

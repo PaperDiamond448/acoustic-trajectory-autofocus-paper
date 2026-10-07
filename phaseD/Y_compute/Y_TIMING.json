@@ -1,0 +1,5 @@
+{
+  "timing": "Per-call loaded wall times on six Processes workers; no concurrent X numerical stages. Not isolated serial benchmarks. Batch wall time reported separately.",
+  "C_trigger_fraction": 0.23607142857142857,
+  "C_records": 2800
+}

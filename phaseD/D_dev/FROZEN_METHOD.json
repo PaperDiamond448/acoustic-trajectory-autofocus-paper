@@ -1,0 +1,1459 @@
+{
+  "protocol": "ASL-D-20261003",
+  "status": "development_frozen_awaiting_user_rule_audit",
+  "branch": "C-A",
+  "method": "ADA_local_c04_t30_A",
+  "Delta_s": 10,
+  "P": 31,
+  "r_hz": 0.02,
+  "regularization": {
+    "formula": "lambda0*(P-2)/19*(300/T)*(15/Delta)^3",
+    "lambda_C": 0.005151315789473684,
+    "lambda_F": 0.5151315789473684,
+    "lambda_C0": 0.001,
+    "lambda_F0": 0.1
+  },
+  "fixed_radius_hz": null,
+  "ADA": {
+    "mode": "local",
+    "cap_hz": 0.04,
+    "tau_s": 30,
+    "rerun": "A"
+  },
+  "developed_ADA": {
+    "mode": "local",
+    "cap_hz": 0.04,
+    "tau_s": 30,
+    "rerun": "A"
+  },
+  "F_star": "F04",
+  "bounds_rule": "u in +/-rho/0.02; unbounded +/-Inf; global frequency constraints preserved",
+  "SMR_start_rule": "fixed radius 0.02 and |u|<=1 for all radii",
+  "stage_blocks_s": [
+    20,
+    60,
+    290
+  ],
+  "budget_formula": {
+    "max_iter_per_stage": "round(240*max(1,P/21))",
+    "max_fevals_per_stage": "round(1000*max(1,P/21))",
+    "selected_iterations": 354,
+    "selected_fevals": 1476
+  },
+  "tolerances": {
+    "step": 1e-06,
+    "optimality": 1e-06
+  },
+  "trigger_definition": "At 20 Hz on [5,T-5), |B(t)u|>=0.95 B(t)m; longest maximal contiguous run, samples/20 seconds",
+  "candidate_selection": "Explicit previous solution and feasible stage endpoints; maximum final full-length objective J only; no eta or observed peak",
+  "bootstrap": {
+    "replicates": 2000,
+    "seed": 20261051,
+    "unit": "seed cluster within scene; all seven SNR records carried together"
+  },
+  "plan_sha256": "af3ab68bbdfd8ecefbd042e9faaac001a16c28a8f73a2fc071b3e315a6090df5",
+  "addendum_sha256": "fa6ccd779cb2ecfdff250778571963cdc77a170c187a95f85978a15638400344",
+  "code_sha256_manifest": [
+    {
+      "source_file": "D:\\论文集\\phaseA\\code\\build_full_baseband.m",
+      "sha256": "4ee5b33c667966c6f09d896b18a838da1603a225c678f65208f24451e85803fb"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseA\\code\\compute_lofar.m",
+      "sha256": "026cfe4e82e669f10453a9982bcbafc39a82030ab62543a0c9a29f9da8de627a"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseA\\code\\phaseA_load_baseband.m",
+      "sha256": "99cbd3469df3b9bfc414d6b72497df16229dda2b2812d0da9d2260479b738810"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\band_logT.m",
+      "sha256": "7c1fa0fefbe52d89eb66212f82ae4663e1c6bb36f7a2194638ad2e363abfec46"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\build_family.m",
+      "sha256": "f23ffb53bd16a5644dc7566d93ddeba7b053ebdd4b323dccb1029fe7bf7487ca"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\common_frontend.m",
+      "sha256": "1812cfd4376bedf859c825a20b4687aa193c8829a64b31b34881f85b29747ebf"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\czt_match.m",
+      "sha256": "fb5f4a7d32bc9e65d62f317008979ad13eb60eb6c9de2e59aabbfa03c4ef8f79"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\dp_viterbi.m",
+      "sha256": "429e468f73aa480c424f1013c1aa810e583039fc505983b36f6d0fb914776804"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\envelope_h.m",
+      "sha256": "05c41c17e5260105e8ed12a29d183f08f6e13b5bfd448f589c1ae884a35344d1"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\estimate_b1.m",
+      "sha256": "7f7638f55650da08842021df64234fc28468cd3cb00e8c53a432ef8786f87c0f"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\estimate_b2.m",
+      "sha256": "b4c0ecf5a5bbda71b9a25253288cdaeaaae6dd378db72cf61a41b2b5b3ab87a6"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\geometry_tau.m",
+      "sha256": "0733b2d51390a5d83b48a131ca9f1375838aea0cb7f32675111f1389b3b98cf9"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\interp_const.m",
+      "sha256": "ae7c9306e3cbfe11970f821152bebb25e0bf374dbd28b5b4a85da830de8a880f"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\make_jobs.m",
+      "sha256": "0576b5b11020dc6ffdb2142ec79744f6f1e60da016a9c3e96a147fe0b20f1855"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\mft_config.m",
+      "sha256": "78582227091f40af6e26820683888a63b52fc7383c0b0356aa573b88a7c87c94"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\mft_seed.m",
+      "sha256": "9830c2f384999b2d2a37cedf58dbd11ff86cccbfa0b2021f903433b83e24fc98"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\run_e4a_track_only.m",
+      "sha256": "f5a09722e18297f710b4d6214e5fcaa04aeb1207ab2cd2ae4b0bd18e31a71b42"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\second_difference_matrix.m",
+      "sha256": "3a8b61118f88973909320539fb340948cfcf99709dcfa16482873b138b68e0ae"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseC\\E4a_track_only_pilot_20260925\\source_snapshot\\simulate_baseband.m",
+      "sha256": "caf74197f607d247660c550f83f72b6b49414b5e4d9e1b706228fec354e22dcf"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\analyze_phaseD_dev.py",
+      "sha256": "43d7475e946f5730a92c81a0ecb15cfa8fb719324471634bc73e759d63db468b"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\build_family_T.m",
+      "sha256": "98336384fe29a4b994e6e3b0f7b67473570feccf86bb16b6b9a17461e96c2344"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\estimate_proposed_T.m",
+      "sha256": "b58931a38ec5ef0e45987072e12f89b481cbff69e405120b00d57fafe3a85315"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\estimate_suvorova_D.m",
+      "sha256": "1765ede3155f6262c40dd9ffb53cb6c9d6cd791ded0446cb1b11dd5a1f286ff9"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_ada.m",
+      "sha256": "343d95bbbef10d63f50aa62cc967a570754c0bac18f4ff1d7a90d93bfdfe85f3"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_ada_prefix.m",
+      "sha256": "32fe197add5c1ff888bdd837956f49eeb9bd2fffe93a8234417d1ae33f31e75a"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_bootstrap.m",
+      "sha256": "88cf5810fce40cece570ea2b7ed93e07452e3dc3a510a8ee71825b9d90c94e58"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_d1_one.m",
+      "sha256": "954057a67a2985ffbda76512e7fef456a8e7337579212f221a9db76772d51daf"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_d2_one.m",
+      "sha256": "156f94d551edeb15be4ae3b5c0daaaaf4380abd6b9bf596d5d63cb089bc4bf08"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_dwell.m",
+      "sha256": "c82079616a7bc68d6a0911e3200ff9526b0b232ef6eb1eff79c5c8198113daf7"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_hash.m",
+      "sha256": "5aa7cabbe5b85cee91e637ffb791c6715d07a66a1a6f3522790a293395348259"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_json.m",
+      "sha256": "2028baa8bff6da3f8457d38e479fd8d69e2a765e3799bb377a9bf28096c70d5c"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_measure.m",
+      "sha256": "cc446b4d46fb3524b605440ffd37762a32f41c946ff67e2b9fb5b72e3e7a5867"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_record.m",
+      "sha256": "71d3c9f53dbdfa142da47fe0d3c6ded0a1d014e4113c616bafdfe2492ec90c64"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_regularization.m",
+      "sha256": "d3fabcb6bd4960a78be6342831eb2885b7042e16398b7991e49bf63b51676ba8"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_row.m",
+      "sha256": "8b9197459227e09ef2b2dff56d577a15d36566f1172fc96ef783da42863b273f"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_setup.m",
+      "sha256": "730dc8b03d95b893bfa922339f8ed257cb65bebcbe140f04a61aa7c8ceeb2b5b"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\phaseD_skill_check.py",
+      "sha256": "a416999d9386528c0cd27b358df601a18bd6ed66e22efc71cf9d9031394b0434"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\plot_phaseD_dev.py",
+      "sha256": "63ff0f59ead9a99e28edb630e46c381c896117aa1a313fc462ef2c5a1d6ec9e0"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\prepare_phaseD_sources.py",
+      "sha256": "e1e17212f3ae46303ba41ea37b7c8766837896b03a04a66d7a8712a663ce6b4a"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\run_phaseD_batch.m",
+      "sha256": "de67560a9207cb402c1bad12c39176d964b7f39b438350188d7d8ad7441212e4"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\run_phaseD_dev.ps1",
+      "sha256": "bb6fb367fa88a872cfef8749f09146fae28858c7fc7928d0a713ec8977bc1992"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\run_phaseD_gates.m",
+      "sha256": "663417704af9c996ad3b07ff4d13c7c4a336bfcfe8f209b44ae7e5f990ee3b32"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\code\\simulate_baseband_T.m",
+      "sha256": "23ac11047e7cdf20e30446291ca9c3783eaf7d7450a5577b71fa5c8cf38c5462"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\PREREGISTRATION_PhaseD_20261003.md",
+      "sha256": "af3ab68bbdfd8ecefbd042e9faaac001a16c28a8f73a2fc071b3e315a6090df5"
+    },
+    {
+      "source_file": "D:\\论文集\\phaseD\\PREREGISTRATION_PhaseD_ADDENDUM_20261003.md",
+      "sha256": "fa6ccd779cb2ecfdff250778571963cdc77a170c187a95f85978a15638400344"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\analyze_real_inject.m",
+      "sha256": "dc701ef343bf02954b3f50d7eb5c29b6d36c776d830a4b893a79d34ee865cc27"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\band_logT.m",
+      "sha256": "7c1fa0fefbe52d89eb66212f82ae4663e1c6bb36f7a2194638ad2e363abfec46"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\build_family.m",
+      "sha256": "f23ffb53bd16a5644dc7566d93ddeba7b053ebdd4b323dccb1029fe7bf7487ca"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\coherence_objective.m",
+      "sha256": "24b6524d5a3ab5e5bbce02e230f948c3c49a907568467f06df181efc597d45e4"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\common_frontend.m",
+      "sha256": "1812cfd4376bedf859c825a20b4687aa193c8829a64b31b34881f85b29747ebf"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\czt_match.m",
+      "sha256": "fb5f4a7d32bc9e65d62f317008979ad13eb60eb6c9de2e59aabbfa03c4ef8f79"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\dp_viterbi.m",
+      "sha256": "429e468f73aa480c424f1013c1aa810e583039fc505983b36f6d0fb914776804"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\ensure_pool.m",
+      "sha256": "1b0dc690ac08def51c319ef66a8d106ca7f13eca8df5b3eb3e27591952cd5eea"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\envelope_h.m",
+      "sha256": "05c41c17e5260105e8ed12a29d183f08f6e13b5bfd448f589c1ae884a35344d1"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\estimate_b0.m",
+      "sha256": "79fdb60e263d5fe80888c28e97140395f0413480a72d631d937266795ca6135f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\estimate_b1.m",
+      "sha256": "7f7638f55650da08842021df64234fc28468cd3cb00e8c53a432ef8786f87c0f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\estimate_b2.m",
+      "sha256": "b4c0ecf5a5bbda71b9a25253288cdaeaaae6dd378db72cf61a41b2b5b3ab87a6"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\estimate_proposed.m",
+      "sha256": "9ad7ea9bbc67e2da4c723a9ab3ce90a6543e4d49454e9ed6a43ee8199088b549"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\evaluate_record.m",
+      "sha256": "24ae477a3fdf86878be2d9ae2cad99e60a27e24158fa01b080b18639a500bcac"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\geometry_tau.m",
+      "sha256": "0733b2d51390a5d83b48a131ca9f1375838aea0cb7f32675111f1389b3b98cf9"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\interp_const.m",
+      "sha256": "ae7c9306e3cbfe11970f821152bebb25e0bf374dbd28b5b4a85da830de8a880f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\load_real_baseband.m",
+      "sha256": "cb2d0b1bdc4255660297ad9d2878bf34556bbe4f5d3041e6b60f169e55d5253b"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\make_blocks.m",
+      "sha256": "840b3478551daa8207e08e64da070d1805bee896a8e044b192a5233d70f10060"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\make_figures_real.m",
+      "sha256": "cf6763dc852cabac6490f0bca9b4e486b8b17059fa29817d37986b0730265db2"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\make_jobs.m",
+      "sha256": "0576b5b11020dc6ffdb2142ec79744f6f1e60da016a9c3e96a147fe0b20f1855"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\mft_config.m",
+      "sha256": "1718d64cda2bcbcdae21ad4e5198305daf803dafb8a1f30a7e5f84b90287e0f5"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\mft_seed.m",
+      "sha256": "9830c2f384999b2d2a37cedf58dbd11ff86cccbfa0b2021f903433b83e24fc98"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\pctl.m",
+      "sha256": "5768c39795368571a7471f12656cf0574b8dcf0fabf5a7106975eaf2ed027f8e"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\real_config.m",
+      "sha256": "f2ddbebb3c82c00c44effbdd14c80f17db07ac6f85597022d5e0578995e1202b"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\run_bg_check.m",
+      "sha256": "328ac999b57a8f5286a3e00cfb962c2d435dcad0362e763aaee5b1b8738a7b97"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\run_real_inject.m",
+      "sha256": "aadc64206c2a92b648ddcb0d7641df52cab123abb293d2c66c62fc27034f9bbd"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\run_record.m",
+      "sha256": "42a9d9ca7e8ffe08c1c763f02489ec1ffd1f0699deb039d0f1c426ed96e014dd"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\second_difference_matrix.m",
+      "sha256": "3a8b61118f88973909320539fb340948cfcf99709dcfa16482873b138b68e0ae"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\simulate_baseband.m",
+      "sha256": "caf74197f607d247660c550f83f72b6b49414b5e4d9e1b706228fec354e22dcf"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\sio_read_channel.m",
+      "sha256": "de675b9e52ef1aeac1158e458c7182f7ecbf922c59b2e6fd2719ff798d2fbf9b"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\sioread.m",
+      "sha256": "16a0052e75fded167afbdd2392d9e26925c4f0935b8fbdfd3394cb9f01c78676"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_real_inject\\wilson_interval.m",
+      "sha256": "75805f9aa9a9ddefd54ffe4bf2b4e503fe1d388a2938e435bd8da1a9957653d9"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\analyze_expB.m",
+      "sha256": "24d777a587c93723b48847300952d36ec202afbc5fa45f5015c0b1630cb68fb6"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\analyze_expB_matched.m",
+      "sha256": "6f4706fa7a1b288b3e548dd50c249dae1d2035d1e10cef07ae30703b591020de"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\analyze_expB_rmse_vs_eta.m",
+      "sha256": "cd7fc073a25f2d3aa4f598ae1cd84b0fc86d966bab586dc4183b653ec6b89081"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\band_logT.m",
+      "sha256": "7c1fa0fefbe52d89eb66212f82ae4663e1c6bb36f7a2194638ad2e363abfec46"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\batch_columns.m",
+      "sha256": "8487d40dc23f304e8bcdb2d29689e8e6c38d91a5f17024a9c4f8c89a151b0db7"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\build_family.m",
+      "sha256": "f23ffb53bd16a5644dc7566d93ddeba7b053ebdd4b323dccb1029fe7bf7487ca"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\cluster_draws.m",
+      "sha256": "e3d5db9995419d40970567066860a359783330d41b5eee80a9b35d7a5aeac71f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\cluster_map.m",
+      "sha256": "16c77eaabbfe753dc2f2657779dd289afb0e3c0c7192f7a6f5cff3a74bd57815"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\coherence_objective.m",
+      "sha256": "24b6524d5a3ab5e5bbce02e230f948c3c49a907568467f06df181efc597d45e4"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\common_frontend.m",
+      "sha256": "1812cfd4376bedf859c825a20b4687aa193c8829a64b31b34881f85b29747ebf"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\czt_match.m",
+      "sha256": "fb5f4a7d32bc9e65d62f317008979ad13eb60eb6c9de2e59aabbfa03c4ef8f79"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\dp_viterbi.m",
+      "sha256": "429e468f73aa480c424f1013c1aa810e583039fc505983b36f6d0fb914776804"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\ensure_pool.m",
+      "sha256": "1b0dc690ac08def51c319ef66a8d106ca7f13eca8df5b3eb3e27591952cd5eea"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\envelope_h.m",
+      "sha256": "05c41c17e5260105e8ed12a29d183f08f6e13b5bfd448f589c1ae884a35344d1"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_b0.m",
+      "sha256": "79fdb60e263d5fe80888c28e97140395f0413480a72d631d937266795ca6135f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_b1.m",
+      "sha256": "7f7638f55650da08842021df64234fc28468cd3cb00e8c53a432ef8786f87c0f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_b2.m",
+      "sha256": "b4c0ecf5a5bbda71b9a25253288cdaeaaae6dd378db72cf61a41b2b5b3ab87a6"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_proposed.m",
+      "sha256": "9ad7ea9bbc67e2da4c723a9ab3ce90a6543e4d49454e9ed6a43ee8199088b549"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_refine.m",
+      "sha256": "0ba628ff2fd4e316b998ecbffb2d389f743786fbe56566b101d39927f1b962e5"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\estimate_suvorova.m",
+      "sha256": "9f0451d343064970728f92e76458babbfa160ed7aba0f6bc327afffe588071f7"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\evaluate_record.m",
+      "sha256": "24ae477a3fdf86878be2d9ae2cad99e60a27e24158fa01b080b18639a500bcac"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\geometry_tau.m",
+      "sha256": "0733b2d51390a5d83b48a131ca9f1375838aea0cb7f32675111f1389b3b98cf9"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\interp_const.m",
+      "sha256": "ae7c9306e3cbfe11970f821152bebb25e0bf374dbd28b5b4a85da830de8a880f"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_blocks.m",
+      "sha256": "840b3478551daa8207e08e64da070d1805bee896a8e044b192a5233d70f10060"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_figure_expA.m",
+      "sha256": "f26b6570482041e69b0a1eaa641fb0445c768a25aa550585445f6a40416edaab"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_figure_expB.m",
+      "sha256": "febff1d7a18a42a19da25df59735737390e5a11ab7be4cdeb47d47d3216958e1"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_figure_geometry.m",
+      "sha256": "2fb61c6f9ad5433ef2f693573a905e31593539ecc1a17a715d4baff2e9741eb0"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_figure_module.m",
+      "sha256": "9dc2df13c66e7a79ec0dc4e57ff959ac0cf44f3d7ac00448e4ddc4613647f986"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\make_jobs.m",
+      "sha256": "0576b5b11020dc6ffdb2142ec79744f6f1e60da016a9c3e96a147fe0b20f1855"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\mft_config.m",
+      "sha256": "78582227091f40af6e26820683888a63b52fc7383c0b0356aa573b88a7c87c94"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\mft_seed.m",
+      "sha256": "9830c2f384999b2d2a37cedf58dbd11ff86cccbfa0b2021f903433b83e24fc98"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\pctl.m",
+      "sha256": "5768c39795368571a7471f12656cf0574b8dcf0fabf5a7106975eaf2ed027f8e"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\run_all_w4.m",
+      "sha256": "f6dff88f689237ed867595cde056453f605e447777efc0bcf645f1c1efab6a92"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\run_e4a_track_only.m",
+      "sha256": "f5a09722e18297f710b4d6214e5fcaa04aeb1207ab2cd2ae4b0bd18e31a71b42"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\run_expA_mechanism.m",
+      "sha256": "48d858a3403c203a5efda5cd1ae5d6de040a3b88415934f0488a135314dcf479"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\run_expB_crossfrontend.m",
+      "sha256": "1df19c7848865f1fd804333c7fe9914b68b3e9f261ed3b44d6ae8898c1095225"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\run_record.m",
+      "sha256": "42a9d9ca7e8ffe08c1c763f02489ec1ffd1f0699deb039d0f1c426ed96e014dd"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\second_difference_matrix.m",
+      "sha256": "3a8b61118f88973909320539fb340948cfcf99709dcfa16482873b138b68e0ae"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\simulate_baseband.m",
+      "sha256": "caf74197f607d247660c550f83f72b6b49414b5e4d9e1b706228fec354e22dcf"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\suvorova_config.m",
+      "sha256": "26057717311157a0a48386620cf6d65bb9db9f492d5f9a37a4e6c1abbb1817c6"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\suvorova_transition.m",
+      "sha256": "8368df7903ca0b836821e5fdaad00a06d789180e345b6f7a9a9bc5a7ca4a028d"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\wilson_interval.m",
+      "sha256": "75805f9aa9a9ddefd54ffe4bf2b4e503fe1d388a2938e435bd8da1a9957653d9"
+    },
+    {
+      "source_file": "D:\\论文集\\研究工作台\\MATLAB实验\\mft_week4_module\\write_run_snapshot.m",
+      "sha256": "a0651c34a01df923db521ef2f7318dff94f3c24695817a8af558f344d08248fa"
+    }
+  ],
+  "decisions": {
+    "D1": {
+      "Delta_s": 10,
+      "P": 31,
+      "reason": "All four 95%/nonpositive-gain conditions met; largest eligible spacing.",
+      "eligible_intersection": [
+        10,
+        7.5,
+        6
+      ],
+      "rules": [
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 60.0,
+          "P": 6,
+          "G": 0.13396955068781888,
+          "G_lo": 0.11860617486684734,
+          "G_hi": 0.14991507307264693,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.03699187067736054
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 30.0,
+          "P": 11,
+          "G": 0.1623618437160913,
+          "G_lo": 0.14335251395294357,
+          "G_hi": 0.18273556026297774,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": false,
+          "freeze_allowed": true,
+          "gap": 0.008599577649088114
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 20.0,
+          "P": 16,
+          "G": 0.17096142136517942,
+          "G_lo": 0.1504989016194333,
+          "G_hi": 0.19285795718223275,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": true,
+          "freeze_allowed": false,
+          "gap": 0.0
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 15.0,
+          "P": 21,
+          "G": 0.16988182314101336,
+          "G_lo": 0.14955954222663148,
+          "G_hi": 0.1921159561679546,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0010795982241660618
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 10.0,
+          "P": 31,
+          "G": 0.1709576400287716,
+          "G_lo": 0.15066742062594948,
+          "G_hi": 0.19322885826620206,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 3.781336407826519e-06
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 7.5,
+          "P": 41,
+          "G": 0.1702653069140755,
+          "G_lo": 0.14979990522193715,
+          "G_hi": 0.19223692039368173,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0006961144511039297
+        },
+        {
+          "scene": "S0",
+          "method": "F02",
+          "Delta_s": 6.0,
+          "P": 51,
+          "G": 0.17084195484216097,
+          "G_lo": 0.15059942560025574,
+          "G_hi": 0.19303878349596246,
+          "Gmax_all_seven": 0.17096142136517942,
+          "threshold": 0.16241335029692044,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.00011946652301844662
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 60.0,
+          "P": 6,
+          "G": 0.1431904646302074,
+          "G_lo": 0.12700740204190916,
+          "G_hi": 0.16108978364553989,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.038360645968973456
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 30.0,
+          "P": 11,
+          "G": 0.1703644629245124,
+          "G_lo": 0.14977941735375477,
+          "G_hi": 0.19270585689520894,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": false,
+          "freeze_allowed": true,
+          "gap": 0.011186647674668454
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 20.0,
+          "P": 16,
+          "G": 0.18155111059918086,
+          "G_lo": 0.1591069429667298,
+          "G_hi": 0.2069599985299369,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": true,
+          "freeze_allowed": false,
+          "gap": 0.0
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 15.0,
+          "P": 21,
+          "G": 0.17982461973987923,
+          "G_lo": 0.1575656830379985,
+          "G_hi": 0.20487036206279202,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.001726490859301627
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 10.0,
+          "P": 31,
+          "G": 0.17970812405234907,
+          "G_lo": 0.15748184700853926,
+          "G_hi": 0.20469811552427383,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.001842986546831793
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 7.5,
+          "P": 41,
+          "G": 0.179934611787142,
+          "G_lo": 0.15772313835518484,
+          "G_hi": 0.20474199428707995,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0016164988120388468
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "Delta_s": 6.0,
+          "P": 51,
+          "G": 0.18032852401366445,
+          "G_lo": 0.1580608010458146,
+          "G_hi": 0.20527478205643698,
+          "Gmax_all_seven": 0.18155111059918086,
+          "threshold": 0.1724735550692218,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0012225865855164109
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 60.0,
+          "P": 6,
+          "G": -0.04069600210208515,
+          "G_lo": -0.05753629321888715,
+          "G_hi": -0.023135608594975,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.23600469452749545
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 30.0,
+          "P": 11,
+          "G": 0.09778905777703668,
+          "G_lo": 0.081546929723348,
+          "G_hi": 0.11500740652197709,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": false,
+          "freeze_allowed": true,
+          "gap": 0.09751963464837361
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 20.0,
+          "P": 16,
+          "G": 0.14523731666924805,
+          "G_lo": 0.13030971974311029,
+          "G_hi": 0.1604656337019249,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.050071375756162245
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 15.0,
+          "P": 21,
+          "G": 0.16246581982506914,
+          "G_lo": 0.14733437833974594,
+          "G_hi": 0.1773755431147888,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": false,
+          "freeze_allowed": true,
+          "gap": 0.03284287260034116
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 10.0,
+          "P": 31,
+          "G": 0.188244054526475,
+          "G_lo": 0.17287474246164622,
+          "G_hi": 0.203052710983436,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0070646378989353
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 7.5,
+          "P": 41,
+          "G": 0.19424193042653365,
+          "G_lo": 0.17865537634977974,
+          "G_hi": 0.2095251254745392,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0010667619988766475
+        },
+        {
+          "scene": "S2",
+          "method": "F02",
+          "Delta_s": 6.0,
+          "P": 51,
+          "G": 0.1953086924254103,
+          "G_lo": 0.1796079163097462,
+          "G_hi": 0.21026032343956258,
+          "Gmax_all_seven": 0.1953086924254103,
+          "threshold": 0.18554325780413977,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 60.0,
+          "P": 6,
+          "G": -0.07233201314477539,
+          "G_lo": -0.088376477451832,
+          "G_hi": -0.05531301179410943,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.2688208206749064
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 30.0,
+          "P": 11,
+          "G": 0.1354249904279966,
+          "G_lo": 0.11695488393575283,
+          "G_hi": 0.15371109368686323,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": false,
+          "freeze_allowed": true,
+          "gap": 0.06106381710213443
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 20.0,
+          "P": 16,
+          "G": 0.17354933852489685,
+          "G_lo": 0.15856773394040108,
+          "G_hi": 0.18893886901367704,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": false,
+          "freeze_allowed": false,
+          "gap": 0.022939469005234192
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 15.0,
+          "P": 21,
+          "G": 0.1959232582574225,
+          "G_lo": 0.17874977352268578,
+          "G_hi": 0.21363236216969278,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0005655492727085487
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 10.0,
+          "P": 31,
+          "G": 0.1940398855340293,
+          "G_lo": 0.17854338725530347,
+          "G_hi": 0.2105477311393585,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0024489219961017494
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 7.5,
+          "P": 41,
+          "G": 0.1946669386602694,
+          "G_lo": 0.17940532562604006,
+          "G_hi": 0.2106039567014269,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0018218688698616314
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "Delta_s": 6.0,
+          "P": 51,
+          "G": 0.19648880753013104,
+          "G_lo": 0.18109623840252664,
+          "G_hi": 0.21240425652315034,
+          "Gmax_all_seven": 0.19648880753013104,
+          "threshold": 0.18666436715362447,
+          "qualifies": true,
+          "freeze_allowed": true,
+          "gap": 0.0
+        }
+      ],
+      "worst_gaps": {
+        "30": 0.09751963464837361,
+        "15": 0.03284287260034116,
+        "10": 0.0070646378989353,
+        "7.5": 0.0018218688698616314,
+        "6": 0.0012225865855164109
+      },
+      "selection_uses": "eta gain vs common VIT, point estimates; peak not used",
+      "bootstrap_seed": 20261051,
+      "bootstrap_replicates": 2000
+    },
+    "A3": {
+      "C0": false,
+      "Gref": 0.00859390927395131,
+      "F_star": "F04",
+      "A3_inputs": [
+        {
+          "scene": "S0",
+          "method": "F04",
+          "gain_eta_vs_F02": 0.007015592811442156,
+          "gain_eta_vs_F02_lo": 0.003397966270275279,
+          "gain_eta_vs_F02_hi": 0.011425307512388792
+        },
+        {
+          "scene": "S2",
+          "method": "F04",
+          "gain_eta_vs_F02": 0.010172225736460464,
+          "gain_eta_vs_F02_lo": 0.0037492813649279227,
+          "gain_eta_vs_F02_hi": 0.016613625931009752
+        },
+        {
+          "scene": "S0",
+          "method": "F08",
+          "gain_eta_vs_F02": 0.008696075779097224,
+          "gain_eta_vs_F02_lo": 0.004747124480766149,
+          "gain_eta_vs_F02_hi": 0.013529628065641085
+        },
+        {
+          "scene": "S2",
+          "method": "F08",
+          "gain_eta_vs_F02": 0.0073881929729660125,
+          "gain_eta_vs_F02_lo": -0.0008986403507739326,
+          "gain_eta_vs_F02_hi": 0.015467453327995893
+        },
+        {
+          "scene": "S0",
+          "method": "UNB",
+          "gain_eta_vs_F02": 0.008750484023577478,
+          "gain_eta_vs_F02_lo": 0.0047832818384122506,
+          "gain_eta_vs_F02_hi": 0.013690776256434436
+        },
+        {
+          "scene": "S2",
+          "method": "UNB",
+          "gain_eta_vs_F02": 0.00579583100755433,
+          "gain_eta_vs_F02_lo": -0.002180433011584169,
+          "gain_eta_vs_F02_hi": 0.013875762474362743
+        }
+      ],
+      "strict_threshold": 0.005
+    },
+    "rerun": {
+      "selected": "A",
+      "triggered_records": 323,
+      "mean_abs_eta_difference": 0.01828164092680203,
+      "mean_abs_peak_difference_db": 0.20228510753855744,
+      "median_runtime_B_over_A": 0.6656958780990093,
+      "thresholds": [
+        0.005,
+        0.1,
+        0.6
+      ],
+      "all_strict_conditions_met": false
+    },
+    "ADA_selection": {
+      "selected_ADA": "ADA_local_c04_t30_A",
+      "parameters": {
+        "mode": "local",
+        "cap_hz": 0.04,
+        "tau_s": 30,
+        "rerun": "A"
+      },
+      "Gref": 0.00859390927395131,
+      "gain_threshold": 0.007734518346556179,
+      "H_min": 0.010714285714285713,
+      "qualified_count": 16,
+      "rule": "G >= 0.9 Gref; H <= Hmin+0.005; global, smaller cap, larger tau.",
+      "all_20_inputs": [
+        {
+          "method": "ADA_global_c04_t10_A",
+          "gain_eta_vs_F02": 0.01191730021969162,
+          "gain_eta_vs_F02_lo": 0.008705658609124783,
+          "gain_eta_vs_F02_hi": 0.015311247428365517,
+          "harm_vs_F02": 0.10714285714285715,
+          "harm_vs_F02_lo": 0.08333333333333333,
+          "harm_vs_F02_hi": 0.13214285714285712,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c08_t10_A",
+          "gain_eta_vs_F02": 0.01305722245268827,
+          "gain_eta_vs_F02_lo": 0.009561415142229057,
+          "gain_eta_vs_F02_hi": 0.01675359817292782,
+          "harm_vs_F02": 0.09761904761904759,
+          "harm_vs_F02_lo": 0.07380952380952381,
+          "harm_vs_F02_hi": 0.1226190476190476,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c04_t15_A",
+          "gain_eta_vs_F02": 0.01307917003621819,
+          "gain_eta_vs_F02_lo": 0.010256491271476044,
+          "gain_eta_vs_F02_hi": 0.016190439739010333,
+          "harm_vs_F02": 0.052380952380952375,
+          "harm_vs_F02_lo": 0.03809523809523809,
+          "harm_vs_F02_hi": 0.06785714285714285,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c08_t15_A",
+          "gain_eta_vs_F02": 0.014235170972625591,
+          "gain_eta_vs_F02_lo": 0.011474031149775193,
+          "gain_eta_vs_F02_hi": 0.01725799268037176,
+          "harm_vs_F02": 0.04642857142857142,
+          "harm_vs_F02_lo": 0.033333333333333326,
+          "harm_vs_F02_hi": 0.05952380952380953,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c04_t20_A",
+          "gain_eta_vs_F02": 0.012591518475390301,
+          "gain_eta_vs_F02_lo": 0.00985768230812847,
+          "gain_eta_vs_F02_hi": 0.015571245455970007,
+          "harm_vs_F02": 0.04642857142857142,
+          "harm_vs_F02_lo": 0.033333333333333326,
+          "harm_vs_F02_hi": 0.060714285714285714,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c08_t20_A",
+          "gain_eta_vs_F02": 0.013488413158994496,
+          "gain_eta_vs_F02_lo": 0.010766311135549477,
+          "gain_eta_vs_F02_hi": 0.016489075049423426,
+          "harm_vs_F02": 0.041666666666666664,
+          "harm_vs_F02_lo": 0.02857142857142857,
+          "harm_vs_F02_hi": 0.05476190476190476,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c04_t30_A",
+          "gain_eta_vs_F02": 0.009231276883041067,
+          "gain_eta_vs_F02_lo": 0.006530069161496549,
+          "gain_eta_vs_F02_hi": 0.012154157543655422,
+          "harm_vs_F02": 0.017857142857142856,
+          "harm_vs_F02_lo": 0.008333333333333333,
+          "harm_vs_F02_hi": 0.028571428571428567,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c08_t30_A",
+          "gain_eta_vs_F02": 0.009462129254425468,
+          "gain_eta_vs_F02_lo": 0.006785674092664046,
+          "gain_eta_vs_F02_hi": 0.012391185204680345,
+          "harm_vs_F02": 0.016666666666666663,
+          "harm_vs_F02_lo": 0.00830357142857143,
+          "harm_vs_F02_hi": 0.027380952380952374,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_global_c04_t45_A",
+          "gain_eta_vs_F02": 0.004856627217764817,
+          "gain_eta_vs_F02_lo": 0.002644634591115095,
+          "gain_eta_vs_F02_hi": 0.00746617612926746,
+          "harm_vs_F02": 0.005952380952380952,
+          "harm_vs_F02_lo": 0.0,
+          "harm_vs_F02_hi": 0.014285714285714284,
+          "qualifies": false
+        },
+        {
+          "method": "ADA_global_c08_t45_A",
+          "gain_eta_vs_F02": 0.004856993705560792,
+          "gain_eta_vs_F02_lo": 0.0026441988677887635,
+          "gain_eta_vs_F02_hi": 0.0074660265556870465,
+          "harm_vs_F02": 0.005952380952380952,
+          "harm_vs_F02_lo": 0.0,
+          "harm_vs_F02_hi": 0.014285714285714284,
+          "qualifies": false
+        },
+        {
+          "method": "ADA_local_c04_t10_A",
+          "gain_eta_vs_F02": 0.012523303375285446,
+          "gain_eta_vs_F02_lo": 0.009319953721294306,
+          "gain_eta_vs_F02_hi": 0.01593265567430773,
+          "harm_vs_F02": 0.06904761904761904,
+          "harm_vs_F02_lo": 0.04642857142857142,
+          "harm_vs_F02_hi": 0.09404761904761903,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c08_t10_A",
+          "gain_eta_vs_F02": 0.013567687294501373,
+          "gain_eta_vs_F02_lo": 0.010115486274780655,
+          "gain_eta_vs_F02_hi": 0.017157285546092162,
+          "harm_vs_F02": 0.06904761904761904,
+          "harm_vs_F02_lo": 0.04761904761904762,
+          "harm_vs_F02_hi": 0.09047619047619047,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c04_t15_A",
+          "gain_eta_vs_F02": 0.013133292594292897,
+          "gain_eta_vs_F02_lo": 0.010653348035304645,
+          "gain_eta_vs_F02_hi": 0.015938222936026678,
+          "harm_vs_F02": 0.025,
+          "harm_vs_F02_lo": 0.014285714285714285,
+          "harm_vs_F02_hi": 0.036904761904761905,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c08_t15_A",
+          "gain_eta_vs_F02": 0.014066305477618545,
+          "gain_eta_vs_F02_lo": 0.011425568680015201,
+          "gain_eta_vs_F02_hi": 0.017048869954291022,
+          "harm_vs_F02": 0.021428571428571425,
+          "harm_vs_F02_lo": 0.011904761904761902,
+          "harm_vs_F02_hi": 0.03214285714285714,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c04_t20_A",
+          "gain_eta_vs_F02": 0.01251224096218062,
+          "gain_eta_vs_F02_lo": 0.010064123532211157,
+          "gain_eta_vs_F02_hi": 0.015280572354542766,
+          "harm_vs_F02": 0.023809523809523805,
+          "harm_vs_F02_lo": 0.014285714285714284,
+          "harm_vs_F02_hi": 0.03571428571428571,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c08_t20_A",
+          "gain_eta_vs_F02": 0.01346472389985436,
+          "gain_eta_vs_F02_lo": 0.01086038615355173,
+          "gain_eta_vs_F02_hi": 0.01633526339164719,
+          "harm_vs_F02": 0.020238095238095236,
+          "harm_vs_F02_lo": 0.010714285714285713,
+          "harm_vs_F02_hi": 0.02976190476190476,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c04_t30_A",
+          "gain_eta_vs_F02": 0.008145204904124487,
+          "gain_eta_vs_F02_lo": 0.005853283892494762,
+          "gain_eta_vs_F02_hi": 0.010593391077242666,
+          "harm_vs_F02": 0.011904761904761902,
+          "harm_vs_F02_lo": 0.0047619047619047615,
+          "harm_vs_F02_hi": 0.02026785714285698,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c08_t30_A",
+          "gain_eta_vs_F02": 0.008551377651338716,
+          "gain_eta_vs_F02_lo": 0.006244279523789647,
+          "gain_eta_vs_F02_hi": 0.011105312291578044,
+          "harm_vs_F02": 0.010714285714285713,
+          "harm_vs_F02_lo": 0.0035714285714285713,
+          "harm_vs_F02_hi": 0.019047619047619046,
+          "qualifies": true
+        },
+        {
+          "method": "ADA_local_c04_t45_A",
+          "gain_eta_vs_F02": 0.003902192387493884,
+          "gain_eta_vs_F02_lo": 0.0021540812753612125,
+          "gain_eta_vs_F02_hi": 0.005865327576872541,
+          "harm_vs_F02": 0.0035714285714285713,
+          "harm_vs_F02_lo": 0.0,
+          "harm_vs_F02_hi": 0.008333333333333333,
+          "qualifies": false
+        },
+        {
+          "method": "ADA_local_c08_t45_A",
+          "gain_eta_vs_F02": 0.004002717815941311,
+          "gain_eta_vs_F02_lo": 0.0021558623341720092,
+          "gain_eta_vs_F02_hi": 0.0060771213955867105,
+          "harm_vs_F02": 0.0035714285714285713,
+          "harm_vs_F02_lo": 0.0,
+          "harm_vs_F02_hi": 0.008333333333333333,
+          "qualifies": false
+        }
+      ]
+    },
+    "fixed_radius_tests": [
+      {
+        "method": "F04",
+        "scene": "S0",
+        "G_fixed": 0.007015592811442156,
+        "G_fixed_ci": [
+          0.003397966270275279,
+          0.011425307512388792
+        ],
+        "G_ADA": 0.002771367449562194,
+        "G_ADA_ci": [
+          0.0012277897565835362,
+          0.004547989520127385
+        ],
+        "H_fixed": 0.026190476190476188,
+        "H_ADA": 0.0,
+        "gain_threshold": 0.0007713674495621941,
+        "harm_threshold": 0.01,
+        "passes": false
+      },
+      {
+        "method": "F04",
+        "scene": "S2",
+        "G_fixed": 0.010172225736460464,
+        "G_fixed_ci": [
+          0.0037492813649279227,
+          0.016613625931009752
+        ],
+        "G_ADA": 0.013519042358686778,
+        "G_ADA_ci": [
+          0.009281384518378162,
+          0.01843182833324123
+        ],
+        "H_fixed": 0.3476190476190475,
+        "H_ADA": 0.023809523809523805,
+        "gain_threshold": 0.011519042358686778,
+        "harm_threshold": 0.0338095238095238,
+        "passes": false
+      },
+      {
+        "method": "F08",
+        "scene": "S0",
+        "G_fixed": 0.008696075779097224,
+        "G_fixed_ci": [
+          0.004747124480766149,
+          0.013529628065641085
+        ],
+        "G_ADA": 0.002771367449562194,
+        "G_ADA_ci": [
+          0.0012277897565835362,
+          0.004547989520127385
+        ],
+        "H_fixed": 0.023809523809523805,
+        "H_ADA": 0.0,
+        "gain_threshold": 0.0007713674495621941,
+        "harm_threshold": 0.01,
+        "passes": false
+      },
+      {
+        "method": "F08",
+        "scene": "S2",
+        "G_fixed": 0.0073881929729660125,
+        "G_fixed_ci": [
+          -0.0008986403507739326,
+          0.015467453327995893
+        ],
+        "G_ADA": 0.013519042358686778,
+        "G_ADA_ci": [
+          0.009281384518378162,
+          0.01843182833324123
+        ],
+        "H_fixed": 0.35952380952380947,
+        "H_ADA": 0.023809523809523805,
+        "gain_threshold": 0.011519042358686778,
+        "harm_threshold": 0.0338095238095238,
+        "passes": false
+      }
+    ]
+  },
+  "confirmation_started": false,
+  "reproducibility_recipe": {
+    "duration_s": 300,
+    "sample_rate_hz": 20,
+    "phase_id": 51,
+    "record_ids": [
+      1,
+      60
+    ],
+    "scenes": [
+      "S0",
+      "S2"
+    ],
+    "snr_db": [
+      -20,
+      -19,
+      -18,
+      -17,
+      -16,
+      -15,
+      -14
+    ],
+    "knot_rule": "0:Delta:T",
+    "evaluation_interval_s": "[5,T-5)",
+    "stage_block_rule_s": [
+      20,
+      60,
+      "T-10"
+    ],
+    "residual_band_hz": [
+      -2,
+      2
+    ],
+    "fft_rule": "2^nextpow2(8*Ne)",
+    "bootstrap_generator": "numpy.default_rng PCG64",
+    "bootstrap_sampling": "Two scene-stratified seed-cluster draw arrays, 2000 x 60 each, generated sequentially with seed 20261051 and reused across paired metrics/variants; all 7 SNR records carried together."
+  },
+  "provenance": {
+    "nature_skills_commit": "84880815fb37317b3766bff2c2abba395b8993c3",
+    "figure_skill_version": "2.8.0",
+    "D1_manifest_sha256": "dead802535ef4b100fdae598955c1b6a009946433c7316cbb78bb3d0ccc38306",
+    "D2_manifest_sha256": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+    "output_only_pre_D2_changes": [
+      "phaseD_d2_one.m: fixed-radius dwell diagnostics use their actual bounds; UNB not applicable",
+      "plot_phaseD_dev.py: equivalent explicit PDF/SVG/PNG export for static audit"
+    ],
+    "decision_inputs_affected": false,
+    "runtime_definition": "Six-worker loaded wall time of each BTA optimizer call. ADA sums reused F02 call time plus expansion call times; excludes frontend, family/SMR construction and dwell bookkeeping. This is not a serial benchmark.",
+    "python_version": "3.10.0",
+    "numpy_version": "2.2.5",
+    "pandas_version": "2.3.3",
+    "run_configs": {
+      "D1_run_config": {
+        "stage": "D1",
+        "phase_id": 51,
+        "records": 840,
+        "workers": 6,
+        "chunk_size": 10,
+        "source_signature": "dead802535ef4b100fdae598955c1b6a009946433c7316cbb78bb3d0ccc38306",
+        "elapsed_wall_seconds": 11176.8538422,
+        "matlab_version": "9.14.0.2206163 (R2023a)",
+        "Delta": null,
+        "rerun": ""
+      },
+      "fixed_run_config": {
+        "stage": "fixed",
+        "phase_id": 51,
+        "records": 840,
+        "workers": 6,
+        "chunk_size": 10,
+        "source_signature": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+        "elapsed_wall_seconds": 2583.1763972,
+        "matlab_version": "9.14.0.2206163 (R2023a)",
+        "Delta": 10,
+        "rerun": ""
+      },
+      "grid_run_config": {
+        "stage": "grid",
+        "phase_id": 51,
+        "records": 840,
+        "workers": 6,
+        "chunk_size": 10,
+        "source_signature": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+        "elapsed_wall_seconds": 3360.7027669,
+        "matlab_version": "9.14.0.2206163 (R2023a)",
+        "Delta": 10,
+        "rerun": "A"
+      },
+      "rerunA_run_config": {
+        "stage": "rerunA",
+        "phase_id": 51,
+        "records": 840,
+        "workers": 6,
+        "chunk_size": 10,
+        "source_signature": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+        "elapsed_wall_seconds": 1292.4190698,
+        "matlab_version": "9.14.0.2206163 (R2023a)",
+        "Delta": 10,
+        "rerun": ""
+      },
+      "rerunB_run_config": {
+        "stage": "rerunB",
+        "phase_id": 51,
+        "records": 840,
+        "workers": 6,
+        "chunk_size": 10,
+        "source_signature": "e157f58cb537d2397fe32582013734a6e2625c848348ba4af1b8991a4dafa314",
+        "elapsed_wall_seconds": 981.0297277,
+        "matlab_version": "9.14.0.2206163 (R2023a)",
+        "Delta": 10,
+        "rerun": ""
+      }
+    },
+    "figure_export": {
+      "source": "code/plot_phaseD_dev.py",
+      "final_layout_wrapper": "D_dev/qa/repair_figure_layout.py",
+      "wrapper_sha256": "3a02072b891e3f0f72c3bae3c91a635abc788cefcf9588aa796513c355881b62",
+      "display_only_correction": "Peak figure subplot top 0.84 -> 0.76; no data or decision changes; numerical source manifest unchanged."
+    },
+    "equivalent_reuse": {
+      "authority": "Main protocol section 2.7 permits efficient implementations with identical per-record results",
+      "fixed": "F02 and UNB at selected Delta copied exactly from D1, with input-hash and SMR-start equality assertions",
+      "global_grid": "Compute tau=10 cap=0.08 chain once; retain the exact allowed prefix for each larger tau and cap",
+      "local_grid": "Compute separate cap=0.08 chain for each tau; cap=0.04 is its first-round prefix",
+      "timing": "Sum only the saved call times in the selected prefix, including the common F02 solve"
+    },
+    "csv_flag_read_adapter": {
+      "reason": "MATLAB wrote triggered as binary integer 0/1; original pandas Boolean-index statement failed before producing A/B comparison inputs",
+      "proof": {
+        "status": "PASS",
+        "scope": "CSV representation check only; original files unchanged",
+        "records": 840,
+        "triggered_records": 323,
+        "mask_equivalence": "eq(1) exactly equals Boolean interpretation of all binary 0/1 flags",
+        "csv_sha256": {
+          "rerunA_records.csv": "678ea4305f829582727198ef71c78f34889b251c68f77a4edd716cd771d9acb2",
+          "rerunB_records.csv": "4f101913a66a585bd52841938481c5f75c9bb016aed0de004fcddc2735509100"
+        }
+      },
+      "source_files": {
+        "analyze_rerun_csv_adapter.py": "31279b6b5c6fb25f6c1970b5ec0940a8393d03fc4fc869bee2b843d6fd5f51fd",
+        "run_remaining_development.ps1": "4a82e39c6d758933f9514068fdb15c6a86f153a58cf75a2a176414d02f1df536"
+      },
+      "decision_inputs_affected": false,
+      "numerical_solver_retries": 0,
+      "original_numeric_source_and_manifests_unchanged": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "records": 1400,
+  "frontend_rows": 5600,
+  "bootstrap_seed": 20261054,
+  "bootstrap_replicates": 2000,
+  "unit": "Within-scene seed carried across all seven SNRs and all four frontends",
+  "hard_fail_rows": 0,
+  "budget_cap_rows": 0,
+  "usable_ci_policy": "Equal fourteen conditional cell means. Empty cell or empty-cell bootstrap replicate makes CI not estimable; no record deletion or reweighting."
+}

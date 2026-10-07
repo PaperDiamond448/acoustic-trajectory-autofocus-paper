@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "records": 2800,
+  "method_rows": 14000,
+  "unique_seed_clusters": 400,
+  "primary_arithmetic_checks": 57,
+  "protected_hashes": {
+    "BASELINE_MANIFEST_sha256.csv": 884,
+    "code/SOURCE_MANIFEST_sha256.csv": 120,
+    "codeC/SOURCE_MANIFEST_C_sha256.csv": 129,
+    "codeC/POSTPROCESS_MANIFEST_sha256.csv": 11,
+    "C_confirm/PROTECTED_STOP1_sha256.csv": 521
+  },
+  "development_seed_overlap": 0,
+  "E4a_seed_overlap": 0,
+  "branch": "C-A1",
+  "scope": "Independent raw-record primary contrasts, seed cluster bootstrap and cell S1 calculation; all historical protected files unchanged; native output audit also passed"
+}

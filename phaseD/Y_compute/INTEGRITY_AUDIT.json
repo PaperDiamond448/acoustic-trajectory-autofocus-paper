@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "records": {
+    "X1": 2400,
+    "X2": 1400,
+    "X3_passed_cases": 105,
+    "X3_duration_windows": 16
+  },
+  "protected_file_checks": {
+    "codeX/SOURCE_MANIFEST_X_sha256.csv": 141,
+    "codeX/PROTECTED_STOP2_sha256.csv": 861,
+    "X3_real/X3_FREEZE_MANIFEST.csv": 339,
+    "Y_compute/ENVIRONMENT_ADAPTER_MANIFEST.csv": 2,
+    "codeX/POSTPROCESS_MANIFEST_sha256.csv": 11
+  },
+  "original_44_X1_chunks_unchanged": true,
+  "fresh_seed_sets_disjoint": true,
+  "all_cases_and_negative_values_retained": true,
+  "final_method": "ADA_local_c04_t30_A",
+  "postconfirmation_parameter_changes": 0
+}

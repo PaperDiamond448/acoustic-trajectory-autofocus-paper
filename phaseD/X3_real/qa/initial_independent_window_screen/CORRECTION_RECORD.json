@@ -1,0 +1,13 @@
+{
+  "status": "PRE_MODULE_INTERFACE_CORRECTION",
+  "reason": "Use exact original A3 continuous LOFAR frame support. Preliminary per-window frames omitted boundary frames. No module output existed. All raw inputs, thresholds and methods unchanged.",
+  "archived_files": {
+    "X3_visibility.csv": "502cda00c7be16cdf671ddbfab0898597288b53864f9dc601ed5b6e5c59f949d",
+    "X3_FROZEN_TESTSET.csv": "8bb2da4db1bcdfc088c74e514bccefa9fb72fac7e3a3724b5a52058df504c9e7",
+    "X3_FROZEN_DURATION_TESTSET.csv": "9400e5789a17685af46fc35e96d8392a0e8e8574d513c7cb084405ad7577b8be",
+    "X3_A3_comparison.csv": "517b28f7b0070fb7b6273da4967216bbe20e4b2fff6da336065ea4c22b5f5eff",
+    "X3_TESTSET_FREEZE.json": "9b1fdf7d589828fa49fbb5a681b8a1eac9c3a4401030ad80142ea6cc709abad1",
+    "X3_FREEZE_MANIFEST.csv": "58af8482848cbabbe945828a7a9b341c6ba352ec8a029f1f6cb8d3acfb508b8b",
+    "SCREEN_COMPLETE.json": "cff911cebce691a66b358cca80f2f0ccdd6e8d95f4e64bbb541e6b9d99d4ac98"
+  }
+}

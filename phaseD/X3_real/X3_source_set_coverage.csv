@@ -1,0 +1,7 @@
+group,set_number,screened,passed
+shallow,0,30,30
+strong,1,60,60
+weak,2,60,4
+weak,3,60,7
+weak,4,60,3
+weak,5,60,1

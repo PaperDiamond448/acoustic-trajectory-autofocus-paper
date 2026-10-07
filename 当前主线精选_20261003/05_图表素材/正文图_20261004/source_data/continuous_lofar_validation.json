@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "frames": 1500,
+  "old_frames": 1455,
+  "new_cross_boundary_frames": 45,
+  "old_overlap_max_difference_db": 4.9737991503207013E-14,
+  "L": 200,
+  "hop": 20,
+  "nfft": 8192,
+  "fs": 20,
+  "tone_hz": 100,
+  "note": "Continuous frozen baseband; same original LOFAR function; no interpolation, no receiver or screening rerun."
+}

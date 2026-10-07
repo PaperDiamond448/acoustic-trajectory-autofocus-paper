@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETE",
+  "format": "v7.3",
+  "column_keys": "Companion *_keys.csv; column_1based identifies matrix column",
+  "scope": "Exact saved coefficients, original module initial coefficients and final bounds; no optimizer rerun"
+}

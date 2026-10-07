@@ -1,0 +1,10 @@
+{
+  "status": "READ_ONLY_DIAGNOSTIC",
+  "rows": 6484,
+  "dense_grid_outside_2Hz": 290,
+  "max_saved_formula_difference": 0,
+  "max_reassociated_formula_difference": 4.4408920985006262E-16,
+  "max_registered_inequality_excess": 3.4694469519536142E-18,
+  "max_dense_grid_abs_g": 2.0099497487437188,
+  "no_optimizer": true
+}

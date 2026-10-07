@@ -1,0 +1,8 @@
+{
+  "stage": "X1",
+  "event": "Observed native launcher exit 0xc0000374 after complete read-only assembly; X2 subsequently started",
+  "exit_code": -1073740940,
+  "rows": 9600,
+  "run_config_sha256": "e1fea6b08a9538a66d0e94d88b45892c384ceb83b50a491fbf72b46d5f49b9f7",
+  "records_csv_sha256": "66711a4a20e1c133a6b0a7c8f3a2ee89c6c76c0c594609734bf440539131e04a"
+}

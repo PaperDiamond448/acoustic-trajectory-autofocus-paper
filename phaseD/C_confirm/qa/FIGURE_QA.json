@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "visual_review": "PASS",
+  "adaptation": "New confirmation evidence layout; style-only inheritance of typography and alignment/export helper from the locally authored development plots. No development statistical values reused.",
+  "figures": {
+    "fig_C_paired_eta": {
+      "alignment": "PASS",
+      "minimum_font_pt": 7.0,
+      "collision": "PASS",
+      "file_sha256": {
+        "pdf": "7aea6634676e4c7986e779b58221c178e5f9b11223ee2ce9567fe59d80eba5ac",
+        "svg": "9568c622f52c7883b3590fee38b79a6f5d883dca8cba4046edff5fadfe84891d",
+        "png": "82a2305e6372a7e27f45075742ece970acdc0a8731008f43891e69050873bc8d"
+      }
+    },
+    "fig_C_gain_harm": {
+      "alignment": "PASS",
+      "minimum_font_pt": 7.0,
+      "collision": "PASS",
+      "file_sha256": {
+        "pdf": "67761a99f8c0b6103046620f39d9c0c090c29473a1045dd3eb48961de18d3e08",
+        "svg": "a107b1f13ae5019516ad1f50e08888ce25ce05e8c5633f8fd30de536aaa3c209",
+        "png": "41fabe2428c0448b6f04d22750e519e96d1bdfefd3cf7597ce205bd3ed046ed9"
+      }
+    }
+  },
+  "visual_review_details": "Both final 4320x2880 PNGs inspected panel by panel: all 14 cells retained, 95% intervals visible, common row scales, thresholds and baselines clear, no clipping or overlapping labels. Repeated axes and marker/position redundancy are legible."
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "audit_id": "AUD-01",
+    "status": "passed",
+    "location": "摘要、第4.3节、结论；C_summary.csv",
+    "check": "从未舍入结果验证主增量和显示精度",
+    "result": {
+      "LPS": 0.46633858402324924,
+      "adaptive": 0.6599663029003758,
+      "difference": 0.19362771887712654,
+      "gap_recovery": 0.3628287769741293,
+      "peak_gain_db": 2.2594106134888716
+    }
+  },
+  {
+    "audit_id": "AUD-02",
+    "status": "passed",
+    "location": "第4.4节；C_summary.csv",
+    "check": "验证固定窄界收益加扩张收益等于完整模块收益",
+    "result": {
+      "fixed_gain": 0.18427932690273233,
+      "expansion_gain": 0.009348391974394214,
+      "sum": 0.19362771887712654,
+      "display_rounding_explains_0_184_plus_0_009_vs_0_194": true
+    }
+  },
+  {
+    "audit_id": "AUD-03",
+    "status": "passed",
+    "location": "第4.3节、图6；C_cell_statistics.csv",
+    "check": "逐项核查14单元、每单元200记录与区间方向",
+    "result": {
+      "cells": 14,
+      "records": 2800,
+      "eta_pointwise_intervals_positive": true,
+      "peak_pointwise_intervals_positive": true,
+      "simultaneous_coverage_not_established": true
+    }
+  },
+  {
+    "audit_id": "AUD-04",
+    "status": "passed",
+    "location": "第4.4节、图7；C_summary.csv",
+    "check": "核查退化比例及比较对象",
+    "result": {
+      "S2_harm_vs_F02": {
+        "F04": 0.33571428571428574,
+        "UNB": 0.35928571428571426,
+        "ADA_local_c04_t30_A": 0.02
+      },
+      "ALL_harm_vs_F02": 0.010714285714285716,
+      "ALL_harm_vs_LPS": 0.01,
+      "S2_harm_vs_LPS": 0.018571428571428572,
+      "positive_eta_gain_vs_LPS": 0.9496428571428571
+    }
+  },
+  {
+    "audit_id": "AUD-05",
+    "status": "passed",
+    "location": "第3.7节、表2",
+    "check": "代入正则缩放与迭代上限公式",
+    "result": {
+      "lambda": 0.005151315789473684,
+      "LPS_lambda": 0.5151315789473685,
+      "iterations": 354,
+      "function_evaluations": 1476
+    }
+  },
+  {
+    "audit_id": "AUD-06",
+    "status": "passed",
+    "location": "第5.1至5.2节、表5、图10",
+    "check": "从案例差值表复核实测构成、符号和中位数",
+    "result": {
+      "weak": {
+        "n": 15,
+        "median": 1.7436805051196402,
+        "min": 0.09470622386843885,
+        "max": 4.1104302808256,
+        "positive_count": 15
+      },
+      "strong": {
+        "n": 60,
+        "median": 0.17713322806794496,
+        "min": -0.006622050059637952,
+        "max": 2.1176632967918207,
+        "positive_count": 58
+      },
+      "shallow": {
+        "n": 30,
+        "median": 0.06870750665122993,
+        "min": 0.0032444872154808735,
+        "max": 1.850828807511422,
+        "positive_count": 30
+      }
+    }
+  },
+  {
+    "audit_id": "AUD-07",
+    "status": "passed",
+    "location": "X3_cases.csv与X3_increments.csv",
+    "check": "核查全部630条方法配对增量与案例值之差一致",
+    "result": {
+      "pairs": 630,
+      "max_difference_error": 0.0,
+      "unique_cases": 105,
+      "case_method_rows": 840
+    }
+  },
+  {
+    "audit_id": "AUD-08",
+    "status": "passed",
+    "location": "第5.4节、图12(d)",
+    "check": "复核四组嵌套时长窗口的符号与600秒范围",
+    "result": {
+      "gains_at_600": [
+        1.83367392321478,
+        2.15680037576566,
+        1.01274793137365,
+        1.98606259453982
+      ],
+      "positive_at_150": 2,
+      "all_ge_300_positive": true,
+      "overlapping_windows_do_not_establish_independent_replication": true
+    }
+  },
+  {
+    "audit_id": "AUD-09",
+    "status": "passed",
+    "location": "表4、图9(e)",
+    "check": "核查四个具体前端的整体增量与逐项区间",
+    "result": {
+      "all_frontends": [
+        {
+          "frontend": "MFT",
+          "n": "1400",
+          "equal_cell_mean": "0.10601613759121302",
+          "lo": "0.10239453563314327",
+          "hi": "0.10985821783213086"
+        },
+        {
+          "frontend": "SUV",
+          "n": "1400",
+          "equal_cell_mean": "0.007922770616758463",
+          "lo": "0.006413931533542114",
+          "hi": "0.009423789825252023"
+        },
+        {
+          "frontend": "V0",
+          "n": "1400",
+          "equal_cell_mean": "0.12279460844906476",
+          "lo": "0.11745333150205116",
+          "hi": "0.1285498114298245"
+        },
+        {
+          "frontend": "VS",
+          "n": "1400",
+          "equal_cell_mean": "0.11138653327719644",
+          "lo": "0.10548324712093345",
+          "hi": "0.11745595968615812"
+        }
+      ]
+    }
+  },
+  {
+    "audit_id": "AUD-10",
+    "status": "passed",
+    "location": "C_summary.csv、C_cell_statistics.csv",
+    "check": "检查已提供的相干效率均值是否位于[0,1]",
+    "result": {
+      "out_of_bounds_rows": 0,
+      "raw_record_bounds_not_recomputed": true
+    }
+  },
+  {
+    "audit_id": "AUD-11",
+    "status": "passed",
+    "location": "审阅材料快照manifest.json",
+    "check": "核查源材料快照在审阅期间未改变",
+    "result": {
+      "verified_snapshot_files": 58,
+      "mismatched_files": 0,
+      "report_sha256": {
+        "Reviewer1_独立审阅.md": "4f5092a9912fe6d2ea632391fa6d3ff2684074462a272b72469dd30f13d21b6c",
+        "Reviewer2_独立审阅.md": "a190c641969866b389f96a43c5fd3e9701236b58904c659bc9fe405bfeb18f1e",
+        "Reviewer3_独立审阅.md": "ca2bfec02c4c64ee84c1e07dd88749faa56ed98d3a3a1e096dc0f3e197518033"
+      }
+    }
+  },
+  {
+    "audit_id": "AUD-12",
+    "status": "not_assessable",
+    "location": "完整实现与原始记录",
+    "check": "端到端重跑、种子独立性、预注册时序、逐样点谱峰与目标身份",
+    "result": "本次没有重新执行算法。汇总与案例表的一致性通过，不等于完成实验复现、目标身份验证或系统查新。工作区存在MATLAB与Python实现；问题是稿件尚需明确可复现入口。"
+  }
+]

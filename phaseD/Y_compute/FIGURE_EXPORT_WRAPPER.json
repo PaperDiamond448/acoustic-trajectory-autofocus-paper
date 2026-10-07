@@ -1,0 +1,6 @@
+{
+  "status": "EXPORTED",
+  "wrapper_sha256": "b2f0a3585aa37cacbf4611abd8b55990a2c98985e08215f717b643a39037a903",
+  "change": "Set savefig.dpi=600 for PDF/SVG raster layers; move trajectory legend below title, use GPS reference/ADA display labels, outline white SMR overlay for legend contrast. All plotted data, cases, axes and intervals unchanged. PNG already600dpi.",
+  "plot_source_unchanged": true
+}

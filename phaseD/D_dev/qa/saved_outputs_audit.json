@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "All existing completed development chunks; saved-output consistency only; no objective recomputation or optimisation",
+  "stages": {
+    "D1": {
+      "chunks": 84,
+      "records": 840,
+      "configuration_rows": 16800,
+      "ada_variants_checked": 0,
+      "hard_fail_count": 0
+    },
+    "fixed": {
+      "chunks": 84,
+      "records": 840,
+      "configuration_rows": 4200,
+      "ada_variants_checked": 0,
+      "hard_fail_count": 0
+    },
+    "rerunA": {
+      "chunks": 84,
+      "records": 840,
+      "configuration_rows": 840,
+      "ada_variants_checked": 840,
+      "hard_fail_count": 0
+    },
+    "rerunB": {
+      "chunks": 84,
+      "records": 840,
+      "configuration_rows": 840,
+      "ada_variants_checked": 840,
+      "hard_fail_count": 0
+    },
+    "grid": {
+      "chunks": 84,
+      "records": 840,
+      "configuration_rows": 16800,
+      "ada_variants_checked": 16800,
+      "hard_fail_count": 0
+    }
+  }
+}

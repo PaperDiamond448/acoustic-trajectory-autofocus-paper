@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "records": 1400,
+  "rows": 5600,
+  "all_metrics_and_CSV_max_abs_difference": 5.684341886080802e-14,
+  "ADA_solver_round_hard_fail": 0,
+  "ADA_solver_round_budget_cap": 0,
+  "shards": 14,
+  "scope": "All preregistered input/metric/CSV/budget/candidate/local-support/warm-start/J/nontrigger and Aineq/binEq checkpoint checks passed in complete 100-record shards. The extra all-20Hz-sample band assertion is not a preregistered X2 condition; sampled extrema independently quantified, reported without clipping, exclusion, optimization or tuning.",
+  "additional_dense_grid_diagnostic": "Y_compute/X2_BOUND_DIAGNOSTIC_001_140.csv"
+}

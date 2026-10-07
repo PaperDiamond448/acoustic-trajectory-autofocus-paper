@@ -1,0 +1,4 @@
+tone_hz,segment_start_s,interloper_in_candidate_band_frac,peak_matches_theory_pipe_frac,peak_matches_interloper_frac,peak_matches_both_frac,median_theory_interloper_gap_hz,fraction_gap_le_0p1Hz,interloper_BTA_min_separation_900_1200_hz,interloper_BTA_min_separation_900_1500_hz,phaseB_900_1200_interloper_within_0p5_of_BTA,phaseB_900_1500_interloper_within_0p5_of_BTA
+103,900,1,0.69,0.936666666666667,0.68,0.145228874762054,0.333333333333333,NaN,NaN,NaN,NaN
+103,1200,0.37,0.27,0.44,0,0.46503077746064,0,NaN,NaN,NaN,NaN
+100,1800,0,NaN,NaN,NaN,NaN,NaN,2.55190697552787,2.09532121624581,0,0

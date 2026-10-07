@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "windows": 121,
+  "rows": 888,
+  "CSV_max_abs_difference": 5.1159076974727213E-13,
+  "solver_round_hard_fail": 0,
+  "solver_round_budget_cap": 0,
+  "scope": "Every frozen input hash, every MAT/CSV field, scaled budget, local support/warm start/objective monotonicity and no-trigger identity; raw complex input exported for independent Python spectral/GPS recomputation"
+}

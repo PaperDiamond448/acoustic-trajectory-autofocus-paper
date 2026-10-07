@@ -1,0 +1,19 @@
+{
+  "stage": "C",
+  "phase_id": 52,
+  "records": 2800,
+  "methods": [
+    "SMR",
+    "F02",
+    "F04",
+    "UNB",
+    "ADA_local_c04_t30_A"
+  ],
+  "workers": 6,
+  "chunk_size": 10,
+  "source_signature": "49b79cae74892a38f71cde8b7d6a24d56bfece9b9cac21a8fba05a837eeab8b5",
+  "elapsed_wall_seconds": 7241.2815815,
+  "matlab_version": "9.14.0.2206163 (R2023a)",
+  "Delta": 10,
+  "rerun": "A"
+}

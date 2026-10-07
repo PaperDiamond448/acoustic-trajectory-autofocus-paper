@@ -1,0 +1,10 @@
+{
+  "status": "ALL_330_SCREENED_BEFORE_ANY_REAL_MODULE",
+  "candidates": 330,
+  "passed": 106,
+  "raw_sha256": "0f663c14efab00b16500e82d56936cf95b4931c1ea1a2a4bcb815d93b56b66d3",
+  "visibility_sha256": "502cda00c7be16cdf671ddbfab0898597288b53864f9dc601ed5b6e5c59f949d",
+  "testset_sha256": "8bb2da4db1bcdfc088c74e514bccefa9fb72fac7e3a3724b5a52058df504c9e7",
+  "elapsed_seconds": 66.1399919,
+  "frames": "291 wholly supported LOFAR frames per independently extracted 300-s interval; A3 used a continuous LOFAR, differences and flips retained"
+}

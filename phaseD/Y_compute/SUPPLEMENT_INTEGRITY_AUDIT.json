@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "extra_protected_checks": {
+    "Y_compute/FILEBRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/V7BRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/X3_CSV_READ_ADAPTER_MANIFEST.csv": 2,
+    "Y_compute/X3_FILEBRIDGE_ADAPTER_MANIFEST.csv": 3,
+    "Y_compute/SHARDED_AUDIT_ADAPTER_MANIFEST.csv": 4,
+    "Y_compute/REGISTERED_BOUNDS_AUDIT_ADAPTER_MANIFEST.csv": 4,
+    "X3_real/CANONICAL_SCREEN_SOURCE_MANIFEST.csv": 4,
+    "BASELINE_MANIFEST_sha256.csv": 884
+  },
+  "all_920_pre_filebridge_committed_records_unchanged": true,
+  "canonical_screen_interface_correction_pass_flips": 1,
+  "canonical_cases": 105,
+  "method_or_threshold_changes": 0
+}

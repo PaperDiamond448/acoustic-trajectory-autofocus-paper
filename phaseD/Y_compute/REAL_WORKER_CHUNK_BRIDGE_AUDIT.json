@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "records_compared": 16,
+  "proof": "All 16 duration worker S exactly isequaln to committed chunks, including all numeric/metadata fields; v7.3 worker originals retained; no optimization"
+}

@@ -1,0 +1,58 @@
+{
+  "stage": "After all numerical results and final CSV/run configuration were saved",
+  "exit_code": "0xc0000374",
+  "message": "MATLAB error Exit Status: Heap corruption",
+  "records": 2800,
+  "method_rows": 14000,
+  "chunks": 280,
+  "method_counts": {
+    "SMR": 2800,
+    "F04": 2800,
+    "ADA_local_c04_t30_A": 2800,
+    "F02": 2800,
+    "UNB": 2800
+  },
+  "optimizer_retries": 0,
+  "action": "Separate read-only native audit and independent raw-CSV statistical audit; retain all original files unchanged",
+  "validation_status": "PASS_all_saved_outputs_and_decision_inputs_unchanged",
+  "CSV_MAT_reconciliation": {
+    "status": "PASS",
+    "rows": 14000,
+    "chunks": 280,
+    "numeric_tolerance": 1e-12,
+    "numeric_max_abs_difference": 4.973799150320701e-14,
+    "scope": "Every CSV field reconciled against original MAT row; no output files modified and no optimization"
+  },
+  "native_audit": {
+    "status": "PASS",
+    "records": 2800,
+    "rows": 14000,
+    "triggered": 661,
+    "hard_fail_solver_outputs": 0,
+    "budget_cap_final_outputs": 0,
+    "recomputation_tolerance": 1e-12,
+    "metric_max_abs_difference": 0,
+    "track_max_abs_difference": 0,
+    "scope": "All records regenerated at phase 52; all five methods metrics reconstructed within 1e-12; full objective candidate selection, constraints, budgets, local expansion supports and saved nontrigger bitwise identity verified without optimisation"
+  },
+  "independent_statistical_audit": {
+    "status": "PASS",
+    "records": 2800,
+    "method_rows": 14000,
+    "unique_seed_clusters": 400,
+    "primary_arithmetic_checks": 57,
+    "protected_hashes": {
+      "BASELINE_MANIFEST_sha256.csv": 884,
+      "code/SOURCE_MANIFEST_sha256.csv": 120,
+      "codeC/SOURCE_MANIFEST_C_sha256.csv": 129,
+      "codeC/POSTPROCESS_MANIFEST_sha256.csv": 11,
+      "C_confirm/PROTECTED_STOP1_sha256.csv": 521
+    },
+    "development_seed_overlap": 0,
+    "E4a_seed_overlap": 0,
+    "branch": "C-A1",
+    "scope": "Independent raw-record primary contrasts, seed cluster bootstrap and cell S1 calculation; all historical protected files unchanged; native output audit also passed"
+  },
+  "raw_file_hashes_verified": 282,
+  "solver_retries": 0
+}

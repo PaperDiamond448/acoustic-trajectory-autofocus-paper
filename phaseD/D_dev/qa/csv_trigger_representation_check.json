@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "CSV representation check only; original files unchanged",
+  "records": 840,
+  "triggered_records": 323,
+  "mask_equivalence": "eq(1) exactly equals Boolean interpretation of all binary 0/1 flags",
+  "csv_sha256": {
+    "rerunA_records.csv": "678ea4305f829582727198ef71c78f34889b251c68f77a4edd716cd771d9acb2",
+    "rerunB_records.csv": "4f101913a66a585bd52841938481c5f75c9bb016aed0de004fcddc2735509100"
+  }
+}
