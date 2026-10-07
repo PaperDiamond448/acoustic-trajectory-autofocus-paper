@@ -1,0 +1,25 @@
+duration_s,frontend,metric,n,estimate,ci_lo,ci_hi,bootstrap_replicates,bootstrap_seed,cluster,cell_weights
+150,ORACLE,eta_in,600,0.9999999999999762,0.9999999999999729,0.9999999999999793,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+150,ORACLE,eta_out,600,0.9438264726613499,0.9372484789069947,0.9497527085046676,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+150,ORACLE,gain,600,-0.05617352733862635,-0.06275152109298282,-0.050247291495308107,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+150,SUV,eta_in,600,0.5783231421077091,0.565245087706112,0.5907725938696371,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+150,SUV,eta_out,600,0.5938822225161384,0.5802858749548732,0.6068323882532439,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+150,SUV,gain,600,0.015559080408429349,0.012624134944448973,0.018441414991589564,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,eta_in,600,0.9999999999999079,0.9999999999998941,0.999999999999921,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,eta_out,600,0.9440836102966306,0.9396707820785413,0.9482796470134449,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,gain,600,-0.05591638970327728,-0.0603292179213603,-0.051720352986471346,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV,eta_in,600,0.6797082424445084,0.6691050384582744,0.6909341659842863,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV,eta_out,600,0.6875839974271618,0.6773633331848752,0.6984380551750897,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV,gain,600,0.00787575498265336,0.00585602583963791,0.009697734458564972,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,ORACLE,eta_in,600,0.999999999999778,0.9999999999997524,0.9999999999998016,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,ORACLE,eta_out,600,0.9413313924634634,0.9367567135186354,0.9458604456470928,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,ORACLE,gain,600,-0.05866860753631453,-0.06324328648116351,-0.05413955435268072,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,SUV,eta_in,600,0.7193501441879785,0.7107249614277984,0.7275813072757258,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,SUV,eta_out,600,0.726710731643819,0.7184118643989632,0.7346647853697369,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+450,SUV,gain,600,0.0073605874558405615,0.006126131291938011,0.008542259689374918,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,ORACLE,eta_in,600,0.9999999999996363,0.9999999999996052,0.9999999999996658,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,ORACLE,eta_out,600,0.941016016154193,0.9356124902923793,0.94593836890568,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,ORACLE,gain,600,-0.058983983845443344,-0.06438750970726656,-0.05406163109393533,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,SUV,eta_in,600,0.7253935100207654,0.7177789287319516,0.7330994952460915,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,SUV,eta_out,600,0.7359502685652428,0.7285167279696956,0.7437207051105476,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+600,SUV,gain,600,0.010556758544477463,0.009142084314639443,0.012002714215391749,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type

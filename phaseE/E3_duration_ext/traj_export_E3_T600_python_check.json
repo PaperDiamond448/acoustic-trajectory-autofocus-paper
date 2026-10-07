@@ -1,0 +1,12 @@
+{
+  "export_complete": true,
+  "rows": 1200,
+  "truth_records": 600,
+  "fs_hz": 20,
+  "duration_s": 600,
+  "max_eta_in_abs_diff": 2.365490198164011e-07,
+  "max_eta_out_abs_diff": 2.569345008973656e-07,
+  "passed": true,
+  "h5_local_path": "D:\\\u8bba\u6587\u96c6\\phaseE\\E3_duration_ext\\traj_export_E3_T600.h5",
+  "h5_sha256": "a34256d39af136795dffce0a827d6bd69cc26c6b595406c6a276a009c62d2529"
+}

@@ -1,0 +1,5 @@
+export_complete,rows,truth_records,fs_hz,duration_s,max_eta_in_abs_diff,max_eta_out_abs_diff,passed,h5_local_path,h5_sha256
+True,1200,600,20,150,1.1546693234887329e-07,1.1056301718603835e-07,True,D:\论文集\phaseE\E3_duration_ext\traj_export_E3_T150.h5,5e62b0985c4665e2920b1911f67c63af2b961f5c120b4e7c3e1d9e64ec0bb1ec
+True,1200,600,20,300,1.752957882183992e-07,2.41971383818651e-07,True,D:\论文集\phaseE\E3_duration_ext\traj_export_E3_T300.h5,158a81dc6805f869ded5dcc1637ddefe353a581c8d4fc690bde549c9e5ef810d
+True,1200,600,20,450,1.7641996463702014e-07,1.928536066397868e-07,True,D:\论文集\phaseE\E3_duration_ext\traj_export_E3_T450.h5,02588ad35809c139cd06480d52197ae7e3562b46598521b69ee06bc62f67509a
+True,1200,600,20,600,2.365490198164011e-07,2.569345008973656e-07,True,D:\论文集\phaseE\E3_duration_ext\traj_export_E3_T600.h5,a34256d39af136795dffce0a827d6bd69cc26c6b595406c6a276a009c62d2529
