@@ -1,0 +1,6 @@
+frontend,subset,n,candidate_event_rows,candidate_event_fraction,eta_in_mean,in_sigma2_median
+VS,sigma2_0p5_to_5,115,5.0,0.043478260869565216,,
+V0,sigma2_0p5_to_5,112,4.0,0.03571428571428571,,
+SUV,sigma2_0p5_to_5,81,48.0,0.5925925925925926,,
+SUV,S0_candidate_event_True,100,,,0.6283730016614387,5.615127943588601
+SUV,S0_candidate_event_False,600,,,0.900231655554791,0.0377165228204887
