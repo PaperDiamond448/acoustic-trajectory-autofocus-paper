@@ -1,0 +1,12 @@
+{
+  "export_complete": true,
+  "trajectory_rows": 5600,
+  "truth_records": 1400,
+  "all_input_hashes_match": true,
+  "all_source_chunks_unchanged": true,
+  "max_eta_in_matlab_abs_diff": 5.551115123125783e-16,
+  "max_eta_out_matlab_abs_diff": 5.551115123125783e-16,
+  "elapsed_seconds": 96.60900000017136,
+  "h5_sha256": "9b1206af1e420639daba0de572beb7a5366191e0aa8c1fe698b0e8c67e7134c0",
+  "export_adapter": "Python reads existing MAT-v7; truth/hash recreation uses frozen MATLAB generator"
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "X2_export",
+  "issue": "MATLAB HDF5 open/write failed after 28 completed chunks; temporary reader overlapped writes, consistent with a file-lock conflict.",
+  "complete": false,
+  "old_h5": "D:\\\u8bba\u6587\u96c6\\phaseE\\E1_trajexport\\traj_export_X2_interrupted.h5",
+  "original_chunks_modified": false,
+  "recovery": "Preserve interrupted export; restart read-only export into a new H5; open for validation only after writer exits."
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "X2_export_retry",
+  "issue": "MATLAB exit 0xc0000374 heap corruption after 72 completed chunks, without a concurrent reader of this file.",
+  "complete": false,
+  "old_h5": "D:\\\u8bba\u6587\u96c6\\phaseE\\E1_trajexport\\traj_export_X2_interrupted_heap.h5",
+  "original_chunks_modified": false,
+  "recovery": "MATLAB recreates only truth and input hashes; Python serially reads archived MAT-v7 and writes the final H5. No solver rerun."
+}

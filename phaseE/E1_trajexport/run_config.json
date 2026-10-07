@@ -1,0 +1,58 @@
+{
+  "task": "A",
+  "data_sets": [
+    "traj_export_X2",
+    "traj_export_X1_T150",
+    "traj_export_X1_T300",
+    "traj_export_X1_T450",
+    "traj_export_X1_T600"
+  ],
+  "source_phases": {
+    "X2": 54,
+    "X1": 53
+  },
+  "records": "Existing archived records; no frontend or correction solver rerun in task A.",
+  "evaluation": "20 Hz; [5,T-5) s; target-only max FFT power in residual band +/-2 Hz; FFT padding factor 8.",
+  "theory_script_sha256": "36ba56ad88b4913013e21630d89897543038e26b9fdbac06afba5b425ccc3d6a",
+  "eta_check_tolerance": 1e-06,
+  "bootstrap": {
+    "seed": 20261007,
+    "replicates": 2000,
+    "cluster": "record_id within scene, carrying all SNRs and frontends",
+    "cell_weights": "equal scene/SNR",
+    "interval": "95% percentile"
+  },
+  "h5_local_files": [
+    {
+      "file": "traj_export_X2.h5",
+      "local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X2.h5",
+      "bytes": 392621614,
+      "sha256": "9b1206af1e420639daba0de572beb7a5366191e0aa8c1fe698b0e8c67e7134c0"
+    },
+    {
+      "file": "traj_export_X1_T150.h5",
+      "local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X1_T150.h5",
+      "bytes": 35684177,
+      "sha256": "c5d2a62d83877977e1207dc9557e491b41e6a2af9c574a99725f494d8b31805c"
+    },
+    {
+      "file": "traj_export_X1_T300.h5",
+      "local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X1_T300.h5",
+      "bytes": 69705830,
+      "sha256": "eb2611e24670b89a72ec05ecf6f1538c4d677592a54e52cda49a7a9dc8290bd5"
+    },
+    {
+      "file": "traj_export_X1_T450.h5",
+      "local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X1_T450.h5",
+      "bytes": 102162446,
+      "sha256": "f7060bcfe5a54757d07ecf92bc1d7b3a98584359f8933dcc045bf2f9c214357b"
+    },
+    {
+      "file": "traj_export_X1_T600.h5",
+      "local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X1_T600.h5",
+      "bytes": 133746938,
+      "sha256": "5ebeb85fb7d2c301f79499c25746ae2922dfbc356976a6f017e13bda3cfe3e10"
+    }
+  ],
+  "protected_files_unchanged": 154
+}

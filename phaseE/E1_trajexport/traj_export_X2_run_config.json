@@ -1,0 +1,26 @@
+{
+  "task": "A",
+  "stage": "X2",
+  "duration_s": 300,
+  "phase_id": 54,
+  "truth_records": 1400,
+  "trajectory_rows": 5600,
+  "samples_per_row": 6000,
+  "fs_hz": 20,
+  "evaluation_interval_s": [
+    5,
+    295
+  ],
+  "source_directory": "D:\\\u8bba\u6587\u96c6\\phaseD\\X2_frontend",
+  "seed_rule": "master_seed+54e6+1e4*scene_code+record_id",
+  "frontends": [
+    "VS",
+    "MFT",
+    "SUV",
+    "V0"
+  ],
+  "h5_local_path": "D:\\\u8bba\u6587\u96c6\\phaseE\\E1_trajexport\\traj_export_X2.h5",
+  "no_new_estimation": true,
+  "chunk_count": 140,
+  "export_adapter": "Python reads existing MAT-v7; truth/hash recreation uses frozen MATLAB generator"
+}

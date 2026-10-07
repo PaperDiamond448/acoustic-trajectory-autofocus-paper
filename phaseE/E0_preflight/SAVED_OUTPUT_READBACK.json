@@ -1,0 +1,5 @@
+{
+  "saved_mat_csv_readback_passed": true,
+  "checked_rows": 12,
+  "source": "Every successful phaseE_exportA run reread the three saved preflight MAT structures."
+}

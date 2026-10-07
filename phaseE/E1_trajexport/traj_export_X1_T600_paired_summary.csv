@@ -1,0 +1,4 @@
+frontend,metric,n,estimate,ci_lo,ci_hi,bootstrap_replicates,bootstrap_seed,cell_weight,cluster
+VS,eta_in,600,0.3982441499282646,0.38682724666266133,0.40987277913985243,2000,20261007,equal_scene_snr,record_id_within_scene
+VS,eta_out,600,0.6568552593669961,0.6435265617548153,0.6704289601216843,2000,20261007,equal_scene_snr,record_id_within_scene
+VS,gain,600,0.25861110943873145,0.24688838786650194,0.27053723131619445,2000,20261007,equal_scene_snr,record_id_within_scene

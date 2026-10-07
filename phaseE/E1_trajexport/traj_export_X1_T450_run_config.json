@@ -1,0 +1,23 @@
+{
+  "task": "A",
+  "stage": "X1",
+  "duration_s": 450,
+  "phase_id": 53,
+  "truth_records": 600,
+  "trajectory_rows": 600,
+  "samples_per_row": 9000,
+  "fs_hz": 20,
+  "evaluation_interval_s": [
+    5,
+    445
+  ],
+  "source_directory": "D:\\论文集\\phaseD\\X1_duration",
+  "seed_rule": "master_seed+53e6+1e4*scene_code+record_id",
+  "frontends": [
+    "VS"
+  ],
+  "h5_local_path": "D:\\论文集\\phaseE\\E1_trajexport\\traj_export_X1_T450.h5",
+  "matlab_version": "9.14.0.2206163 (R2023a)",
+  "no_new_estimation": true,
+  "chunk_count": 60
+}

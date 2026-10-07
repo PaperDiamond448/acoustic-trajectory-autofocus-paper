@@ -1,0 +1,23 @@
+{
+  "task": "A",
+  "complete": true,
+  "trajectory_rows": 8000,
+  "x2_rows": 5600,
+  "x2_records": 1400,
+  "x1_rows": 2400,
+  "x1_durations_s": [
+    150,
+    300,
+    450,
+    600
+  ],
+  "all_input_hashes_match": true,
+  "all_eta_checks_passed": true,
+  "max_eta_in_abs_diff": 5.508265543130442e-07,
+  "max_eta_out_abs_diff": 1.6811108016767665e-07,
+  "eta_tolerance": 1e-06,
+  "protected_files_unchanged": 154,
+  "supplied_theory_script_unchanged": true,
+  "h5_storage": "local_only",
+  "tasks_B_to_F_started": false
+}

@@ -1,0 +1,11 @@
+{
+  "export_complete": true,
+  "trajectory_rows": 600,
+  "truth_records": 600,
+  "all_input_hashes_match": true,
+  "all_source_chunks_unchanged": true,
+  "max_eta_in_matlab_abs_diff": 5.5511151231257827E-16,
+  "max_eta_out_matlab_abs_diff": 4.9960036108132044E-16,
+  "elapsed_seconds": 47.2626884,
+  "h5_sha256": "c5d2a62d83877977e1207dc9557e491b41e6a2af9c574a99725f494d8b31805c"
+}

@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "records": 1400,
+  "all_input_hashes_match": true,
+  "elapsed_seconds": 8.3699055,
+  "sha256": "43292ccd42c28b5987045b0a63754867fde8a72930cac858c1f2fa8413d1baf9",
+  "generator": "simulate_baseband_T",
+  "no_frontend_or_solver": true
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checked_rows": 600,
+  "max_eta_in_abs_diff": 1.540991125814628e-07,
+  "max_eta_out_abs_diff": 8.467537304657213e-08,
+  "eta_tolerance": 1e-06,
+  "h5_shapes": {
+    "truth": [
+      600,
+      3000
+    ],
+    "input": [
+      600,
+      3000
+    ],
+    "output": [
+      600,
+      3000
+    ]
+  },
+  "supplied_script_sha256": "36ba56ad88b4913013e21630d89897543038e26b9fdbac06afba5b425ccc3d6a",
+  "dependencies": {
+    "numpy": "2.2.5",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "h5py": "3.16.0"
+  }
+}
