@@ -1,0 +1,26 @@
+{
+  "complete_csv_records": 1276,
+  "complete_B_inputs": 1206,
+  "regression_inputs": 70,
+  "empty_csv": "D:\\\u8bba\u6587\u96c6\\phaseE\\E2_frontend_ext\\records\\B_S2_snr-10_id7_T300.csv",
+  "saved_mat_sha256": "765b59d2620b2c63fc9aa660a11c3c8b5bcb62073b46a5c1324887a952003883",
+  "saved_mat_complete": true,
+  "input_hash_matches_archive": true,
+  "seed_matches_archive": true,
+  "saved_eta": [
+    {
+      "eta_in": 0.2587284053205717,
+      "eta_out": 0.7431501172799115
+    },
+    {
+      "eta_in": 0.37058310849165776,
+      "eta_out": 0.6824419992473554
+    },
+    {
+      "eta_in": 0.9999999999998234,
+      "eta_out": 0.9814845601032601
+    }
+  ],
+  "protected_files_unchanged": 154,
+  "recovery": "Restore CSV from saved S.rows using MATLAB; no solver or simulation call."
+}

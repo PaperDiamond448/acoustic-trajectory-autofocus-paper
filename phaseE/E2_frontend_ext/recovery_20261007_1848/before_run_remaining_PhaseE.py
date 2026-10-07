@@ -23,7 +23,7 @@ def status(stage,**kw):
     print(json.dumps(v,ensure_ascii=False),flush=True)
 def valid_record(out,tag,n):
     p=out/'records'/f'{tag}.csv';m=p.with_suffix('.mat')
-    if not p.exists() or p.stat().st_size==0:return False
+    if not p.exists():return False
     assert m.exists(),f'Saved CSV without MAT: {p}'
     d=pd.read_csv(p)
     assert len(d)==n and d.frontend.nunique()==n and d[['eta_in','eta_out']].notna().all().all(),f'Incomplete saved record: {p}'

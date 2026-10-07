@@ -1,0 +1,31 @@
+{
+  "complete_B_inputs": 1207,
+  "restored_input": "B_S2_snr-10_id7_T300",
+  "all_previous_checkpoint_files_unchanged": 2553,
+  "protected_original_files_unchanged": 154,
+  "numeric_method_sources_unchanged": [
+    "estimate_dhmm.m",
+    "phaseE_ext_one.m",
+    "phaseE_inject_one.m",
+    "finalize_extension.py"
+  ],
+  "restoration_csv_mat_max_abs_diff": {
+    "eta_in": 3.3306690738754696e-16,
+    "eta_out": 4.440892098500626e-16,
+    "gain_eta": 3.885780586188048e-16,
+    "J": 1.3877787807814457e-17,
+    "J_start": 2.7755575615628914e-17,
+    "J_round0": 2.7755575615628914e-17,
+    "runtime_s": 0.0
+  },
+  "solver_calls": 0,
+  "simulation_calls": 0,
+  "passed": true,
+  "csv_sha256": "ea168360fa06d9a6fcee1202a584ae9624a26b56ac5c87e51cd25fb09ab2e213",
+  "mat_sha256": "765b59d2620b2c63fc9aa660a11c3c8b5bcb62073b46a5c1324887a952003883",
+  "io_wrapper_sha256_after": {
+    "phaseE_ext_batch.m": "5a83cccbf2fe8f4101a964d37ae69c8080b6e1a182fcb7c1b3a9a0a02c44e759",
+    "phaseE_inject_batch.m": "03701c7231defe75f1546097e6deb51ae723fec49e051245910dd2e7ea4aaed7",
+    "run_remaining_PhaseE.py": "76780fb4c84346fa2350185779fa145d91c024018c7e796a88c6044904d873f4"
+  }
+}
