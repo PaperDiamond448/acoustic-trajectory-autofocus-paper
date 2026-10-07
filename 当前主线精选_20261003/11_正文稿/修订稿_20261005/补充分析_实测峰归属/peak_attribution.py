@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-X3 = Path(r'D:/论文集/phaseD/X3_real')
+X3 = Path(__file__).resolve().parents[4] / 'phaseD/X3_real'
 OUT = Path(__file__).resolve().parent
 BB = Path(sys.argv[1] if len(sys.argv) > 1 and __name__ == '__main__'
           else os.environ.get('PEAK_ATTR_BASEBAND', OUT / 'baseband'))

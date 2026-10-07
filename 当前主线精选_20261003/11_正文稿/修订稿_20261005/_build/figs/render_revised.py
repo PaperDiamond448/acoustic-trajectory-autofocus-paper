@@ -21,14 +21,14 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ORIG = Path(r'D:/论文集/当前主线精选_20261003/05_图表素材/正文图_20261004/scripts')
+ORIG = Path(__file__).resolve().parents[4] / '05_图表素材/正文图_20261004/scripts'
 sys.path.insert(0, str(ORIG))
 import render_zh as R  # noqa: E402  (fonts, palette, helpers)
 from render_zh import plt, Line2D, Patch, CM, W2, COL, BLACK, SD, SPEC, panel_letter, save, zero, errbar  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 ATTR = HERE.parents[1] / '补充分析_实测峰归属'
-X2REC = Path(r'D:/论文集/phaseD/X2_frontend/X2_records.csv')
+X2REC = Path(__file__).resolve().parents[5] / 'phaseD/X2_frontend/X2_records.csv'
 
 
 def out(name):

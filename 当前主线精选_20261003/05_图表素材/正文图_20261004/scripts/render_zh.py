@@ -20,7 +20,7 @@ from zh_bw_style import CM, SCENE, panel_letter, save  # noqa: E402  (fonts and 
 OUT = Path(__file__).resolve().parents[1]
 SD = OUT / 'source_data'
 CUR = OUT.parents[1]
-SPEC = CUR / '08_PhaseD补充实验/04_外部验证_X1-X3/X3_多线谱实测/spectra'
+SPEC = CUR.parent / 'phaseD/X3_real/spectra'
 WEAK = CUR / '10_论证骨架/实验设计复核_20261004/weak15_peak_correspondence.csv'
 FM = 'ADA_local_c04_t30_A'
 W2 = 16.5

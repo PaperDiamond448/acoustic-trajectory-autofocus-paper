@@ -19,7 +19,8 @@ def main():
     md=re.sub(r'^---\n.*?\n---\n','',md,count=1,flags=re.S)
     abstract=(module.MS/'摘要.md').read_text(encoding='utf-8').splitlines()
     title=abstract[0].lstrip('# ').strip()
+    subtitle=abstract[2].strip().strip('*')
     dst=ROOT/'在线阅读_完整修订稿.md'
-    dst.write_text('# '+title+'\n\n'+md.strip()+'\n',encoding='utf-8')
+    dst.write_text('# '+title+'\n\n*'+subtitle+'*\n\n'+md.strip()+'\n',encoding='utf-8')
     print('Updated',dst.relative_to(ROOT))
 if __name__=='__main__':main()

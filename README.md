@@ -33,7 +33,7 @@
 - 在线阅读：`python tools/update_reading_copy.py`。
 - 检查整理包：`python tools/check_package.py`。清单校验针对这次上传快照；后续有意修改正文时相应更新清单。
 - Word 正文：装有 Python 依赖和 Pandoc 的环境运行 `python "当前主线精选_20261003/11_正文稿/修订稿_20261005/_build/build_docx.py" --variant manuscript`。Pandoc 自动从环境路径寻找，亦可用 `PANDOC` 指定。带目录版本另外需要 Windows 本机 Word，见原生成说明。
-- Python 依赖列在 [requirements.txt](requirements.txt)。
+- Python 依赖列在 [requirements.txt](requirements.txt)。绘图与实测分析的路径适配见 [在线分析说明](tools/在线分析与绘图说明.md)。
 
 ## 大文件与整理范围
 

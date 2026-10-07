@@ -13,7 +13,8 @@ from matplotlib import font_manager as fm
 
 FONT_DIR = Path('C:/Windows/Fonts')
 for _f in ['times.ttf', 'timesbd.ttf', 'timesi.ttf', 'timesbi.ttf', 'simsun.ttc', 'simhei.ttf']:
-    fm.fontManager.addfont(str(FONT_DIR / _f))
+    if (FONT_DIR / _f).is_file():
+        fm.fontManager.addfont(str(FONT_DIR / _f))
 
 mpl.rcParams.update({
     'font.family': ['Times New Roman', 'SimSun'],
