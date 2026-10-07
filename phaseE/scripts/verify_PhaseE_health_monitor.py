@@ -51,6 +51,10 @@ def main():
             # A completed final report is not an upload confirmation while still
             # in the same stage: a C -> D transition is required for C delivery.
             assert monitor.uploaded_tasks({'stage':'C','health':'running'}) == ['B']
+            message = monitor.progress_text(
+                {'stage':'C','saved_inputs':1200,'planned_inputs':2400,'checked_local':'2026-10-07T21:25:00+08:00'},
+                {'stage':'C','saved_inputs':1100,'checked_local':'2026-10-07T21:20:00+08:00'})
+            assert '1200/2400' in message and '50.0%' in message and '5.0' in message and '100' in message
     print('Monitor checks passed: running, silent exit, missing MAT, stalled activity, reported stop, deduplicated alerts.')
 
 

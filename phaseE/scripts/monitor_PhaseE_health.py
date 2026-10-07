@@ -146,10 +146,27 @@ def already_notified(snapshot):
         return False
 
 
+def progress_text(snapshot, previous_snapshot):
+    saved, planned = snapshot['saved_inputs'], snapshot['planned_inputs']
+    if saved is None or planned is None:
+        return f'任务 {snapshot["stage"]} 正在运行。'
+    text = f'已保存 {saved}/{planned} 个输入（{100*saved/planned:.1f}%）。'
+    if previous_snapshot and previous_snapshot.get('stage') == snapshot['stage']:
+        old = previous_snapshot.get('saved_inputs')
+        if old is not None and saved >= old:
+            minutes = (datetime.fromisoformat(snapshot['checked_local']) -
+                       datetime.fromisoformat(previous_snapshot['checked_local'])).total_seconds()/60
+            text += f'最近 {minutes:.1f} 分钟新增 {saved-old} 个。'
+    text += '全部输入已保存，正在核验或上传。' if saved == planned else '计算继续。'
+    return text
+
+
 def check_once(no_notify=False):
     OUT.mkdir(exist_ok=True)
     previous_path = OUT / 'alert_state.json'
     previous = read_json(previous_path) if previous_path.exists() else {'completed_notified': ['B'], 'issue': None}
+    snapshot_path = OUT / 'STATUS.json'
+    previous_snapshot = read_json(snapshot_path) if snapshot_path.exists() else None
     try:
         snapshot = inspect_progress()
         completed = uploaded_tasks(snapshot)
@@ -175,6 +192,11 @@ def check_once(no_notify=False):
         if task == 'C' and task not in previous['completed_notified'] and not no_notify:
             if notify('积累时长扩展已完成', 'C 已通过核验并上传 GitHub，D 真实背景注入已开始。'):
                 previous['completed_notified'].append(task)
+    if snapshot['health'] == 'running':
+        snapshot['progress_message'] = progress_text(snapshot, previous_snapshot)
+        if not no_notify:
+            snapshot['progress_notification_submitted'] = notify(
+                f'论文实验进度：{snapshot["stage"]}', snapshot['progress_message'])
     snapshot['completed_and_uploaded'] = completed
     write_json(OUT / 'STATUS.json', snapshot)
     if not no_notify:
