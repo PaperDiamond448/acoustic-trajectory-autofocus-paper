@@ -1,0 +1,30 @@
+{
+  "task": "E",
+  "cases": 15,
+  "methods": [
+    "G_ADA",
+    "G_UNB",
+    "G94_ADA"
+  ],
+  "duration_s": 300,
+  "fs_hz": 20,
+  "optimization_interval_s": [
+    5,
+    295
+  ],
+  "spectrum_interval_s": [
+    0,
+    300
+  ],
+  "zero_peak_band_hz": [
+    -0.01,
+    0.01
+  ],
+  "band_hz": [
+    -1.5,
+    1.5
+  ],
+  "seed": "none: existing measured inputs",
+  "preregistration_sha256": "af69af4d6f4128820438400f6f42f7dbf460d9d42a7f68e43bd81f8eb908163e",
+  "script_guided_anchors_sha256": "81177a589d6dc57a6bd887b160c9c9100971717464d8e9bbfa6a07694525774c"
+}

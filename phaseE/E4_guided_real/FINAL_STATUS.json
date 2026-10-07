@@ -1,0 +1,12 @@
+{
+  "task": "E",
+  "complete": true,
+  "cases": 15,
+  "method_rows": 45,
+  "input_hashes_match": true,
+  "all_readback_checks_passed": true,
+  "protected_files_unchanged": 154,
+  "hard_fail_rows": 0,
+  "budget_cap_rows": 0,
+  "interpretation": "Descriptive cases from one voyage; all prespecified cases retained."
+}
