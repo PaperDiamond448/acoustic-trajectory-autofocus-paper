@@ -1,4 +1,4 @@
-﻿param([switch]$ValidateOnly)
+﻿param([switch]$ValidateOnly, [string]$MessagePath = 'D:\论文集\phaseE\_completion_notification\message.json')
 $ErrorActionPreference = 'Stop'
 [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType=WindowsRuntime] | Out-Null
 [Windows.UI.Notifications.ToastNotification, Windows.UI.Notifications, ContentType=WindowsRuntime] | Out-Null
@@ -6,8 +6,7 @@ $ErrorActionPreference = 'Stop'
 if ($ValidateOnly) {
     $message = @{title='Notification interface check';body='No notification is displayed in this mode.'}
 } else {
-    $messagePath = 'D:\论文集\phaseE\_completion_notification\message.json'
-    $message = [System.IO.File]::ReadAllText($messagePath,[System.Text.Encoding]::UTF8) | ConvertFrom-Json
+    $message = [System.IO.File]::ReadAllText($MessagePath,[System.Text.Encoding]::UTF8) | ConvertFrom-Json
 }
 $xml = New-Object Windows.Data.Xml.Dom.XmlDocument
 $xml.LoadXml('<toast activationType="protocol" launch="https://github.com/PaperDiamond448/acoustic-trajectory-autofocus-paper/tree/main/phaseE"><visual><binding template="ToastGeneric"><text/><text/></binding></visual></toast>')
