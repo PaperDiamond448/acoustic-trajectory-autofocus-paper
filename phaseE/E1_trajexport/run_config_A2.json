@@ -1,0 +1,43 @@
+{
+  "task": "A2",
+  "datasets": [
+    "traj_export_X2",
+    "traj_export_X1_T150",
+    "traj_export_X1_T300",
+    "traj_export_X1_T450",
+    "traj_export_X1_T600"
+  ],
+  "workers": 6,
+  "script_sha256": "47960b0d9ba7f7c7dfcf025a64515031ddc8328dfbcaf86e083761523084255b",
+  "script_unchanged": true,
+  "eta_tolerance": 1e-06,
+  "new_simulations": 0,
+  "inputs": [
+    {
+      "dataset": "traj_export_X2",
+      "h5_sha256": "9b1206af1e420639daba0de572beb7a5366191e0aa8c1fe698b0e8c67e7134c0",
+      "index_sha256": "754f05220e64418ac64560f0bd206d6dd464f0f39f075cdba96e04743f3a3c4b"
+    },
+    {
+      "dataset": "traj_export_X1_T150",
+      "h5_sha256": "c5d2a62d83877977e1207dc9557e491b41e6a2af9c574a99725f494d8b31805c",
+      "index_sha256": "11578fb80ddea1fb625fd265701f6dffb011b1996141da1cd93a697a54a8fbf9"
+    },
+    {
+      "dataset": "traj_export_X1_T300",
+      "h5_sha256": "eb2611e24670b89a72ec05ecf6f1538c4d677592a54e52cda49a7a9dc8290bd5",
+      "index_sha256": "de791695330e781db4e3b1134ce14792e9cb1b2b41158a5bd6afabc2f2a25b5b"
+    },
+    {
+      "dataset": "traj_export_X1_T450",
+      "h5_sha256": "f7060bcfe5a54757d07ecf92bc1d7b3a98584359f8933dcc045bf2f9c214357b",
+      "index_sha256": "502f915a090c3f6db7d2991ce04ff87c0786cf672b0b5cd834135b748898b457"
+    },
+    {
+      "dataset": "traj_export_X1_T600",
+      "h5_sha256": "5ebeb85fb7d2c301f79499c25746ae2922dfbc356976a6f017e13bda3cfe3e10",
+      "index_sha256": "7e895b9c76443a7fcdb1d77bd0d39437c0ca3d00f003bf57f084426197ece3a8"
+    }
+  ],
+  "interpretation": "Numerically found penalized-objective solutions, not certified global maxima; clean-out difference also includes solver and constraint differences."
+}
