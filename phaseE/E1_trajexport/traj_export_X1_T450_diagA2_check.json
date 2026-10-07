@@ -1,0 +1,14 @@
+{
+  "task": "A2",
+  "dataset": "traj_export_X1_T450",
+  "rows": 600,
+  "passed": true,
+  "eta_in_max_abs_diff": 5.320049618062761e-07,
+  "eta_tolerance": 1e-06,
+  "input_h5_unchanged": true,
+  "script_sha256": "47960b0d9ba7f7c7dfcf025a64515031ddc8328dfbcaf86e083761523084255b",
+  "elapsed_s": 486.81737208366394,
+  "m1_below_input_rows": 0,
+  "m2_below_m1_rows": 31,
+  "m1_below_saved_output_rows": 111
+}
