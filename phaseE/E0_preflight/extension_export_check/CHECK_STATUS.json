@@ -1,0 +1,13 @@
+{
+  "export_complete": true,
+  "rows": 9,
+  "truth_records": 3,
+  "fs_hz": 20,
+  "duration_s": 300,
+  "max_eta_in_abs_diff": 7.615468067267983e-08,
+  "max_eta_out_abs_diff": 1.467365428053924e-07,
+  "passed": true,
+  "h5_local_path": "D:\\\u8bba\u6587\u96c6\\phaseE\\E0_preflight\\extension_export_check\\traj_export_E2.h5",
+  "h5_sha256": "07d6d294be71c2958fb2fe83f113cfaa2ba43e261b467b721d3d07d42c174f21",
+  "scope": "Exporter check on three saved inputs, nine method outputs; task B remains incomplete."
+}

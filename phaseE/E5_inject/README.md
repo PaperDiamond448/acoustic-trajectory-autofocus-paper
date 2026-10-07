@@ -10,4 +10,6 @@
 
 根据通过窗数，后续将处理 5040 个注入输入、六种方法共 30240 行。每个窗/目标形状的20个几何或GPS目标在7个SNR之间配对；已知目标用于η评价。注入目标未通过真实声学信道，该实验量化真实背景下的表现。
 
+注入前进一步读取 phaseA、phaseC、phaseD 下所有带 seed 列的47个CSV，登记2521个不同旧种子。新开发的40个不同种子、新注入的720个不同种子与旧种子均无重叠，彼此也无重叠；新注入每个种子对应7个配对SNR输入。来源与核验结果见 E0_preflight/SEED_REGISTRY_SOURCES.csv 和 NEW_SEED_REGISTRY_CHECK.json。
+
 原始背景提取与归一化的逐窗读回核对在 `BACKGROUND_SCREEN_READBACK.csv`；本机背景 MAT 路径为 `D:\论文集\phaseE\E5_inject\background\`，其功率、归一化输入和指纹均保留。

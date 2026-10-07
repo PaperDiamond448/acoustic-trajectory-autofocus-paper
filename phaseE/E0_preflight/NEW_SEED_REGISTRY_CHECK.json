@@ -1,0 +1,14 @@
+{
+  "archived_seed_csv_files": 47,
+  "archived_unique_seeds": 2521,
+  "dhmm_development_unique_seeds": 40,
+  "dhmm_development_inputs": 120,
+  "injection_unique_seeds": 720,
+  "injection_inputs": 5040,
+  "development_archive_overlap": 0,
+  "injection_archive_overlap": 0,
+  "development_injection_overlap": 0,
+  "injection_snr_pairing": 7,
+  "passed": true,
+  "scope": "All seed-bearing CSVs under phaseA, phaseC and phaseD; original files read only."
+}
