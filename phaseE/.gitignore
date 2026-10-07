@@ -3,3 +3,8 @@
 _local_pydeps/
 __pycache__/
 *.log
+E2_frontend_ext/records/
+E2_frontend_ext/regression/
+E2_frontend_ext/dhmm_dev/
+E3_duration_ext/records/
+E5_inject/records/

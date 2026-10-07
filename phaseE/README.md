@@ -1,12 +1,15 @@
-# Phase E 补充分析
+# Phase E：补充分析与扩展实验
 
-已完成当前指定的 0.1 复现预检与任务 A，任务 B–F 尚未开始。
+已完成：0.1 复现预检、A 轨迹导出、A2 8000行直接η诊断、E 15个实测引导案例。D的新背景筛选已在任何注入之前标定并冻结：门槛1.9 dB，18/20通过。
 
-- [任务书](TASKS_PhaseE_20261007.md)：收到的原文。
-- [0.1 预检结果](E0_preflight/README.md)：3 条记录、4 种前端，12 行通过。
-- [任务 A 结果与定义](E1_trajexport/README.md)：X2 的 5600 行及 X1 的 2400 行轨迹，理论指标、配对区间和数值核对。
-- [逐数据集与前端汇总](E1_trajexport/THEORY_OVERVIEW.csv)
-- [理论近似误差检查](E1_trajexport/THEORY_APPROXIMATION_CHECKS.csv)
-- [第一批报告和工作清单](../当前主线精选_20261003/13_第一批补充分析_20261007/README.md)
+- [任务书](TASKS_PhaseE_20261007.md)
+- [运行前约定与作者D筛选修订](PREREGISTRATION_PhaseE_20261007.md)
+- [0.1 预检](E0_preflight/README.md)
+- [A：已有轨迹导出](E1_trajexport/README.md)
+- [A2：新量定义、8000行结果与解释](E1_trajexport/README_A2.md)
+- [E：全部实测引导结果](E4_guided_real/README.md)
+- [D：原筛选存档、新门槛及18个通过窗口](E5_inject/README.md)
 
-本机大文件：`D:\论文集\phaseE\E1_trajexport\`，路径和 SHA-256 在任务 A 的 `LOCAL_H5_FILES_sha256.csv`。H5、MAT、日志和独立依赖目录留在本机；脚本、CSV、MD、配置、抽样数组和指纹清单已整理供推送。冻结代码、参数、原实验结果及正文未改动。
+B的DHMM参数选择已完成（120个新开发输入、9组候选，只看前端自身η），参数与实现已冻结。70个输入的VS/SUV回归检查已经全部通过，共140条方法输出，正在继续B、C、D。每完成一项，按原任务书验证输入、η及原冻结文件指纹后推送。当前未完成的任务保持未完成状态，不把阶段性结果当作完整结果。
+
+长批次执行器的状态保存在本机 `D:\论文集\phaseE\REMAINING_RUN_STATUS.json`。新任务逐输入保存，发生接口/输入/数值不一致时停止并写对应README；已完成结果保留。MAT/H5留本机，CSV、MD、配置、脚本及指纹清单上传。正文、原冻结方法和原实验结果不改动。

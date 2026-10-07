@@ -1,0 +1,22 @@
+{
+  "workers_matlab": 2,
+  "batch_records": 25,
+  "preregistration_sha256": "34f8df7ef6b067fd028966344d08ae2b1a1669c108c90f67f5bd21be682a6d53",
+  "new_implementation_sha256": {
+    "estimate_dhmm.m": "4ef961b5f366e4ef4899314866b5e5870b66ea72d8abfb8db42da0d36da450a7",
+    "phaseE_ext_one.m": "c7fc8d434743bc8b59a81d075b5c880078c5010f7d5a5171f04ba99176bfa73b",
+    "phaseE_ext_batch.m": "f836fdc1c7ac10fb5582cc7a9870d9bb29eede40fe7df28b041344739d082bf5",
+    "phaseE_inject_one.m": "840c2f0b8f5cfc0d33b7784ca647836da179257dc4892d284ca7bd7117e57d49",
+    "phaseE_inject_batch.m": "d25f89415d64563de2855c9e68028720c9a13fc1404ce84443f9536481c9e6b8",
+    "finalize_extension.py": "f9a1637d8df238445b823da8254325b7888a2e18635fc75d7e5d7dd4f8fa2969"
+  },
+  "order": [
+    "B_reg",
+    "B",
+    "C",
+    "D"
+  ],
+  "heap_crash_retry_limit": 3,
+  "other_errors": "stop and report",
+  "upload": "once task complete after eta/hash verification"
+}

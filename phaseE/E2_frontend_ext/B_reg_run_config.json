@@ -1,0 +1,12 @@
+{
+  "task": "B_reg",
+  "input_records": 70,
+  "method_rows": 140,
+  "methods": [
+    "VS",
+    "SUV"
+  ],
+  "source_phase": 54,
+  "paired_with": "X2",
+  "no_parameter_retuning": true
+}

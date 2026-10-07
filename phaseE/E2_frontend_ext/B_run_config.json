@@ -1,0 +1,13 @@
+{
+  "task": "B",
+  "input_records": 1400,
+  "method_rows": 4200,
+  "methods": [
+    "SUV_GRID",
+    "DHMM",
+    "ORACLE"
+  ],
+  "source_phase": 54,
+  "paired_with": "X2",
+  "no_parameter_retuning": true
+}
