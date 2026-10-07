@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_records": 3,
+  "checked_frontend_rows": 12,
+  "max_eta_in_abs_diff": 4.163336342344337E-16,
+  "max_eta_out_abs_diff": 1.0880185641326534E-14,
+  "input_hashes_match": true,
+  "elapsed_seconds": 60.7167224
+}

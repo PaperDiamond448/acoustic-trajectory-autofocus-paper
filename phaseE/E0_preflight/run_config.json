@@ -1,0 +1,25 @@
+{
+  "task": "0.1",
+  "matlab_version": "9.14.0.2206163 (R2023a)",
+  "matlab_release": "2023a",
+  "eta_tolerance": 1E-9,
+  "driver": "phaseX2_one",
+  "output_root": "D:\\论文集\\phaseE\\E0_preflight",
+  "cases": [
+    {
+      "scene": "S0",
+      "snr_db": -16,
+      "record_id": 1
+    },
+    {
+      "scene": "S2",
+      "snr_db": -20,
+      "record_id": 7
+    },
+    {
+      "scene": "S0",
+      "snr_db": -8,
+      "record_id": 50
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+*.h5
+*.mat
+_local_pydeps/
+__pycache__/
+*.log

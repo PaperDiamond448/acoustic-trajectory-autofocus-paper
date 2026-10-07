@@ -1,0 +1,11 @@
+{
+  "incident": "MATLAB exit 0xc0000374 (heap corruption) during process shutdown",
+  "numerical_preflight_passed": true,
+  "complete_csv_rows": 12,
+  "saved_mat_files": [
+    "rerun_S0_snr-16_id1.mat",
+    "rerun_S0_snr-8_id50.mat",
+    "rerun_S2_snr-20_id7.mat"
+  ],
+  "recovery": "Read saved MAT structures back against all 12 CSV rows before trajectory export; do not replay completed optimizations."
+}
