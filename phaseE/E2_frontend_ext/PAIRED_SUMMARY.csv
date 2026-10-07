@@ -1,0 +1,10 @@
+duration_s,frontend,metric,n,estimate,ci_lo,ci_hi,bootstrap_replicates,bootstrap_seed,cluster,cell_weights
+300,DHMM,eta_in,1400,0.3967065650297436,0.3902869370175897,0.40303926874457296,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,DHMM,eta_out,1400,0.7156555527959705,0.7090575922522239,0.722016436698507,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,DHMM,gain,1400,0.3189489877662269,0.31306016943808684,0.32474780076153054,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,eta_in,1400,0.9999999999998797,0.9999999999998664,0.9999999999998925,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,eta_out,1400,0.9625320733007847,0.9598866615722673,0.9651994255630477,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,ORACLE,gain,1400,-0.03746792669909493,-0.040113338427606796,-0.034800574436829886,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV_GRID,eta_in,1400,0.2959093349931755,0.2865388132569472,0.30528159800751065,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV_GRID,eta_out,1400,0.7246077394985958,0.7183497433978717,0.7308982389617711,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type
+300,SUV_GRID,gain,1400,0.4286984045054203,0.41811821961661005,0.43849779284131174,2000,20261007,record_id within scene,equal scene/SNR; D also equal band/type

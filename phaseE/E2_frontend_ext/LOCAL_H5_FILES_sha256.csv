@@ -1,0 +1,2 @@
+export_complete,rows,truth_records,fs_hz,duration_s,max_eta_in_abs_diff,max_eta_out_abs_diff,passed,h5_local_path,h5_sha256
+True,4200,1400,20,300,3.950473802527554e-07,2.130948890677331e-07,True,D:\论文集\phaseE\E2_frontend_ext\traj_export_E2.h5,7cf14e423238aa310533e999c7f44f857e013f1373b22ed039bfa532efa28c8f
