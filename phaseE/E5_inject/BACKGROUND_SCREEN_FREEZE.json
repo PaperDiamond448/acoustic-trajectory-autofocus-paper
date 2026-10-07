@@ -1,0 +1,12 @@
+{
+  "task": "D",
+  "screen_complete": true,
+  "screened_windows": 20,
+  "retained_windows": 0,
+  "injection_started": false,
+  "complete": false,
+  "status": "stopped_no_eligible_background",
+  "preregistration_sha256": "af69af4d6f4128820438400f6f42f7dbf460d9d42a7f68e43bd81f8eb908163e",
+  "readback_passed": true,
+  "implementation_note": "All 20 MAT/CSV outputs saved; MATLAB final status-writing cell-indexing error fixed in new driver. Freeze metadata reconstructed from independently checked saved outputs; no extraction rerun."
+}

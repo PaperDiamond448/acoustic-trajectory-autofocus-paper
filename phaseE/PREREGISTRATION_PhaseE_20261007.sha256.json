@@ -1,6 +1,9 @@
 {
   "file": "PREREGISTRATION_PhaseE_20261007.md",
-  "sha256": "af69af4d6f4128820438400f6f42f7dbf460d9d42a7f68e43bd81f8eb908163e",
-  "frozen_before": "E/B/C/D method outputs",
-  "date": "2026-10-07"
+  "sha256": "34f8df7ef6b067fd028966344d08ae2b1a1669c108c90f67f5bd21be682a6d53",
+  "date": "2026-10-07",
+  "revision": "D screening revised by explicit user instruction before any injection",
+  "previous_sha256": "af69af4d6f4128820438400f6f42f7dbf460d9d42a7f68e43bd81f8eb908163e",
+  "previous_file": "PREREGISTRATION_PhaseE_20261007_before_D_revision.md",
+  "appendix_sha256": "53e591d963e4f4bbc7577f642ef73a6c9ac596db7befe43fa8766844ed1c677d"
 }

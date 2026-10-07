@@ -1,0 +1,10 @@
+{
+  "screened_windows": 20,
+  "retained_windows": 18,
+  "threshold_db": 1.9,
+  "calibration_csv_sha256": "8d94ab0b4dd5e7d76c6023df42f8a22a61ffc08b056c6db2adc28aa444ef701b",
+  "screen_csv_sha256": "2eb4b6c48642f671e971e4537c306cf5dadf51cee0866ba737fcf6b05d844eb3",
+  "screen_complete": true,
+  "injection_started": false,
+  "preregistration_sha256": "34f8df7ef6b067fd028966344d08ae2b1a1669c108c90f67f5bd21be682a6d53"
+}

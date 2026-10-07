@@ -1,0 +1,30 @@
+{
+  "task": "D",
+  "stage": "screen_complete_injection_pending",
+  "input_records": 5040,
+  "method_rows": 30240,
+  "background_windows": 18,
+  "methods": [
+    "VS",
+    "V0",
+    "MFT",
+    "SUV",
+    "SUV_GRID",
+    "DHMM"
+  ],
+  "target_kinds": [
+    "GEO",
+    "GPS"
+  ],
+  "source_phase": 57,
+  "seed_rule": "20260915+57e6+10000*band_id+1000*target_kind+20*window_id+rid",
+  "seed_draw_pairing": "same draw across seven SNRs",
+  "unique_draw_seeds": 720,
+  "checked_existing_seed_values": 800,
+  "known_previous_seed_overlap": 0,
+  "screen_sha256": "2eb4b6c48642f671e971e4537c306cf5dadf51cee0866ba737fcf6b05d844eb3",
+  "preregistration_sha256": "34f8df7ef6b067fd028966344d08ae2b1a1669c108c90f67f5bd21be682a6d53",
+  "bootstrap_replicates": 2000,
+  "bootstrap_cluster": "background band/window carrying all target shapes, repeats, SNRs, frontends",
+  "bootstrap_seed": 20261007
+}

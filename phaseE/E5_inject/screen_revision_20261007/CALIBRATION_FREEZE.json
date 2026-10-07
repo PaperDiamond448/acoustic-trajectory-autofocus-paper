@@ -1,0 +1,11 @@
+{
+  "null_windows": 2000,
+  "null_median_db": 1.1309212541480758,
+  "null_q99_db": 1.8573586097544392,
+  "threshold_db": 1.9,
+  "seed": 2026100701,
+  "calibration_csv_sha256": "8d94ab0b4dd5e7d76c6023df42f8a22a61ffc08b056c6db2adc28aa444ef701b",
+  "config_sha256": "03df49ef8a559ec2f5f2d6e39d0dca8d94d9af21c9774bd30e2cfb488b7de624",
+  "freeze_before_real_new_D": true,
+  "no_injection_started": true
+}

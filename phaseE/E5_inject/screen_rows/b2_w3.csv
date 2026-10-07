@@ -1,0 +1,2 @@
+band_id,center_hz,window_id,start_s,end_s,guard_lo_s,guard_hi_s,screen_score_db,center_peak_db,annulus_median_db,center_peak_baseband_hz,center_peak_frame_start_s,threshold_db,retained,normalization_scale,raw_background_hash,normalized_background_hash
+2,315,3,900,1200,10,10,14.6187115154968,29.069724923815,14.4510134083182,-2.4,964,8,0,5.76020975169649,2b03275d2b347d8954016e29507516fd,21fa4267504113dcefa50040079b9c5d
