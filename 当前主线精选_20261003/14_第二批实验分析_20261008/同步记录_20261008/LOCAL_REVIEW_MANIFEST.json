@@ -1,0 +1,254 @@
+[
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\archive_metadata\\00_从这里开始_before.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\archive_metadata\\00_从这里开始_before.md",
+    "status": "added",
+    "sha256": "d41145ac6728870fbe90c368cd4b40d72f3cb565202333d5085b8f8e4f99bafc"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\B结果分析_Claude_20261007.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\B结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "8f03f23e440d7d09676141a55404bb770fe27baa1d10a627daf0b88553910b5c"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\C结果分析_Claude_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\C结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "6b61e65c59d3abb16f2df3582dcec8d7fb46bf39e456d9eda2655633b007e26c"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\D分析复核意见_Codex_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\D分析复核意见_Codex_20261008.md",
+    "status": "added",
+    "sha256": "a1278824cb71ab43b9940873ec92d37dff498a3bcd29c7c3af2e44acb810baba"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\D结果分析_Claude_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\D结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "97af190b636c20b357cbae6f52acb036b7eca3385e6010227bf7f5d193837f88"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\README.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\README.md",
+    "status": "added",
+    "sha256": "feb365bbe62d14b66f1ef247850850a910e9ec3debc683cd85f4256beb2fd618"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\SOURCE_MANIFEST.json",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\SOURCE_MANIFEST.json",
+    "status": "added",
+    "sha256": "4009ac2e12672589dba7ee29e989e5002a602901ffe18000c378e2ce2bcbdd19"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_Claude_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_Claude_20261008.md",
+    "status": "added",
+    "sha256": "9fb7f7fb120c060aaac62a2a356261460fe1b7b9cb5f35392e1da23368122d07"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_v2_Claude_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_v2_Claude_20261008.md",
+    "status": "added",
+    "sha256": "08ac6d2469b140ce5cf0614f736735f538cec9c19b614aa3ee6e8a238e03eb97"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_独立复核_Codex_20261008.md",
+    "repository": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_独立复核_Codex_20261008.md",
+    "status": "added",
+    "sha256": "8ee0af15c1753a3bea2ab036aa5cfdb0736e91e79f168c6c198c12ac967bdb19"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\analysis_review_20261008\\D_claim_checks.json",
+    "repository": "phaseE\\analysis_review_20261008\\D_claim_checks.json",
+    "status": "added",
+    "sha256": "160a999f151b6a90935268575cfea3f57e68367ed85f9e0a9c01511925d45e38"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\analysis_review_20261008\\D_paired_comparison_checks.json",
+    "repository": "phaseE\\analysis_review_20261008\\D_paired_comparison_checks.json",
+    "status": "added",
+    "sha256": "09c0713938b1b377836c811bbbfb2b1ef4580a9d5e306b6d1d21466cf21fa3c8"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\ledger_numeric_checks.json",
+    "repository": "phaseE\\ledger_review_20261008\\ledger_numeric_checks.json",
+    "status": "added",
+    "sha256": "54f1f8169f144dbe6f8212fc44a52531788a78eb6864c87466cd85eac5ee7eba"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\LEDGER_SOURCE.json",
+    "repository": "phaseE\\ledger_review_20261008\\LEDGER_SOURCE.json",
+    "status": "added",
+    "sha256": "0f3c1fe3fc0659d07a118d10ede369bdea411e3c14a77c96aff9b9779609c7e1"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\LEDGER_V2_CHECK.json",
+    "repository": "phaseE\\ledger_review_20261008\\LEDGER_V2_CHECK.json",
+    "status": "added",
+    "sha256": "9dddc58c553911234be74490b27ab442bee04e6afa0e50e1eff70ab7e3c96cea"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\READ_SOURCES_SHA256.json",
+    "repository": "phaseE\\ledger_review_20261008\\READ_SOURCES_SHA256.json",
+    "status": "added",
+    "sha256": "01e96eb78bba2a81b7a23d3e77945f45efc63e8821a9931361e8dfd83d56d11b"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\README.md",
+    "repository": "phaseE\\ledger_review_20261008\\README.md",
+    "status": "added",
+    "sha256": "e64ec1fe707440217a0e28d6f0f4073eb99e878602437496d6c3ff7c931d1766"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\INPUT_SHA256.json",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\INPUT_SHA256.json",
+    "status": "added",
+    "sha256": "b09bde8849532493310222957d2358e824df0da86336895bd01452429c7998f4"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\ledger_supplement_R.py",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\ledger_supplement_R.py",
+    "status": "added",
+    "sha256": "79f1800b22efde943d12a8344a374721f43efe587d456a070dda3b3d8afc2ef5"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_cross_guidance_nu.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_cross_guidance_nu.csv",
+    "status": "added",
+    "sha256": "027a2c02a7a781a2166fc803b3bb9ff27e860c1f9837b94a1d96a1a17636efa4"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_noise_positions.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_noise_positions.csv",
+    "status": "added",
+    "sha256": "48ec05b70dd4f8488931663dd3a556a4701955df6a85a0e9cb1e72187d9996bc"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_strong94.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_strong94.csv",
+    "status": "added",
+    "sha256": "12ed233ba9b3adef29f8376c79b0ebcdda132128e2f53520d7e5c80753602978"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R2_100Hz.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\R2_100Hz.csv",
+    "status": "added",
+    "sha256": "db8339d5b276aa2eea2a37d07b78c6946866ccbaef8441a460a2b774a4083445"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R4_interline.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\R4_interline.csv",
+    "status": "added",
+    "sha256": "cdc3ca45e23255c3ed745de09d1402e7b6a0cd356d0b35a342aadc8348217bf6"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\realtools.py",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\realtools.py",
+    "status": "added",
+    "sha256": "81c473e7ceb33c58c9d56c6858fc04073225d71eed030041adbe1e9452841752"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\两份复核意见处理_Claude_20261008.md",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\originals\\两份复核意见处理_Claude_20261008.md",
+    "status": "added",
+    "sha256": "7ba74e03363f3ff7b3ec71102da1157beef0ebe05d7ec8fbb3d58c324a333c4b"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\README.md",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\README.md",
+    "status": "added",
+    "sha256": "14f4254edb8bf6759d1307a086aff1f8657b5839bcd2313aa49cd59be5eb2b12"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_cross_guidance_nu.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_cross_guidance_nu.csv",
+    "status": "added",
+    "sha256": "525612f3cce2e3f19b3eee69c7add9064b8bf37c2357ffd6cf139939113fc441"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_noise_positions.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_noise_positions.csv",
+    "status": "added",
+    "sha256": "a43f43fbe0ce0740a0be1948065160601b3da8596390a249391fc39c33914e41"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_strong94.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R1_strong94.csv",
+    "status": "added",
+    "sha256": "49c20850ab0707c04c3347c24519e36c724dab333dcbad7827276cb59336efe3"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R2_100Hz.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R2_100Hz.csv",
+    "status": "added",
+    "sha256": "b4c9e2bf95f3bd6f69c7dc230e90816635b1eeb4f8517c41d66c903dd9d6615c"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R4_interline.csv",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\rerun\\R4_interline.csv",
+    "status": "added",
+    "sha256": "adf9573b67c784b5e85646b1785a49d74a6b3546dd05be6f1c747f5ffa186d8e"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\SOURCE_MANIFEST.json",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\SOURCE_MANIFEST.json",
+    "status": "added",
+    "sha256": "7607798f585ee2389b8b90a0ee44e742509ca0a29824d6019fac682641a42d58"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\supplied_script_stdout.txt",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\supplied_script_stdout.txt",
+    "status": "added",
+    "sha256": "3ca92a3f523be363270c2674b6bd22be07e7d76d054eef84327d0d754852f868"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\VERIFICATION.json",
+    "repository": "phaseE\\ledger_review_20261008\\supplement_R\\VERIFICATION.json",
+    "status": "added",
+    "sha256": "95f5719468a1f9669b962802ce0689bebbc4c27740037e0c6aa6bdd48573589d"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\VERIFICATION.json",
+    "repository": "phaseE\\ledger_review_20261008\\VERIFICATION.json",
+    "status": "added",
+    "sha256": "7375f85fffd748ff062a31095ee6f509d9c55e66edaa70a4d701c30c1a07c493"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\verify_ledger.py",
+    "repository": "phaseE\\ledger_review_20261008\\verify_ledger.py",
+    "status": "added",
+    "sha256": "aedd11e80b65f5f47a10d5dc67253ebbfee1c478d9c15bbc44bc23ef251d00eb"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\ledger_review_20261008\\verify_supplement_R.py",
+    "repository": "phaseE\\ledger_review_20261008\\verify_supplement_R.py",
+    "status": "added",
+    "sha256": "13ebebee60050543d1806070e3969d67baf618e9a49bccfd4090daed0891d6f5"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\E2_frontend_ext\\analysis_Claude\\B结果分析_Claude_20261007.md",
+    "repository": "phaseE\\E2_frontend_ext\\analysis_Claude\\B结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "8f03f23e440d7d09676141a55404bb770fe27baa1d10a627daf0b88553910b5c"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\E3_duration_ext\\analysis_Claude\\C结果分析_Claude_20261008.md",
+    "repository": "phaseE\\E3_duration_ext\\analysis_Claude\\C结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "6b61e65c59d3abb16f2df3582dcec8d7fb46bf39e456d9eda2655633b007e26c"
+  },
+  {
+    "source": "D:\\论文集\\phaseE\\E5_inject\\analysis_Claude\\D结果分析_Claude_20261008.md",
+    "repository": "phaseE\\E5_inject\\analysis_Claude\\D结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "97af190b636c20b357cbae6f52acb036b7eca3385e6010227bf7f5d193837f88"
+  },
+  {
+    "source": "D:\\论文集\\当前主线精选_20261003\\00_从这里开始.md",
+    "repository": "当前主线精选_20261003/00_从这里开始.md",
+    "status": "entry_update",
+    "sha256": "71ac24a8c5a1aecf0e4ba10a4a948c57bab32c98fb0a3f7272f0f70f8411d3aa"
+  }
+]

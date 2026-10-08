@@ -1,0 +1,310 @@
+[
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/B结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\B结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "8f03f23e440d7d09676141a55404bb770fe27baa1d10a627daf0b88553910b5c"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/B结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\B结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "8f03f23e440d7d09676141a55404bb770fe27baa1d10a627daf0b88553910b5c"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/diagnostics_A2.py",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\diagnostics_A2.py",
+    "status": "added",
+    "sha256": "47960b0d9ba7f7c7dfcf025a64515031ddc8328dfbcaf86e083761523084255b"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/diagnostics_A2.py",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\diagnostics_A2.py",
+    "status": "added",
+    "sha256": "47960b0d9ba7f7c7dfcf025a64515031ddc8328dfbcaf86e083761523084255b"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/任务A结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\任务A结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "73f9ddf92726a3bd7ba52deacebb1a2a83fb5bc844bc15bb21773bdca62c3739"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/任务A结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\任务A结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "73f9ddf92726a3bd7ba52deacebb1a2a83fb5bc844bc15bb21773bdca62c3739"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/D结果预测_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\D结果预测_Claude_20261008.md",
+    "status": "added",
+    "sha256": "35b016ef6787c12d67055664358f93b3f49ea249a99bb30246488c48444395f2"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/D结果预测_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\D结果预测_Claude_20261008.md",
+    "status": "added",
+    "sha256": "35b016ef6787c12d67055664358f93b3f49ea249a99bb30246488c48444395f2"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/任务A_误差分区表.csv",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\任务A_误差分区表.csv",
+    "status": "added",
+    "sha256": "cc47380d75ee7832837884e6ac5655de465c6301dbe09609b9cde442e155dd95"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/任务A_误差分区表.csv",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\任务A_误差分区表.csv",
+    "status": "added",
+    "sha256": "cc47380d75ee7832837884e6ac5655de465c6301dbe09609b9cde442e155dd95"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/C结果分析_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\C结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "6b61e65c59d3abb16f2df3582dcec8d7fb46bf39e456d9eda2655633b007e26c"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/C结果分析_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\C结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "6b61e65c59d3abb16f2df3582dcec8d7fb46bf39e456d9eda2655633b007e26c"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/说明.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\说明.md",
+    "status": "added",
+    "sha256": "f383fe6b231a5a50583f73fa11d8a2678557b93e67f6b800b6c7f90ce4551be8"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/说明.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\说明.md",
+    "status": "added",
+    "sha256": "f383fe6b231a5a50583f73fa11d8a2678557b93e67f6b800b6c7f90ce4551be8"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/PC-TBD与模块链路对比分析.xlsx",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\PC-TBD与模块链路对比分析.xlsx",
+    "status": "added",
+    "sha256": "75944a4f9a10fbeb6863b7e6f63622676e79d5946c6d47a2bef13fc13abbd1cc"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/PC-TBD与模块链路对比分析.xlsx",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\PC-TBD与模块链路对比分析.xlsx",
+    "status": "added",
+    "sha256": "75944a4f9a10fbeb6863b7e6f63622676e79d5946c6d47a2bef13fc13abbd1cc"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/D结果分析_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\D结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "97af190b636c20b357cbae6f52acb036b7eca3385e6010227bf7f5d193837f88"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/D结果分析_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\D结果分析_Claude_20261008.md",
+    "status": "added",
+    "sha256": "97af190b636c20b357cbae6f52acb036b7eca3385e6010227bf7f5d193837f88"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/A2与E结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\A2与E结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "4492ca28b7cbe0844beda7b35951eaf2f1f5642c5212a1a54da6cab65d203a5a"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/第二批实验分析/A2与E结果分析_Claude_20261007.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\第二批实验分析\\A2与E结果分析_Claude_20261007.md",
+    "status": "added",
+    "sha256": "4492ca28b7cbe0844beda7b35951eaf2f1f5642c5212a1a54da6cab65d203a5a"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/两份复核意见处理_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\两份复核意见处理_Claude_20261008.md",
+    "status": "added",
+    "sha256": "7ba74e03363f3ff7b3ec71102da1157beef0ebe05d7ec8fbb3d58c324a333c4b"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/两份复核意见处理_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\两份复核意见处理_Claude_20261008.md",
+    "status": "added",
+    "sha256": "7ba74e03363f3ff7b3ec71102da1157beef0ebe05d7ec8fbb3d58c324a333c4b"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/成果台账_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_v2_Claude_20261008.md",
+    "status": "same",
+    "sha256": "08ac6d2469b140ce5cf0614f736735f538cec9c19b614aa3ee6e8a238e03eb97"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/成果台账_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_v2_Claude_20261008.md",
+    "status": "same",
+    "sha256": "08ac6d2469b140ce5cf0614f736735f538cec9c19b614aa3ee6e8a238e03eb97"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/已作废/论文核心论点与写作逻辑_方案_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\已作废\\论文核心论点与写作逻辑_方案_Claude_20261008.md",
+    "status": "added",
+    "sha256": "3efaad1f5c520fddcf0908cefddaedbd3bd320919284f267c7a67fc8292b4d62"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/已作废/论文核心论点与写作逻辑_方案_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\已作废\\论文核心论点与写作逻辑_方案_Claude_20261008.md",
+    "status": "added",
+    "sha256": "3efaad1f5c520fddcf0908cefddaedbd3bd320919284f267c7a67fc8292b4d62"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/成果台账_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_Claude_20261008.md",
+    "status": "same",
+    "sha256": "9fb7f7fb120c060aaac62a2a356261460fe1b7b9cb5f35392e1da23368122d07"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/成果台账_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_Claude_20261008.md",
+    "status": "same",
+    "sha256": "9fb7f7fb120c060aaac62a2a356261460fe1b7b9cb5f35392e1da23368122d07"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/写作决策记录_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\写作决策记录_Claude_20261008.md",
+    "status": "added",
+    "sha256": "5febd0ba2694fad681110c2eecb057ddb7b2eda382d8f1ea3e0051b45ae72393"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/写作决策记录_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\写作决策记录_Claude_20261008.md",
+    "status": "added",
+    "sha256": "5febd0ba2694fad681110c2eecb057ddb7b2eda382d8f1ea3e0051b45ae72393"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "status": "added",
+    "sha256": "f98904a4b2b6ac89749dc539ce38ed1e58005b1910e328bd5054f75e56e7fa56"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "status": "added",
+    "sha256": "f98904a4b2b6ac89749dc539ce38ed1e58005b1910e328bd5054f75e56e7fa56"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/新颖性检索报告_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\新颖性检索报告_20261008.md",
+    "status": "added",
+    "sha256": "774bb25dfacdd5362dd63b5e4d934e29d43f2b2401b6dcdef4328832292c0935"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/新颖性检索报告_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\新颖性检索报告_20261008.md",
+    "status": "added",
+    "sha256": "774bb25dfacdd5362dd63b5e4d934e29d43f2b2401b6dcdef4328832292c0935"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/复核意见原文/GPT-6_台账复核_第二轮_20261008.txt",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\复核意见原文\\GPT-6_台账复核_第二轮_20261008.txt",
+    "status": "added",
+    "sha256": "e5b04a89a7e583e620adf9162a3a2569804a8c636327fc2197088269a666712d"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/复核意见原文/GPT-6_台账复核_第二轮_20261008.txt",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\复核意见原文\\GPT-6_台账复核_第二轮_20261008.txt",
+    "status": "added",
+    "sha256": "e5b04a89a7e583e620adf9162a3a2569804a8c636327fc2197088269a666712d"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/复核意见原文/GPT-6_台账复核_第一轮_20261008.txt",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\复核意见原文\\GPT-6_台账复核_第一轮_20261008.txt",
+    "status": "added",
+    "sha256": "946651541b7ec37a6870c4c31370eae81c2119de6b26a8cec2c39a40523b9b56"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/复核意见原文/GPT-6_台账复核_第一轮_20261008.txt",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\复核意见原文\\GPT-6_台账复核_第一轮_20261008.txt",
+    "status": "added",
+    "sha256": "946651541b7ec37a6870c4c31370eae81c2119de6b26a8cec2c39a40523b9b56"
+  },
+  {
+    "target": "local",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/同步记录_20261008/同步清单_Claude.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\同步记录_20261008\\同步清单_Claude.md",
+    "status": "added",
+    "sha256": "e36f30a197765ae1b67908b613b704a66e82eaeced90f2b0dcf7d509b5aaff86"
+  },
+  {
+    "target": "repository",
+    "package_path": "当前主线精选_20261003/14_第二批实验分析_20261008/同步记录_20261008/同步清单_Claude.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\同步记录_20261008\\同步清单_Claude.md",
+    "status": "added",
+    "sha256": "e36f30a197765ae1b67908b613b704a66e82eaeced90f2b0dcf7d509b5aaff86"
+  },
+  {
+    "target": "local",
+    "package_path": "写作决策记录_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\写作决策记录_Claude_20261008.md",
+    "status": "same",
+    "sha256": "5febd0ba2694fad681110c2eecb057ddb7b2eda382d8f1ea3e0051b45ae72393"
+  },
+  {
+    "target": "repository",
+    "package_path": "写作决策记录_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\写作决策记录_Claude_20261008.md",
+    "status": "same",
+    "sha256": "5febd0ba2694fad681110c2eecb057ddb7b2eda382d8f1ea3e0051b45ae72393"
+  },
+  {
+    "target": "local",
+    "package_path": "论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "status": "same",
+    "sha256": "f98904a4b2b6ac89749dc539ce38ed1e58005b1910e328bd5054f75e56e7fa56"
+  },
+  {
+    "target": "repository",
+    "package_path": "论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "saved_path": "当前主线精选_20261003\\14_第二批实验分析_20261008\\论文核心论点与写作逻辑_方案_v2_Claude_20261008.md",
+    "status": "same",
+    "sha256": "f98904a4b2b6ac89749dc539ce38ed1e58005b1910e328bd5054f75e56e7fa56"
+  }
+]
