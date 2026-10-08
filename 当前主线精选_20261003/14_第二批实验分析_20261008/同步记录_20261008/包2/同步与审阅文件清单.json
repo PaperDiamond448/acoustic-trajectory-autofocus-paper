@@ -1,0 +1,43 @@
+{
+  "package": "云端同步包2_Claude_20261008.zip",
+  "package_sha256": "74e8e6f51c171b97663c1d88e356178c3062a1f147f478776cea108a7c6cf50e",
+  "files": [
+    {
+      "path": "当前主线精选_20261003/01_研究定位/研究定位与贡献_v2_20261008.md",
+      "bytes": 8964,
+      "sha256": "8d2f6d78fa1c934b158420686984c129ba72d176ffbec5374b5de24264bd899b"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第2节_频率轨迹误差与相干损失.md",
+      "bytes": 7801,
+      "sha256": "16e108de2684e04bbaef66a4e2add1bd7fd8bbdcf6116f49d924adccf23686d7"
+    },
+    {
+      "path": "当前主线精选_20261003/14_第二批实验分析_20261008/写作决策记录_Claude_20261008.md",
+      "bytes": 9557,
+      "sha256": "fb7d2b4ab8ff6102eabdd2560d453e256285dfcad45a3902da9f53c7ab12e0f1"
+    },
+    {
+      "path": "当前主线精选_20261003/14_第二批实验分析_20261008/同步记录_20261008/包2/同步说明_Claude.md",
+      "bytes": 1576,
+      "sha256": "bada801e5b4a50498af7ac225e528297da36a4f618330fddf50bf7e522503dd9"
+    },
+    {
+      "path": "当前主线精选_20261003/07_写作要求/第2节结构与可读性审阅_Codex_20261008.md",
+      "bytes": 5511,
+      "sha256": "5bc3d03d27c95c83dd5d99d65ab629bade9efde7c1fb996a71fc52c3971de841"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第2节_频率轨迹误差与相干损失_Codex修改稿.md",
+      "bytes": 8521,
+      "sha256": "954ac49c275167791e81f867e84cda32c8639532daf065c9eee1ef7b1169b444"
+    }
+  ],
+  "updated_snapshot_rows": [
+    "当前主线精选_20261003/01_研究定位/研究定位与贡献.md",
+    "当前主线精选_20261003/07_写作要求/写作要求与文风.md"
+  ],
+  "original_preserved": true,
+  "revision_status": "供作者比较与采用，尚未定稿",
+  "frozen_files_changed": false
+}
