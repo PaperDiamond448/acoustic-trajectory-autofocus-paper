@@ -25,3 +25,5 @@ B的DHMM参数选择已完成（120个新开发输入、9组候选，只看前�
 定时任务为 `AcousticPaper_PhaseE_Health_5min`，首次实际执行返回0，间隔核对为 `PT5M`。本机检查记录在 `D:\论文集\phaseE\_health_monitor\STATUS.json` 和 `checks.jsonl`；这些运行记录不上传。脚本仅读取实验结果，不更改算法、种子、预算或保存数据。B/C/D全部完成后自动注销定时任务，最终完成提醒仍由原一次性提醒程序负责。
 
 任务 C：完整结果已生成并核对，见 [E3_duration_ext](E3_duration_ext/README.md)。
+
+任务 D：完整结果已生成并核对，见 [E5_inject](E5_inject/README.md)。

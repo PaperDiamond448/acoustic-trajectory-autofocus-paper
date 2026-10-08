@@ -1,0 +1,12 @@
+{
+  "export_complete": true,
+  "rows": 30240,
+  "truth_records": 5040,
+  "fs_hz": 20,
+  "duration_s": 300,
+  "max_eta_in_abs_diff": 4.810166226443258e-07,
+  "max_eta_out_abs_diff": 1.822898562098274e-07,
+  "passed": true,
+  "h5_local_path": "D:\\\u8bba\u6587\u96c6\\phaseE\\E5_inject\\traj_export_E5.h5",
+  "h5_sha256": "75def04074c483f703fe659295bec7e358ee879f201ee76de28d10782af6b89b"
+}

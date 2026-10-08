@@ -1,0 +1,19 @@
+duration_s,frontend,metric,n,estimate,ci_lo,ci_hi,bootstrap_replicates,bootstrap_seed,cluster,cell_weights
+300,DHMM,eta_in,5040,0.3496915560038336,0.3207634516564552,0.38100841712662425,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,DHMM,eta_out,5040,0.7436039896358793,0.7032401978135108,0.78284885335933,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,DHMM,gain,5040,0.39391243363204564,0.3481549951148923,0.43695637560425243,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,MFT,eta_in,5040,0.08153928649057494,0.07560639106169811,0.08756448588458612,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,MFT,eta_out,5040,0.14663234319335594,0.1339557237051642,0.1594152100186857,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,MFT,gain,5040,0.065093056702781,0.057515136098750246,0.07294214783986697,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV,eta_in,5040,0.7361856936637015,0.6969645831424365,0.7762241321492451,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV,eta_out,5040,0.7432097385011337,0.7039092787724325,0.7835335303939036,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV,gain,5040,0.007024044837432242,0.0053560208616032275,0.00860912164639896,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV_GRID,eta_in,5040,0.30145066760586714,0.28682129260912925,0.31597389052699126,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV_GRID,eta_out,5040,0.6725049679368338,0.6393337569167445,0.705981545481795,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,SUV_GRID,gain,5040,0.37105430033096665,0.34869916778057347,0.3927504536931422,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,V0,eta_in,5040,0.5116080419769014,0.48052901233829254,0.5444987670989885,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,V0,eta_out,5040,0.6662757718472796,0.6235382874116097,0.7050335078159597,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,V0,gain,5040,0.15466772987037825,0.1322086072410818,0.17985007682561682,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,VS,eta_in,5040,0.517231137530954,0.4865837542079983,0.549274413184885,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,VS,eta_out,5040,0.6681256584646074,0.6268295451406194,0.7062015921061451,2000,20261007,background window within band,equal scene/SNR; D also equal band/type
+300,VS,gain,5040,0.1508945209336534,0.12798622235599103,0.17584680977191386,2000,20261007,background window within band,equal scene/SNR; D also equal band/type

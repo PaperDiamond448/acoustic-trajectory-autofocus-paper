@@ -1,0 +1,11 @@
+{
+  "task": "D",
+  "complete": true,
+  "input_records": 5040,
+  "method_rows": 30240,
+  "eta_recomputation_passed": true,
+  "protected_files_unchanged": 154,
+  "hard_fail_rows": 0,
+  "budget_cap_rows": 0,
+  "input_hash_checks_passed": "new injected inputs: paired hash checked within methods"
+}
