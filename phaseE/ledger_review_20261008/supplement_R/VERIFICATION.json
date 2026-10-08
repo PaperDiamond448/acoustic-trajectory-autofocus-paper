@@ -1,0 +1,168 @@
+{
+  "csv_comparisons": {
+    "R1_noise_positions.csv": {
+      "rows": 110,
+      "columns": 5,
+      "max_abs_difference": 8.881784197001252e-15,
+      "by_column": {
+        "tone_hz": 0.0,
+        "start_s": 0.0,
+        "position_hz": 0.0,
+        "window_hz": 0.0,
+        "excess_db": 8.881784197001252e-15
+      }
+    },
+    "R1_strong94.csv": {
+      "rows": 5,
+      "columns": 3,
+      "max_abs_difference": 1.0658141036401503e-14,
+      "by_column": {
+        "tone_hz": 0.0,
+        "start_s": 0.0,
+        "excess_at_predicted_db": 1.0658141036401503e-14
+      }
+    },
+    "R1_cross_guidance_nu.csv": {
+      "rows": 300,
+      "columns": 4,
+      "max_abs_difference": 0.0,
+      "by_column": {
+        "s": 0.0,
+        "target": 0.0,
+        "guide": 0.0,
+        "nu": 0.0
+      }
+    },
+    "R2_100Hz.csv": {
+      "rows": 6,
+      "columns": 8,
+      "max_abs_difference": 7.105427357601002e-15,
+      "by_column": {
+        "tone_hz": 0.0,
+        "start_s": 0.0,
+        "excess_at_predicted_db": 7.105427357601002e-15,
+        "ridge_offset_hz": 0.0,
+        "excess_at_ridge_db": 3.552713678800501e-15,
+        "suv_offset_hz": 0.0,
+        "vsfm_minus_gps_mean_eval_hz": 0.0,
+        "vsfm_minus_gps_median_all_hz": 0.0
+      }
+    },
+    "R4_interline.csv": {
+      "rows": 60,
+      "columns": 6,
+      "max_abs_difference": 0.0,
+      "by_column": {
+        "tone_hz": 0.0,
+        "start_s": 0.0,
+        "rms_median_demeaned_full_mHz": 0.0,
+        "rms_mean_demeaned_eval_mHz": 0.0,
+        "rms_not_demeaned_eval_mHz": 0.0,
+        "max_abs_median_demeaned_full_mHz": 0.0
+      }
+    }
+  },
+  "independent_spectrum_checks": {
+    "n": 125,
+    "max_abs_db_difference": 9.85522774499259e-12,
+    "cross_pairs": 300,
+    "max_abs_cross_nu_difference": 0.0,
+    "max_abs_cross_peak_db_difference": 3.682831817286569e-12
+  },
+  "summary": {
+    "all_positions": {
+      "n": 110,
+      "median": 5.418282917526809,
+      "p90": 8.456625762178247,
+      "maximum": 10.77613084464934
+    },
+    "negative_positions": {
+      "n": 55,
+      "median": 4.856970097929917,
+      "p90": 7.443464050951414,
+      "maximum": 10.64771100645982
+    },
+    "positive_positions": {
+      "n": 55,
+      "median": 5.69180467998156,
+      "p90": 9.092303686722351,
+      "maximum": 10.77613084464934
+    },
+    "predicted_positions_above_negative_p90": [
+      {
+        "start_s": 1200,
+        "excess_at_predicted_db": 7.633262035602078
+      },
+      {
+        "start_s": 1800,
+        "excess_at_predicted_db": 8.282319794358273
+      }
+    ],
+    "strong_cross_peak_abs_nu_quantiles_hz": {
+      "50": 0.00213623046875,
+      "90": 0.005828857421875007,
+      "99": 0.0115966796875,
+      "100": 0.0115966796875
+    },
+    "strong94_excess_db": [
+      26.9317633382708,
+      34.54148268956687,
+      35.93561997805241,
+      29.977693758085355,
+      23.590212842469587
+    ],
+    "R4_per_tone_medians": [
+      {
+        "tone_hz": 49,
+        "rms_median_demeaned_full_mHz": 5.684720960770355,
+        "rms_mean_demeaned_eval_mHz": 5.177089623976701,
+        "rms_not_demeaned_eval_mHz": 6.314082890201242,
+        "max_abs_median_demeaned_full_mHz": 19.188165056689858
+      },
+      {
+        "tone_hz": 64,
+        "rms_median_demeaned_full_mHz": 15.515667851265777,
+        "rms_mean_demeaned_eval_mHz": 14.59645848168719,
+        "rms_not_demeaned_eval_mHz": 15.033404763895742,
+        "max_abs_median_demeaned_full_mHz": 57.77894345668422
+      },
+      {
+        "tone_hz": 79,
+        "rms_median_demeaned_full_mHz": 8.825404568499142,
+        "rms_mean_demeaned_eval_mHz": 8.261984799547696,
+        "rms_not_demeaned_eval_mHz": 9.620877913819502,
+        "max_abs_median_demeaned_full_mHz": 31.112741271567046
+      },
+      {
+        "tone_hz": 94,
+        "rms_median_demeaned_full_mHz": 7.68347146131566,
+        "rms_mean_demeaned_eval_mHz": 7.6752915965090995,
+        "rms_not_demeaned_eval_mHz": 8.032041720483875,
+        "max_abs_median_demeaned_full_mHz": 34.14498531402188
+      },
+      {
+        "tone_hz": 112,
+        "rms_median_demeaned_full_mHz": 8.91740714145517,
+        "rms_mean_demeaned_eval_mHz": 8.919265231191256,
+        "rms_not_demeaned_eval_mHz": 9.563020738005612,
+        "max_abs_median_demeaned_full_mHz": 27.95903271077904
+      },
+      {
+        "tone_hz": 130,
+        "rms_median_demeaned_full_mHz": 8.694218276181171,
+        "rms_mean_demeaned_eval_mHz": 8.089816772104115,
+        "rms_not_demeaned_eval_mHz": 8.191513038133944,
+        "max_abs_median_demeaned_full_mHz": 37.35948924253307
+      }
+    ],
+    "positive_reference_nearest_distance_hz_range": [
+      0.042284789198853895,
+      0.07570767398497369
+    ],
+    "positive_reference_farthest_distance_hz_range": [
+      0.3422847891988539,
+      0.37570767398497373
+    ]
+  },
+  "protected_input_files_verified": 436
+}

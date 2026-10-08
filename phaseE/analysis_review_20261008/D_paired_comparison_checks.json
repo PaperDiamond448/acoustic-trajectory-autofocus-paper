@@ -1,0 +1,259 @@
+{
+  "method": "Exploratory check: paired differences, pooled record mean; 2000 bootstrap draws of background windows within band; seed20261008. Joint subset uses both input sigma2<5.",
+  "comparisons": [
+    {
+      "frontend": "VS",
+      "scene": "GEO",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 2520,
+      "mean": -0.09413364626246407,
+      "ci_lo": -0.14704966590088994,
+      "ci_hi": -0.04109529609422925
+    },
+    {
+      "frontend": "VS",
+      "scene": "GEO",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 2520,
+      "mean": -0.1016133110045068,
+      "ci_lo": -0.15678652978926305,
+      "ci_hi": -0.04899441611917362
+    },
+    {
+      "frontend": "VS",
+      "scene": "GEO",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 1295,
+      "mean": 0.021911249411031404,
+      "ci_lo": 0.016207849116192313,
+      "ci_hi": 0.027823529226793656
+    },
+    {
+      "frontend": "VS",
+      "scene": "GEO",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 1295,
+      "mean": 0.015823640568791274,
+      "ci_lo": 0.011350759532573433,
+      "ci_hi": 0.021000737759243174
+    },
+    {
+      "frontend": "VS",
+      "scene": "GPS",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 2520,
+      "mean": -0.04198642413572377,
+      "ci_lo": -0.10159216144896718,
+      "ci_hi": 0.018398032268188837
+    },
+    {
+      "frontend": "VS",
+      "scene": "GPS",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 2520,
+      "mean": -0.048554849068545715,
+      "ci_lo": -0.1097956555367737,
+      "ci_hi": 0.01307994843647949
+    },
+    {
+      "frontend": "VS",
+      "scene": "GPS",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 1349,
+      "mean": 0.010909783509844808,
+      "ci_lo": -0.01544355076835841,
+      "ci_hi": 0.034103210823688695
+    },
+    {
+      "frontend": "VS",
+      "scene": "GPS",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 1349,
+      "mean": 0.0069856203280329,
+      "ci_lo": -0.017968133227848487,
+      "ci_hi": 0.03072592887158703
+    },
+    {
+      "frontend": "VS",
+      "scene": "POOLED",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 5040,
+      "mean": -0.06806003519909393,
+      "ci_lo": -0.12457272962645297,
+      "ci_hi": -0.015469694271502164
+    },
+    {
+      "frontend": "VS",
+      "scene": "POOLED",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 5040,
+      "mean": -0.07508408003652625,
+      "ci_lo": -0.13054261336766473,
+      "ci_hi": -0.02476040355170063
+    },
+    {
+      "frontend": "VS",
+      "scene": "POOLED",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 2644,
+      "mean": 0.016298171687619635,
+      "ci_lo": 0.0035169840960353367,
+      "ci_hi": 0.027434637912355852
+    },
+    {
+      "frontend": "VS",
+      "scene": "POOLED",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 2644,
+      "mean": 0.011314378350643374,
+      "ci_lo": -0.0003335147976515394,
+      "ci_hi": 0.02292191350654486
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GEO",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 2520,
+      "mean": -0.048673707352363225,
+      "ci_lo": -0.08739489619208492,
+      "ci_hi": -0.01363785162433308
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GEO",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 2520,
+      "mean": -0.05615337209440595,
+      "ci_lo": -0.09651513883166252,
+      "ci_hi": -0.020333550736147493
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GEO",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 1266,
+      "mean": 0.028035547585939805,
+      "ci_lo": 0.022993343945831097,
+      "ci_hi": 0.03345527713310344
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GEO",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 1266,
+      "mean": 0.021855671714098735,
+      "ci_lo": 0.016837515077813323,
+      "ci_hi": 0.027331885994493064
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GPS",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 2520,
+      "mean": 0.06351029929671873,
+      "ci_lo": 0.014982175903271111,
+      "ci_hi": 0.10660032967247698
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GPS",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 2520,
+      "mean": 0.056941874363896756,
+      "ci_lo": 0.010717493927413982,
+      "ci_hi": 0.0993898751635271
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GPS",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 1397,
+      "mean": 0.05582469568292731,
+      "ci_lo": 0.04717800293407787,
+      "ci_hi": 0.06607549796496233
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "GPS",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 1397,
+      "mean": 0.051819385692406815,
+      "ci_lo": 0.04349578726037762,
+      "ci_hi": 0.060698204230547656
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "POOLED",
+      "selection": "all",
+      "comparator": "eta_in_pc",
+      "n": 5040,
+      "mean": 0.0074182959721777455,
+      "ci_lo": -0.0332973405659157,
+      "ci_hi": 0.04420882383613252
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "POOLED",
+      "selection": "all",
+      "comparator": "eta_out_pc",
+      "n": 5040,
+      "mean": 0.00039425113474540546,
+      "ci_lo": -0.043656010445263495,
+      "ci_hi": 0.038142970010853365
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "POOLED",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_in_pc",
+      "n": 2663,
+      "mean": 0.04261363241188481,
+      "ci_lo": 0.037108391575248846,
+      "ci_hi": 0.04868590950596966
+    },
+    {
+      "frontend": "DHMM",
+      "scene": "POOLED",
+      "selection": "both_sigma2_lt5",
+      "comparator": "eta_out_pc",
+      "n": 2663,
+      "mean": 0.03757452579885141,
+      "ci_lo": 0.03279185325012,
+      "ci_hi": 0.0427396196925498
+    }
+  ],
+  "VS_moderate_sigma_by_scene": {
+    "GEO": {
+      "n": 614,
+      "eta_in": 0.5094374876216662,
+      "eta_out": 0.8781492554800846,
+      "gain": 0.36871176785841847
+    },
+    "GPS": {
+      "n": 732,
+      "eta_in": 0.4297897922465962,
+      "eta_out": 0.6700518007125597,
+      "gain": 0.24026200846596343
+    }
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\ledger_supplement_R.py",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\ledger_supplement_R.py",
+    "sha256": "79f1800b22efde943d12a8344a374721f43efe587d456a070dda3b3d8afc2ef5",
+    "bytes": 5471
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\realtools.py",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\realtools.py",
+    "sha256": "81c473e7ceb33c58c9d56c6858fc04073225d71eed030041adbe1e9452841752",
+    "bytes": 896
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\R1_noise_positions.csv",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_noise_positions.csv",
+    "sha256": "48ec05b70dd4f8488931663dd3a556a4701955df6a85a0e9cb1e72187d9996bc",
+    "bytes": 4136
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\R1_strong94.csv",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_strong94.csv",
+    "sha256": "12ed233ba9b3adef29f8376c79b0ebcdda132128e2f53520d7e5c80753602978",
+    "bytes": 168
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\R1_cross_guidance_nu.csv",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R1_cross_guidance_nu.csv",
+    "sha256": "027a2c02a7a781a2166fc803b3bb9ff27e860c1f9837b94a1d96a1a17636efa4",
+    "bytes": 8122
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\R2_100Hz.csv",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R2_100Hz.csv",
+    "sha256": "db8339d5b276aa2eea2a37d07b78c6946866ccbaef8441a460a2b774a4083445",
+    "bytes": 801
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\R4_interline.csv",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\R4_interline.csv",
+    "sha256": "cdc3ca45e23255c3ed745de09d1402e7b6a0cd356d0b35a342aadc8348217bf6",
+    "bytes": 4967
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\两份复核意见处理_Claude_20261008.md",
+    "archive": "D:\\论文集\\phaseE\\ledger_review_20261008\\supplement_R\\originals\\两份复核意见处理_Claude_20261008.md",
+    "sha256": "7ba74e03363f3ff7b3ec71102da1157beef0ebe05d7ec8fbb3d58c324a333c4b",
+    "bytes": 10728
+  }
+]

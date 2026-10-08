@@ -1,0 +1,871 @@
+{
+  "GPS_VS_by_snr": [
+    {
+      "snr": -20,
+      "n": 360,
+      "harm_fraction": 0.21666666666666667,
+      "mean_gain_all": 0.024487336736389507,
+      "mean_gain_harmed": -0.18219936707695844,
+      "trigger_harmed": 0.6666666666666666,
+      "trigger_others": 0.4716312056737589,
+      "input_usable": 0.95
+    },
+    {
+      "snr": -19,
+      "n": 360,
+      "harm_fraction": 0.12222222222222222,
+      "mean_gain_all": 0.10458394555034409,
+      "mean_gain_harmed": -0.170504284375851,
+      "trigger_harmed": 0.5454545454545454,
+      "trigger_others": 0.3829113924050633,
+      "input_usable": 0.9388888888888889
+    },
+    {
+      "snr": -18,
+      "n": 360,
+      "harm_fraction": 0.03611111111111111,
+      "mean_gain_all": 0.19496553126619295,
+      "mean_gain_harmed": -0.10230205721643829,
+      "trigger_harmed": 0.38461538461538464,
+      "trigger_others": 0.2824207492795389,
+      "input_usable": 0.975
+    },
+    {
+      "snr": -17,
+      "n": 360,
+      "harm_fraction": 0.002777777777777778,
+      "mean_gain_all": 0.23104066442320767,
+      "mean_gain_harmed": -0.0584090794470343,
+      "trigger_harmed": 0.0,
+      "trigger_others": 0.10863509749303621,
+      "input_usable": 0.9944444444444445
+    },
+    {
+      "snr": -16,
+      "n": 360,
+      "harm_fraction": 0.011111111111111112,
+      "mean_gain_all": 0.19775682761046,
+      "mean_gain_harmed": -0.020149873842972274,
+      "trigger_harmed": 0.0,
+      "trigger_others": 0.042134831460674156,
+      "input_usable": 1.0
+    },
+    {
+      "snr": -15,
+      "n": 360,
+      "harm_fraction": 0.011111111111111112,
+      "mean_gain_all": 0.13403102813367845,
+      "mean_gain_harmed": -0.016684064842024848,
+      "trigger_harmed": 0.0,
+      "trigger_others": 0.014044943820224719,
+      "input_usable": 1.0
+    },
+    {
+      "snr": -14,
+      "n": 360,
+      "harm_fraction": 0.019444444444444445,
+      "mean_gain_all": 0.09107075586404727,
+      "mean_gain_harmed": -0.015409057181738331,
+      "trigger_harmed": 0.0,
+      "trigger_others": 0.019830028328611898,
+      "input_usable": 1.0
+    }
+  ],
+  "by_scene_frontend": [
+    {
+      "scene": "GEO",
+      "frontend": "DHMM",
+      "eta_in": 0.3271672310873911,
+      "eta_out": 0.6849996367494049,
+      "gain_eta": 0.35783240566201385
+    },
+    {
+      "scene": "GEO",
+      "frontend": "MFT",
+      "eta_in": 0.08178592863308323,
+      "eta_out": 0.14657996684311062,
+      "gain_eta": 0.06479403821002738
+    },
+    {
+      "scene": "GEO",
+      "frontend": "SUV",
+      "eta_in": 0.7336733441017682,
+      "eta_out": 0.741153008843811,
+      "gain_eta": 0.0074796647420427124
+    },
+    {
+      "scene": "GEO",
+      "frontend": "SUV_GRID",
+      "eta_in": 0.30794413985443314,
+      "eta_out": 0.6658778274294044,
+      "gain_eta": 0.35793368757497124
+    },
+    {
+      "scene": "GEO",
+      "frontend": "V0",
+      "eta_in": 0.4836121244286145,
+      "eta_out": 0.6398431759742659,
+      "gain_eta": 0.15623105154565134
+    },
+    {
+      "scene": "GEO",
+      "frontend": "VS",
+      "eta_in": 0.4774558116268998,
+      "eta_out": 0.6395396978393041,
+      "gain_eta": 0.1620838862124043
+    },
+    {
+      "scene": "GPS",
+      "frontend": "DHMM",
+      "eta_in": 0.3722158809202762,
+      "eta_out": 0.8022083425223533,
+      "gain_eta": 0.42999246160207716
+    },
+    {
+      "scene": "GPS",
+      "frontend": "MFT",
+      "eta_in": 0.08129264434806667,
+      "eta_out": 0.1466847195436013,
+      "gain_eta": 0.06539207519553462
+    },
+    {
+      "scene": "GPS",
+      "frontend": "SUV",
+      "eta_in": 0.7386980432256346,
+      "eta_out": 0.7452664681584565,
+      "gain_eta": 0.006568424932821959
+    },
+    {
+      "scene": "GPS",
+      "frontend": "SUV_GRID",
+      "eta_in": 0.29495719535730114,
+      "eta_out": 0.6791321084442631,
+      "gain_eta": 0.384174913086962
+    },
+    {
+      "scene": "GPS",
+      "frontend": "V0",
+      "eta_in": 0.539603959525188,
+      "eta_out": 0.6927083677202934,
+      "gain_eta": 0.15310440819510548
+    },
+    {
+      "scene": "GPS",
+      "frontend": "VS",
+      "eta_in": 0.557006463435008,
+      "eta_out": 0.6967116190899107,
+      "gain_eta": 0.13970515565490285
+    }
+  ],
+  "joint_sigma_below5": [
+    {
+      "scene": "GEO",
+      "frontend": "VS",
+      "n": 1295,
+      "eta_out_f": 0.9280184985665768,
+      "eta_in_pc": 0.9061072491555455,
+      "eta_out_pc": 0.9121948579977857,
+      "delta_vs_pc_in": 0.021911249411031404,
+      "delta_vs_pc_out": 0.015823640568791274
+    },
+    {
+      "scene": "GPS",
+      "frontend": "VS",
+      "n": 1349,
+      "eta_out_f": 0.909500827449411,
+      "eta_in_pc": 0.898591043939566,
+      "eta_out_pc": 0.902515207121378,
+      "delta_vs_pc_in": 0.010909783509844808,
+      "delta_vs_pc_out": 0.0069856203280329
+    },
+    {
+      "scene": "GEO",
+      "frontend": "DHMM",
+      "n": 1266,
+      "eta_out_f": 0.9357134602288545,
+      "eta_in_pc": 0.9076779126429145,
+      "eta_out_pc": 0.9138577885147557,
+      "delta_vs_pc_in": 0.028035547585939805,
+      "delta_vs_pc_out": 0.021855671714098735
+    },
+    {
+      "scene": "GPS",
+      "frontend": "DHMM",
+      "n": 1397,
+      "eta_out_f": 0.9506040805705792,
+      "eta_in_pc": 0.8947793848876519,
+      "eta_out_pc": 0.8987846948781724,
+      "delta_vs_pc_in": 0.05582469568292731,
+      "delta_vs_pc_out": 0.051819385692406815
+    }
+  ],
+  "theory_small_error": [
+    {
+      "frontend": "DHMM",
+      "side": "in",
+      "n": 437,
+      "mae": 0.010327675111556807
+    },
+    {
+      "frontend": "DHMM",
+      "side": "out",
+      "n": 3163,
+      "mae": 0.003555906964356176
+    },
+    {
+      "frontend": "MFT",
+      "side": "in",
+      "n": 0,
+      "mae": null
+    },
+    {
+      "frontend": "MFT",
+      "side": "out",
+      "n": 0,
+      "mae": null
+    },
+    {
+      "frontend": "SUV",
+      "side": "in",
+      "n": 2221,
+      "mae": 0.003257502954053125
+    },
+    {
+      "frontend": "SUV",
+      "side": "out",
+      "n": 2225,
+      "mae": 0.0036391436985594027
+    },
+    {
+      "frontend": "SUV_GRID",
+      "side": "in",
+      "n": 94,
+      "mae": 0.006951786602819748
+    },
+    {
+      "frontend": "SUV_GRID",
+      "side": "out",
+      "n": 2172,
+      "mae": 0.002566646479263713
+    },
+    {
+      "frontend": "V0",
+      "side": "in",
+      "n": 1934,
+      "mae": 0.004982853479943588
+    },
+    {
+      "frontend": "V0",
+      "side": "out",
+      "n": 2644,
+      "mae": 0.004364908121962718
+    },
+    {
+      "frontend": "VS",
+      "side": "in",
+      "n": 1918,
+      "mae": 0.0051271465014729725
+    },
+    {
+      "frontend": "VS",
+      "side": "out",
+      "n": 2641,
+      "mae": 0.0044395710834835836
+    }
+  ],
+  "VS_moderate_sigma": {
+    "eta_in": 0.46612239622898327,
+    "eta_out": 0.7649788714608957,
+    "gain": 0.29885647523191244
+  },
+  "per_snr_eta": [
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "DHMM",
+      "eta_in": 0.08709078415918176,
+      "eta_out": 0.20812334956023415
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "MFT",
+      "eta_in": 0.023280458907374957,
+      "eta_out": 0.0269139620053814
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "SUV",
+      "eta_in": 0.4335543451652063,
+      "eta_out": 0.44116202325792836
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.2226922849443398,
+      "eta_out": 0.3940758535210266
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "V0",
+      "eta_in": 0.06821033821206951,
+      "eta_out": 0.11828288263898422
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -20,
+      "frontend": "VS",
+      "eta_in": 0.06635013506550372,
+      "eta_out": 0.11784700060384669
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "DHMM",
+      "eta_in": 0.15364034206966182,
+      "eta_out": 0.410479557268971
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "MFT",
+      "eta_in": 0.030745098250189243,
+      "eta_out": 0.038630430730388535
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "SUV",
+      "eta_in": 0.5617600856005002,
+      "eta_out": 0.5699299407930807
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.26530857370086836,
+      "eta_out": 0.5095383277206771
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "V0",
+      "eta_in": 0.17749039212198123,
+      "eta_out": 0.3025650757249856
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -19,
+      "frontend": "VS",
+      "eta_in": 0.17488975232768775,
+      "eta_out": 0.30208126138734964
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "DHMM",
+      "eta_in": 0.23691729321526042,
+      "eta_out": 0.6068848475481166
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "MFT",
+      "eta_in": 0.04270351029128623,
+      "eta_out": 0.06150047350858913
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "SUV",
+      "eta_in": 0.6887642742480974,
+      "eta_out": 0.6972567150404606
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.30096513763262367,
+      "eta_out": 0.6210892885374832
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "V0",
+      "eta_in": 0.34053169760957375,
+      "eta_out": 0.5491457350729615
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -18,
+      "frontend": "VS",
+      "eta_in": 0.33612187007924405,
+      "eta_out": 0.5487437088193056
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "DHMM",
+      "eta_in": 0.33641686343365595,
+      "eta_out": 0.8088648463970747
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "MFT",
+      "eta_in": 0.06354500043806441,
+      "eta_out": 0.10156533829292784
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "SUV",
+      "eta_in": 0.7908444438314883,
+      "eta_out": 0.7997587251254399
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.3319469850275755,
+      "eta_out": 0.7131925242951431
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "V0",
+      "eta_in": 0.5225179436899233,
+      "eta_out": 0.76586480699805
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -17,
+      "frontend": "VS",
+      "eta_in": 0.5180058036859648,
+      "eta_out": 0.7654016676413716
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "DHMM",
+      "eta_in": 0.41857805344038657,
+      "eta_out": 0.8867445248982304
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "MFT",
+      "eta_in": 0.09153590612167774,
+      "eta_out": 0.16326028007831503
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "SUV",
+      "eta_in": 0.8548831189451215,
+      "eta_out": 0.8626086813785104
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.34396836002509057,
+      "eta_out": 0.7744684061040076
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "V0",
+      "eta_in": 0.6681624316309444,
+      "eta_out": 0.882963970142319
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -16,
+      "frontend": "VS",
+      "eta_in": 0.6569381331416884,
+      "eta_out": 0.8828066393498858
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "DHMM",
+      "eta_in": 0.4894982415702204,
+      "eta_out": 0.9245162341343736
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "MFT",
+      "eta_in": 0.12923144975699363,
+      "eta_out": 0.25590308935829065
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "SUV",
+      "eta_in": 0.8878368788897733,
+      "eta_out": 0.8941196095991956
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.34496481466568574,
+      "eta_out": 0.8091042580330288
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "V0",
+      "eta_in": 0.7674923018056379,
+      "eta_out": 0.9168883726769796
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -15,
+      "frontend": "VS",
+      "eta_in": 0.7563589335099605,
+      "eta_out": 0.916706168803372
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "DHMM",
+      "eta_in": 0.5680290397233708,
+      "eta_out": 0.9493840974388346
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "MFT",
+      "eta_in": 0.19146007666599638,
+      "eta_out": 0.3782861939278816
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "SUV",
+      "eta_in": 0.9180702620321904,
+      "eta_out": 0.9232353667120611
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.3457628229848483,
+      "eta_out": 0.8396761337944644
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "V0",
+      "eta_in": 0.8408797659301717,
+      "eta_out": 0.943191388565581
+    },
+    {
+      "scene": "GEO",
+      "snr_db": -14,
+      "frontend": "VS",
+      "eta_in": 0.8335260535782494,
+      "eta_out": 0.9431914382699975
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "DHMM",
+      "eta_in": 0.20965350371504365,
+      "eta_out": 0.4046400776104553
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "MFT",
+      "eta_in": 0.021546416564890782,
+      "eta_out": 0.024013165563541886
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "SUV",
+      "eta_in": 0.43932654274079885,
+      "eta_out": 0.4485712215899937
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.21098689728583928,
+      "eta_out": 0.4066207096531223
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "V0",
+      "eta_in": 0.23308825938255984,
+      "eta_out": 0.23894495768543397
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -20,
+      "frontend": "VS",
+      "eta_in": 0.22382154248663488,
+      "eta_out": 0.24830887922302441
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "DHMM",
+      "eta_in": 0.2742427439040057,
+      "eta_out": 0.6054761353532939
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "MFT",
+      "eta_in": 0.029896516237104053,
+      "eta_out": 0.03587024179719952
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "SUV",
+      "eta_in": 0.5809601536559168,
+      "eta_out": 0.5896237788205554
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.2593743771091321,
+      "eta_out": 0.5317519567021304
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "V0",
+      "eta_in": 0.2865316234622569,
+      "eta_out": 0.3787472379003266
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -19,
+      "frontend": "VS",
+      "eta_in": 0.2835189569860559,
+      "eta_out": 0.38810290253639995
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "DHMM",
+      "eta_in": 0.35642716669614877,
+      "eta_out": 0.8169301069243852
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "MFT",
+      "eta_in": 0.04207844954576978,
+      "eta_out": 0.05977434796368935
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "SUV",
+      "eta_in": 0.6961510434274614,
+      "eta_out": 0.7035885220076863
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.2917923171974389,
+      "eta_out": 0.6363387787953705
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "V0",
+      "eta_in": 0.40977070953532124,
+      "eta_out": 0.5981552773367115
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -18,
+      "frontend": "VS",
+      "eta_in": 0.4098751443402535,
+      "eta_out": 0.6048406756064465
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "DHMM",
+      "eta_in": 0.40857086392081643,
+      "eta_out": 0.9190448803600423
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "MFT",
+      "eta_in": 0.06141777112573268,
+      "eta_out": 0.1004364316926954
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "SUV",
+      "eta_in": 0.7912651422227382,
+      "eta_out": 0.7977473802485128
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.3156124187571332,
+      "eta_out": 0.7248936658737357
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "V0",
+      "eta_in": 0.5785349205054314,
+      "eta_out": 0.8215578255254722
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -17,
+      "frontend": "VS",
+      "eta_in": 0.5932264915577907,
+      "eta_out": 0.8242671559809984
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "DHMM",
+      "eta_in": 0.43561376608052577,
+      "eta_out": 0.9446950602399297
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "MFT",
+      "eta_in": 0.0872253213426401,
+      "eta_out": 0.16229856985194496
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "SUV",
+      "eta_in": 0.8482147505124706,
+      "eta_out": 0.8542964854702537
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.3208431489478704,
+      "eta_out": 0.7785474212473935
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "V0",
+      "eta_in": 0.6927905823777618,
+      "eta_out": 0.916469127207125
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -16,
+      "frontend": "VS",
+      "eta_in": 0.7187122743491552,
+      "eta_out": 0.9164691019596152
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "DHMM",
+      "eta_in": 0.45238292480806497,
+      "eta_out": 0.9566560106719049
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "MFT",
+      "eta_in": 0.13078942339961006,
+      "eta_out": 0.2564853399144297
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "SUV",
+      "eta_in": 0.8918291829451148,
+      "eta_out": 0.8961832150084277
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.3315644676110153,
+      "eta_out": 0.8215311025257493
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "V0",
+      "eta_in": 0.7630876056989421,
+      "eta_out": 0.9400562077791671
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -15,
+      "frontend": "VS",
+      "eta_in": 0.8059956333326029,
+      "eta_out": 0.9400266614662814
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "DHMM",
+      "eta_in": 0.46862019731732796,
+      "eta_out": 0.968016126496462
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "MFT",
+      "eta_in": 0.19609461222071928,
+      "eta_out": 0.38791494002170823
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "SUV",
+      "eta_in": 0.9231394870749415,
+      "eta_out": 0.9268546739637664
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "SUV_GRID",
+      "eta_in": 0.33452674059267873,
+      "eta_out": 0.8542411243123402
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "V0",
+      "eta_in": 0.8134240157140429,
+      "eta_out": 0.9550279406078178
+    },
+    {
+      "scene": "GPS",
+      "snr_db": -14,
+      "frontend": "VS",
+      "eta_in": 0.8638952009925627,
+      "eta_out": 0.9549659568566101
+    }
+  ]
+}

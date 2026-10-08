@@ -1,0 +1,32 @@
+[
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\B结果分析_Claude_20261007 (1).md",
+    "filename": "B结果分析_Claude_20261007.md",
+    "sha256": "8f03f23e440d7d09676141a55404bb770fe27baa1d10a627daf0b88553910b5c",
+    "bytes": 3434,
+    "copies": [
+      "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\B结果分析_Claude_20261007.md",
+      "D:\\论文集\\phaseE\\E2_frontend_ext\\analysis_Claude\\B结果分析_Claude_20261007.md"
+    ]
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\C结果分析_Claude_20261008.md",
+    "filename": "C结果分析_Claude_20261008.md",
+    "sha256": "6b61e65c59d3abb16f2df3582dcec8d7fb46bf39e456d9eda2655633b007e26c",
+    "bytes": 3000,
+    "copies": [
+      "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\C结果分析_Claude_20261008.md",
+      "D:\\论文集\\phaseE\\E3_duration_ext\\analysis_Claude\\C结果分析_Claude_20261008.md"
+    ]
+  },
+  {
+    "source": "C:\\Users\\Lenovo\\Downloads\\D结果分析_Claude_20261008.md",
+    "filename": "D结果分析_Claude_20261008.md",
+    "sha256": "97af190b636c20b357cbae6f52acb036b7eca3385e6010227bf7f5d193837f88",
+    "bytes": 5991,
+    "copies": [
+      "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\D结果分析_Claude_20261008.md",
+      "D:\\论文集\\phaseE\\E5_inject\\analysis_Claude\\D结果分析_Claude_20261008.md"
+    ]
+  }
+]

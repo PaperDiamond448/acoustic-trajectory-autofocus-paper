@@ -1,0 +1,30 @@
+{
+  "source": "C:\\Users\\Lenovo\\Downloads\\成果台账_v2_Claude_20261008.md",
+  "archive": "D:\\论文集\\当前主线精选_20261003\\14_第二批实验分析_20261008\\成果台账_v2_Claude_20261008.md",
+  "sha256": "08ac6d2469b140ce5cf0614f736735f538cec9c19b614aa3ee6e8a238e03eb97",
+  "original_preserved": true,
+  "review": "No substantive objection; newly added numerical claims reproduced.",
+  "duration150": [
+    {
+      "scene": "S0",
+      "n": 300,
+      "harm_count": 29,
+      "harm_rate": 0.09666666666666666
+    },
+    {
+      "scene": "S2",
+      "n": 300,
+      "harm_count": 102,
+      "harm_rate": 0.34
+    }
+  ],
+  "alignment": {
+    "definition": "Absolute median offset of module trajectory from scaled strong-line reference <=0.01 Hz; descriptive reference consistency, not source identification.",
+    "n": 15,
+    "within_threshold": 1,
+    "cases": [
+      "136 Hz, 900-1200 s"
+    ]
+  },
+  "note": "This confirms the two new point estimates; the archived v2 text and its author-assigned labels are unchanged."
+}

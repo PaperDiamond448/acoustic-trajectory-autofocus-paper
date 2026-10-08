@@ -1,0 +1,19 @@
+R1a noise positions: n=110, median 5.42, p90 8.46, max 10.78 dB
+R1b 94 Hz at predicted: [26.9, 34.5, 35.9, 30.0, 23.6]
+R1c cross-guided strong-line peak |nu| (Hz): median 0.0021, p90 0.0058, p99 0.0116, max 0.0116 (n=300 pairs)
+ tone_hz  start_s  excess_at_predicted_db  ridge_offset_hz  excess_at_ridge_db  suv_offset_hz  vsfm_minus_gps_mean_eval_hz  vsfm_minus_gps_median_all_hz
+     100      600                  5.5925           0.0743             16.2592         0.0814                       0.0661                        0.0720
+     100      900                  6.0520           0.0831             21.3786         0.0845                       0.0627                        0.0622
+     100     1200                  7.6333           0.0885             23.5797         0.0898                       0.0784                        0.0733
+     100     1500                  6.0300           0.1059             21.9223         0.1053                       0.1028                        0.1034
+     100     1800                  8.2823           0.1077             15.5549         0.1069                       0.1045                        0.1044
+     136      900                     NaN          -0.0086                 NaN            NaN                          NaN                           NaN
+R4 per-line median over 10 segments (mHz):
+         rms_median_demeaned_full_mHz  rms_mean_demeaned_eval_mHz  rms_not_demeaned_eval_mHz  max_abs_median_demeaned_full_mHz
+tone_hz                                                                                                                       
+49                               5.68                        5.18                       6.31                             19.19
+64                              15.52                       14.60                      15.03                             57.78
+79                               8.83                        8.26                       9.62                             31.11
+94                               7.68                        7.68                       8.03                             34.14
+112                              8.92                        8.92                       9.56                             27.96
+130                              8.69                        8.09                       8.19                             37.36
