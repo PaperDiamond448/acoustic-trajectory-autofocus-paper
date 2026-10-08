@@ -1,0 +1,9 @@
+{
+  "checked_local": "2026-10-08 08:05:07",
+  "all_previously_saved_checkpoints_unchanged": true,
+  "checkpoint_files_verified": 2546,
+  "saved_inputs_before_resume": 1273,
+  "protected_files_unchanged": 154,
+  "numeric_implementation_unchanged": true,
+  "runner_sha256_after_recovery": "d6e23d7a438a9a49a2436f822545529e80833dde03ba0dd4a884f9d6aad0df10"
+}

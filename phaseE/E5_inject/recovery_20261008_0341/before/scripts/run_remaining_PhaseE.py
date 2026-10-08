@@ -44,16 +44,7 @@ def run_batch(stage,a,b,jobs):
         if p.returncode not in (-1073740940,3221226356):
             raise RuntimeError(f'{stage} batch {a}:{b} failed (exit {p.returncode}); see {log}')
         print('Saved rows preserved; retry incomplete heap-crash batch',stage,a,b,attempt+1,flush=True)
-    if a<b:
-        # Change process lifetime only: the numeric job, seed and budget stay identical.
-        # A single input still stops after three crashes, so deterministic failures
-        # cannot turn into unlimited retries. Completed checkpoints are always skipped.
-        mid=(a+b)//2
-        print('Repeated heap crash; subdivide remaining work',stage,a,b,mid,flush=True)
-        run_batch(stage,a,mid,jobs)
-        run_batch(stage,mid+1,b,jobs)
-        return
-    raise RuntimeError(f'Repeated MATLAB heap crash on single {stage} input {a}; stopped.')
+    raise RuntimeError(f'Repeated MATLAB heap crash in {stage} batch {a}:{b}; stopped.')
 def git(*args):return subprocess.run([r'D:\Git\cmd\git.exe',*args],cwd=REPO,check=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8')
 def commit_and_push(stage):
     guard();git('add','--',f'phaseE/{DIRS[stage]}','phaseE/scripts','phaseE/README.md')
@@ -63,22 +54,16 @@ def commit_and_push(stage):
     subprocess.run([sys.executable,'-X','utf8',str(ROOT/'GitHub整理_20261007/push_git_api.py')],check=True)
 def main():
     guard()
-    runtime={'workers_matlab':2,'batch_records':25,'batch_records_by_stage':{'D':10},
-        'preregistration_sha256':EXPECTED_PLAN,'new_implementation_sha256':CORE_HASHES,
-        'order':['B_reg','B','C','D'],'heap_crash_retry_limit':3,
-        'heap_crash_recovery':'split incomplete ranges after three heap crashes; single-input limit remains three',
-        'runner_sha256':sha(Path(__file__)),
-        'other_errors':'stop and report','upload':'once task complete after eta/hash verification'}
+    runtime={'workers_matlab':2,'batch_records':25,'preregistration_sha256':EXPECTED_PLAN,'new_implementation_sha256':CORE_HASHES,
+        'order':['B_reg','B','C','D'],'heap_crash_retry_limit':3,'other_errors':'stop and report','upload':'once task complete after eta/hash verification'}
     (PHASE/'REMAINING_RUN_CONFIG.json').write_text(json.dumps(runtime,indent=2)+'\n',encoding='utf-8')
     for stage in ['B_reg','B','C','D']:
         out=PHASE/DIRS[stage];jobs=pd.read_csv(out/f'{stage}_jobs.csv');n={'B_reg':2,'B':3,'C':2,'D':6}[stage]
         if stage!='B_reg' and (out/'FINAL_STATUS.json').exists():
             assert json.loads((out/'FINAL_STATUS.json').read_text())['complete'];continue
         chunks=[]
-        # Shorter D batches limit process lifetime after the observed native heap crashes.
-        batch_size=10 if stage=='D' else 25
-        for a in range(1,len(jobs)+1,batch_size):
-            b=min(a+batch_size-1,len(jobs))
+        for a in range(1,len(jobs)+1,25):
+            b=min(a+24,len(jobs))
             if not all(valid_record(out,jobs.iloc[j-1].tag,n) for j in range(a,b+1)):chunks.append((a,b))
         status(stage,state='running',input_records=len(jobs),pending_batches=len(chunks))
         with ThreadPoolExecutor(max_workers=2) as pool:

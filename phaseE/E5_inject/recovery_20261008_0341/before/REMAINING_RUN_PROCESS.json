@@ -1,0 +1,9 @@
+{
+  "pid": 16172,
+  "started_local": "2026-10-07 20:15:34",
+  "script": "D:\\论文集\\phaseE\\scripts\\run_remaining_PhaseE.py",
+  "stdout": "D:\\论文集\\phaseE\\remaining_20261007.out.log",
+  "stderr": "D:\\论文集\\phaseE\\remaining_20261007.err.log",
+  "resumed_after": "zero-byte CSV recovered from unchanged MAT",
+  "recovery_record": "E2_frontend_ext/recovery_20261007_1848/RECOVERY_CHECKS.json"
+}

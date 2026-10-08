@@ -1,0 +1,14 @@
+{
+  "checked_local": "2026-10-08 08:02:10",
+  "saved_inputs_verified": 1273,
+  "saved_method_rows_verified": 7638,
+  "checkpoint_files_hashed": 2546,
+  "max_csv_mat_eta_difference": 5.551115123125783e-16,
+  "all_seed_and_job_metadata_match": true,
+  "all_trajectories_finite_and_6000_samples": true,
+  "protected_files_unchanged": 154,
+  "new_numeric_implementation_unchanged": true,
+  "preregistration_sha256": "34f8df7ef6b067fd028966344d08ae2b1a1669c108c90f67f5bd21be682a6d53",
+  "pending_files": [],
+  "eta_recomputation": "Full independent recomputation remains part of the unchanged finalizer after all D inputs finish."
+}
