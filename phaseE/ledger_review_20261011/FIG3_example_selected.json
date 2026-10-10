@@ -1,0 +1,27 @@
+{
+  "record_id": 174,
+  "seed": 72271089,
+  "sigma2_in": 0.5369997647370193,
+  "sigma2_out": 0.04527028303267505,
+  "eta_in": 0.5635688882717883,
+  "eta_out": 0.9523936542910242,
+  "gain": 0.3888247660192359,
+  "max_error_full_mHz": 19.727881629585998,
+  "max_error_eval_mHz": 19.727881629585998,
+  "longest_same_sign_s": 46.35,
+  "qualifies": true,
+  "distance_to_median": 0.0,
+  "median_candidate_gain": 0.3888247660192359,
+  "candidate_count": 1,
+  "exported_count": 25,
+  "criterion": "all stated conditions, full-trajectory max error below .02 Hz; closest to median gain, record_id tie break",
+  "evaluation_interval_s": [
+    5,
+    295
+  ],
+  "source_file": "D:\\论文集\\phaseD\\C_confirm\\chunks\\S0_-17dB_chunk_018.mat",
+  "source_sha256": "a3bd83869f63c7493c12d59b4b465fcbe8c52075bdb500505082f31f673c0d3c",
+  "input_hash": "73b5a6772951795cfbcd059d27ca5f63",
+  "no_new_optimization": true,
+  "spectral_reference": "maximum ideal-compensation target-only power over ±2 Hz on the same 290 s support"
+}

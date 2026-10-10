@@ -1,0 +1,20 @@
+{
+  "entries": 306,
+  "checked_expectations": 49,
+  "failed": [],
+  "sources_sha256": {
+    "phaseD/C_confirm/C_records.csv": "0cbb4ae652edf1b39b0e163981f755d5aa88b1611ddc84ed3f40b62eb6f89fa7",
+    "phaseD/X2_frontend/X2_records.csv": "c8bfde1bf11440a783a56efd037b1afedee359cdb826350b74fbdb773fc55e10",
+    "phaseE/E2_frontend_ext/E2_records.csv": "f3fa1be3f6f3632c68243bb8d30d50c2cc1dabd2714f3ada70681a02eda044ad",
+    "phaseE/E1_trajexport/traj_export_X2_theory_metrics.csv": "a7b4cc07211f585fe29fea2731898394e18f88dc94cfa653794e2fa698308b99",
+    "phaseE/E1_trajexport/traj_export_X2_diagA2.csv": "d49f6fb9688ed475092c8f3e9247999fc45f17afcbdc214a514bfa284b299a2d",
+    "phaseE/E2_frontend_ext/traj_export_E2_theory_metrics.csv": "737adcba678a60c83d48dbf8ead39bfda42176f1c4c5535befa5594b8911ffcf",
+    "phaseD/X1_duration/X1_records.csv": "66711a4a20e1c133a6b0a7c8f3a2ee89c6c76c0c594609734bf440539131e04a",
+    "phaseE/E1_trajexport/traj_export_X1_T150_diagA2.csv": "cacfa62373bbf059ca911521e2ba4ad0f69c2b6e01593ba3f933ac804e54b4c2",
+    "phaseE/E1_trajexport/traj_export_X1_T300_diagA2.csv": "8332e8045e52f2b29d50d655643b0b62d9a1f63efd0be26bc5f17602611696bd",
+    "phaseE/E1_trajexport/traj_export_X1_T450_diagA2.csv": "5c790e631559358138c34a8125022950dbc03aefcfdc371bfcbcc2b38e7f2410",
+    "phaseE/E1_trajexport/traj_export_X1_T600_diagA2.csv": "37f6e3dea36ffeddd0ce83cba6133aba20451073049c29e7911732eb63f421bb",
+    "phaseA/tables/E0_phase_corrected_perrecord.csv": "cb2beb95a5bb5a3a1e5aeb454f490956335ac178aae28a206b13cda479fca731",
+    "phaseE/E5_inject/E5_records.csv": "d9c36ca04b036721d944712c1bac4725918d6b05c68452afe7cf675df194645d"
+  }
+}

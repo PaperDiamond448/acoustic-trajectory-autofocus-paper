@@ -1,0 +1,44 @@
+{
+  "package_sha256": "87aa094890ed2dfb23bf19493257af1be644e1428e75d0277e65bed9bb4c5aed",
+  "files": [
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第3章_相干驱动轨迹修正.md",
+      "received_sha256": "1d6315060ed8b983e065bee941e85483ac87d9ccd816881fca4366fe73ba22f2",
+      "bytes": 13454,
+      "previous_sha256": "6abccb1039b3bc1685eb12d03aa47478dfa2c9af35c5d0a097c2cfb88fcf6fec"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第2章_频率轨迹误差与相干损失.md",
+      "received_sha256": "af70658ddba5a06784fcee5988c47e7b38770d6c3ecbb9b6a7d9d35b2bb7bac0",
+      "bytes": 8284,
+      "previous_sha256": "b6a0f5dd95b42478a1a63b81fa8d061ae8093d5c1767848107d4d7744a9816f9"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第4章数字来源与引用核对_待Codex复核.md",
+      "received_sha256": "becf561e459ef3601fb2427f6fa81d36d9c6d426a71d2d96a0f671f639349d79",
+      "bytes": 8233
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第4章_仿真分析.md",
+      "received_sha256": "c1fe88e1610452bcb6cbfd1d99fc500e28689e9e731e5f56cdff8f11e54416ba",
+      "bytes": 15200
+    },
+    {
+      "path": "当前主线精选_20261003/14_第二批实验分析_20261008/写作决策记录_Claude_20261008.md",
+      "received_sha256": "0fbbc3e989bd2589f2c4d9f1828383aafd4bba4542268cea97fe3a2b8473a2fe",
+      "bytes": 16774,
+      "previous_sha256": "f81fb616f1f121efb9fac644980b970e238cf75c1511f94544dfd4878664fc57"
+    },
+    {
+      "path": "同步说明.md",
+      "received_sha256": "6a85dd1ba104d6a942fe99480d1e96ea53d1b45b3bb3d83d3018a887ed0ceacd",
+      "bytes": 777
+    }
+  ],
+  "modifications": [
+    "chapter2_citations_and_conditions",
+    "chapter3_citations_and_fast_error_side",
+    "chapter4_example_and_conditions"
+  ],
+  "no_frozen_changes": true
+}

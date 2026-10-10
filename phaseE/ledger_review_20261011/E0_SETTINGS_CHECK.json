@@ -1,0 +1,38 @@
+{
+  "old_geometry": {
+    "f0_Hz": 100,
+    "v_m_s": 5,
+    "closest_approach_receive_s": 150,
+    "closest_distance_m": 1000
+  },
+  "main_geometry_randomized": true,
+  "old_evaluation_s": [
+    5,
+    295
+  ],
+  "shared_fs_Hz": 20,
+  "shared_duration_s": 300,
+  "shared_c_m_s": 1500,
+  "shared_interference_offset_Hz": 0.18,
+  "shared_interference_duration_s": 20,
+  "code_files": [
+    {
+      "filename": "estimate_b1.m",
+      "old_sha256": "7f7638f55650da08842021df64234fc28468cd3cb00e8c53a432ef8786f87c0f",
+      "current_sha256": "7f7638f55650da08842021df64234fc28468cd3cb00e8c53a432ef8786f87c0f",
+      "equal": true
+    },
+    {
+      "filename": "dp_viterbi.m",
+      "old_sha256": "429e468f73aa480c424f1013c1aa810e583039fc505983b36f6d0fb914776804",
+      "current_sha256": "429e468f73aa480c424f1013c1aa810e583039fc505983b36f6d0fb914776804",
+      "equal": true
+    },
+    {
+      "filename": "common_frontend.m",
+      "old_sha256": "1812cfd4376bedf859c825a20b4687aa193c8829a64b31b34881f85b29747ebf",
+      "current_sha256": "1812cfd4376bedf859c825a20b4687aa193c8829a64b31b34881f85b29747ebf",
+      "equal": true
+    }
+  ]
+}

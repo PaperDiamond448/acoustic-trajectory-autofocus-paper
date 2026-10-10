@@ -1,0 +1,122 @@
+[
+  {
+    "key": "Zhang2023",
+    "url": "https://api.crossref.org/works/10.1109%2FJOE.2023.3265165",
+    "saved": true,
+    "bytes": 7184
+  },
+  {
+    "key": "Zhang2026",
+    "url": "https://api.crossref.org/works/10.1049%2Frsn2.70216",
+    "saved": true,
+    "bytes": 9657
+  },
+  {
+    "key": "Chen2025",
+    "url": "https://api.crossref.org/works/10.1121%2F10.0036367",
+    "saved": true,
+    "bytes": 14444
+  },
+  {
+    "key": "Streit1990",
+    "url": "https://api.crossref.org/works/10.1109%2F29.52700",
+    "saved": true,
+    "bytes": 3282
+  },
+  {
+    "key": "Luo2022",
+    "url": "https://api.crossref.org/works/10.11999%2FJEIT211374",
+    "saved": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "Suvorova2018",
+    "url": "https://api.crossref.org/works/10.1109%2FTSP.2018.2877176",
+    "saved": true,
+    "bytes": 5780
+  },
+  {
+    "key": "OShea2010",
+    "url": "https://api.crossref.org/works/10.1109%2FTAES.2010.5545168",
+    "saved": true,
+    "bytes": 3491
+  },
+  {
+    "key": "Mohanty2017",
+    "url": "https://api.crossref.org/works/10.1103%2FPhysRevD.96.102008",
+    "saved": true,
+    "bytes": 9861
+  },
+  {
+    "key": "Fienup2000",
+    "url": "https://api.crossref.org/works/10.1364%2FOL.25.000221",
+    "saved": true,
+    "bytes": 3385
+  },
+  {
+    "key": "FienupMiller2003",
+    "url": "https://api.crossref.org/works/10.1364%2FJOSAA.20.000609",
+    "saved": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "Fortune2001",
+    "url": "https://api.crossref.org/works/10.1109%2FOCEANS.2001.968699",
+    "saved": true,
+    "bytes": 3835
+  },
+  {
+    "key": "Nocedal2006",
+    "url": "https://api.crossref.org/works/10.1007%2F978-0-387-40065-5",
+    "saved": true,
+    "bytes": 2562
+  },
+  {
+    "key": "Conn2000",
+    "url": "https://api.crossref.org/works/10.1137%2F1.9780898719857",
+    "saved": true,
+    "bytes": 2270
+  },
+  {
+    "key": "Rogers1981",
+    "url": "https://api.crossref.org/works/10.1109%2FTIM.1981.6312409",
+    "saved": true,
+    "bytes": 2168
+  },
+  {
+    "key": "Davison1997",
+    "url": "https://api.crossref.org/works/10.1017%2FCBO9780511802843",
+    "saved": true,
+    "bytes": 1902
+  },
+  {
+    "key": "Richards_query",
+    "url": "https://api.crossref.org/works?query.title=Coherent%20integration%20loss%20due%20to%20white%20Gaussian%20phase%20noise&rows=1",
+    "saved": true,
+    "bytes": 2471
+  },
+  {
+    "key": "Richards2003.pdf",
+    "url": "https://bpb-us-e1.wpmucdn.com/sites.gatech.edu/dist/5/462/files/2016/08/Phase_noise_loss_published_version.pdf?bid=462",
+    "saved": true,
+    "bytes": 258894
+  },
+  {
+    "key": "Fienup2000.pdf",
+    "url": "https://labsites.rochester.edu/fienup/wp-content/uploads/2019/07/OL00_SARFocMaxSharp.pdf",
+    "saved": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "FienupMiller2003.pdf",
+    "url": "https://labsites.rochester.edu/fienup/wp-content/uploads/2019/07/JOSAA03_GenSharpness.pdf",
+    "saved": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "Mohanty2017.pdf",
+    "url": "https://arxiv.org/pdf/1709.08870",
+    "saved": true,
+    "bytes": 696617
+  }
+]
