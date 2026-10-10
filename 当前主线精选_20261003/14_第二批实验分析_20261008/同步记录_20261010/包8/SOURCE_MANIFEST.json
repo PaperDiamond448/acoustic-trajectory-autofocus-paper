@@ -1,0 +1,23 @@
+{
+  "package_sha256": "aedec1dc8fc992f423e8bf9f876001bf28d28784cb83079d01ab6eb3843fbbe6",
+  "files": [
+    {
+      "received_path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第3章_相干驱动轨迹修正.md",
+      "bytes": 13065,
+      "received_sha256": "6abccb1039b3bc1685eb12d03aa47478dfa2c9af35c5d0a097c2cfb88fcf6fec",
+      "previous_sha256": "0a53ba350944bd39d21f8336d9db5f554b39dcfa5567a8efbd7187426ae58eb0"
+    },
+    {
+      "received_path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第2章_频率轨迹误差与相干损失.md",
+      "bytes": 7949,
+      "received_sha256": "b6a0f5dd95b42478a1a63b81fa8d061ae8093d5c1767848107d4d7744a9816f9",
+      "previous_sha256": "57d40a76b63283cf06eab930b16cb388c2dc4e0cab9013767395571e8e6c7241"
+    },
+    {
+      "received_path": "同步说明.md",
+      "bytes": 1254,
+      "received_sha256": "8fee86ffaab2129513bbc8a4a64c06164baf2570b9c1fa72192acbe9dba8a296"
+    }
+  ],
+  "standalone_attachments_equal_package": true
+}
