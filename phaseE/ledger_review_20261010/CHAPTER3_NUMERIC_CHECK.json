@@ -1,0 +1,268 @@
+{
+  "population": {
+    "records": 840,
+    "seeds": 120,
+    "scene_counts": {
+      "S0": 420,
+      "S2": 420
+    },
+    "snr_db": [
+      -20,
+      -19,
+      -18,
+      -17,
+      -16,
+      -15,
+      -14
+    ],
+    "spacings_s": [
+      60.0,
+      30.0,
+      20.0,
+      15.0,
+      10.0,
+      7.5,
+      6.0
+    ]
+  },
+  "node_rule": {
+    "eligible": [
+      10.0,
+      7.5,
+      6.0
+    ],
+    "chosen": 10.0,
+    "reference": "same-record Viterbi eta",
+    "combinations": "S0/S2 x F02/UNB"
+  },
+  "kernel": {
+    "record_duration_s": 300,
+    "evaluation_duration_s": 290,
+    "supplied_discrete_K20": 399.79051280836495,
+    "supplied_discrete_K310": 58987.23817153982,
+    "ratio": 0.0067775763911126115,
+    "continuous_K20": 399.8069580667819,
+    "continuous_K310": 58987.25212430286,
+    "initial_phase_average": true,
+    "unit": "rad^2/Hz^2"
+  },
+  "checks": [
+    {
+      "label": "D1 S0 Delta=20 eta",
+      "recomputed": 0.7097891479476802,
+      "stored": 0.7097891479476801,
+      "abs_difference": 1.1102230246251565e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 S0 Delta=10 eta",
+      "recomputed": 0.7097853666112723,
+      "stored": 0.7097853666112726,
+      "abs_difference": 2.220446049250313e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 S0 Delta=6 eta",
+      "recomputed": 0.7096696814246616,
+      "stored": 0.7096696814246619,
+      "abs_difference": 3.3306690738754696e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 S2 Delta=20 eta",
+      "recomputed": 0.5373958060856233,
+      "stored": 0.5373958060856233,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 S2 Delta=10 eta",
+      "recomputed": 0.5804025439428503,
+      "stored": 0.5804025439428504,
+      "abs_difference": 1.1102230246251565e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 S2 Delta=6 eta",
+      "recomputed": 0.5874671818417855,
+      "stored": 0.5874671818417857,
+      "abs_difference": 2.220446049250313e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 pooled Delta=20 runtime median",
+      "recomputed": 1.4014731,
+      "stored": 1.4014731,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 pooled Delta=10 runtime median",
+      "recomputed": 3.0271547500000002,
+      "stored": 3.02715475,
+      "abs_difference": 4.440892098500626e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D1 pooled Delta=6 runtime median",
+      "recomputed": 7.605165100000001,
+      "stored": 7.605165100000001,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 F04 harm",
+      "recomputed": 0.3476190476190476,
+      "stored": 0.3476190476190475,
+      "abs_difference": 1.1102230246251565e-16,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 F04 gain",
+      "recomputed": 0.010172225736460466,
+      "stored": 0.0101722257364604,
+      "abs_difference": 6.591949208711867e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t30_A harm",
+      "recomputed": 0.023809523809523808,
+      "stored": 0.0238095238095238,
+      "abs_difference": 6.938893903907228e-18,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t30_A gain",
+      "recomputed": 0.013519042358686778,
+      "stored": 0.0135190423586867,
+      "abs_difference": 7.806255641895632e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t10_A harm",
+      "recomputed": 0.13809523809523808,
+      "stored": 0.138095238095238,
+      "abs_difference": 8.326672684688674e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t10_A gain",
+      "recomputed": 0.019706980779386957,
+      "stored": 0.0197069807793869,
+      "abs_difference": 5.551115123125783e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t45_A harm",
+      "recomputed": 0.0071428571428571435,
+      "stored": 0.0071428571428571,
+      "abs_difference": 4.336808689942018e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "D2 S2 ADA_local_c04_t45_A gain",
+      "recomputed": 0.006929999265454898,
+      "stored": 0.0069299992654548,
+      "abs_difference": 9.80118763926896e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C ADA_local_c04_t30_A runtime median",
+      "recomputed": 2.7989667000000003,
+      "stored": 2.7989667000000003,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C ADA_local_c04_t30_A runtime p90",
+      "recomputed": 5.855612539999999,
+      "stored": 5.855612539999999,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C F02 runtime median",
+      "recomputed": 2.65256095,
+      "stored": 2.65256095,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C F02 runtime p90",
+      "recomputed": 3.8205159,
+      "stored": 3.8205159,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C SMR runtime median",
+      "recomputed": 0.2001028,
+      "stored": 0.2001028,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "C SMR runtime p90",
+      "recomputed": 0.29763111999999997,
+      "stored": 0.2976311199999999,
+      "abs_difference": 5.551115123125783e-17,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "lambda",
+      "recomputed": 0.005151315789473684,
+      "stored": 0.005151315789473684,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    },
+    {
+      "label": "lambda_F",
+      "recomputed": 0.5151315789473684,
+      "stored": 0.5151315789473684,
+      "abs_difference": 0.0,
+      "passed": true,
+      "note": ""
+    }
+  ],
+  "all_passed": true,
+  "corrections": [
+    "S2 F02 Delta=6 eta rounds to 0.587, rather than 0.588",
+    "95% gain rule uses gain over Viterbi under both F02 and UNB",
+    "runtime_s is solver call time, excluding shared preprocessing and dwell evaluation"
+  ],
+  "source_sha256": {
+    "phaseD/D_dev/D1_records.csv": "789e2857d3f111c36f52aeb3101cf00c3d0b980611db8033985567c27b073fe8",
+    "phaseD/D_dev/D1_summary.csv": "26a487d9d34f593b995f875681491bddfa7be0877a79c99f971570239e8a85bb",
+    "phaseD/D_dev/D2_records.csv": "899958895639207d0860251bee5d10bc9bc5bc5c05a2388d42dcc2607c8614a4",
+    "phaseD/D_dev/D2_summary.csv": "3074bb231127ed098978c69d59d73aa75d93d43354c137534cd0fc9c4ff90d72",
+    "phaseD/C_confirm/C_records.csv": "0cbb4ae652edf1b39b0e163981f755d5aa88b1611ddc84ed3f40b62eb6f89fa7",
+    "phaseD/C_confirm/C_runtime.csv": "8e62c05f9a246e970348d918ae68878ced026a0baadf3425dc1a0dae8d51203a",
+    "phaseD/D_dev/FROZEN_METHOD.json": "ff63f32c38fc17e99620faa074025c337df247bf823be4fa4b40e74860c0a89f",
+    "phaseD/D_dev/D1_DECISION.json": "def31fa8fe56b72068f382eaf3ef18b919bf4a855c5518142d8f210409e9ccca",
+    "当前主线精选_20261003/13_第一批补充分析_20261007/数据与脚本/theory.py": "ff45c39deb41e7166aaae152b3bf6ecc4d85bdcc05145e893bdc31f6d156735a"
+  }
+}
