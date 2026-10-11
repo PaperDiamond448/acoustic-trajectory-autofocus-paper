@@ -1,0 +1,50 @@
+{
+  "package_sha256": "921bf41940b8c3413b61b65608205b36d3b064d7893ba04360a05b4e6df85ee6",
+  "files": [
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第3章_相干驱动轨迹修正.md",
+      "bytes": 13400,
+      "received_sha256": "ec57f045082a9036667db764480dccf4b5127e774f367d74ed2e81eab3145361",
+      "previous_sha256": "01f4b4eac23964970e6c784789554d2de7af2ea603fbb282b70a58761fe7a1da"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第2章_频率轨迹误差与相干损失.md",
+      "bytes": 8166,
+      "received_sha256": "c99a520624182e47045725cba34c66b3381e8157b67c07e2b9967bda33727962",
+      "previous_sha256": "eebd92746f409c58e0eef9bcea8b217dcd112fc8920005eb683e2b9de928977a"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第5章数字来源_待Codex复核.md",
+      "bytes": 5219,
+      "received_sha256": "4009593aca160d3611660ffb4ed6a60fc4366318ffb84d962404e016052a2bc1"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第5章_SWellEx-96数据实验.md",
+      "bytes": 8635,
+      "received_sha256": "76800cd9c334cf7303d33c720687cbccbaffe375ec0b5093bc7e5b709c0eca35"
+    },
+    {
+      "path": "当前主线精选_20261003/11_正文稿/重写稿_JASA_20261008/第4章_仿真分析.md",
+      "bytes": 15411,
+      "received_sha256": "999f55ab909371cb4a3f69f08626cd50e70335de7468e41009263cffb2315fbf",
+      "previous_sha256": "f597fa20fc6cb903829d1123f68658653c2134cf2738fcde144b87954cd16ddd"
+    },
+    {
+      "path": "当前主线精选_20261003/14_第二批实验分析_20261008/写作决策记录_Claude_20261008.md",
+      "bytes": 20333,
+      "received_sha256": "2fae7df8bbe298c29480c150e9aa7e0d4ece9a0da3f2cb339776f5b1260a42b1",
+      "previous_sha256": "7412bba29630f72073a7cae333ab35ed5c4f54afcc296c19a425638af0c6d54c"
+    },
+    {
+      "path": "同步说明.md",
+      "bytes": 699,
+      "received_sha256": "077e3c50e8d6a5ea72840e8d69b2bfb8c837bfe4f74ff34b658c0500a026d272"
+    }
+  ],
+  "changes": [
+    "chapter5_statistical_scope",
+    "136Hz_full_trajectory_reference",
+    "figure3_error_sign",
+    "figures7_and8"
+  ]
+}

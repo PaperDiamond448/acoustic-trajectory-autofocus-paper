@@ -14,8 +14,8 @@ t=pd.read_csv(O/'FIG3_example_trajectories.csv');s=pd.read_csv(O/'FIG3_example_s
 fig,axes=plt.subplots(1,2,figsize=(7.1,2.8));fig.subplots_adjust(left=.083,right=.985,bottom=.21,top=.78,wspace=.30)
 ax=axes[0];z=t[(t.time_s>=5)&(t.time_s<295)]
 ax.axhline(0,color='#d5d5d5',lw=.6,zorder=0)
-ax.plot(z.time_s,z.LPS_error_mHz,color='#737373',lw=1.15,label='LPS')
-ax.plot(z.time_s,z.CDTR_error_mHz,color='#d77832',lw=1.2,label='CDTR')
+ax.plot(z.time_s,1000*(z.true_g_Hz-z.LPS_g_Hz),color='#737373',lw=1.15,label='LPS')
+ax.plot(z.time_s,1000*(z.true_g_Hz-z.CDTR_g_Hz),color='#d77832',lw=1.2,label='CDTR')
 ax.set(xlabel='Time (s)',ylabel='Frequency error (mHz)',xlim=(5,295),ylim=(-23,23));ax.legend(loc='lower left',bbox_to_anchor=(0,1.015),fontsize=7,ncol=2)
 ax=axes[1]
 for label,color,style in [('LPS','#737373','-'),('CDTR','#d77832','-'),('ideal','#477aab','--')]:

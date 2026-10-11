@@ -1,0 +1,33 @@
+{
+  "frontend_candidate_band_Hz": [
+    -2,
+    2
+  ],
+  "residual_search_band_Hz": [
+    -2,
+    2
+  ],
+  "evidence": "phaseE_inject_one calls phaseX_settings(300,false); mft_config sets B.band=[-2 2]; phaseX_front passes B.band; phaseD_measure searches B.band.",
+  "evaluation_interval_s": [
+    5,
+    295
+  ],
+  "natural_accumulation_interval_s": [
+    0,
+    300
+  ],
+  "preprocessing_guard_s": {
+    "interior": [
+      10,
+      10
+    ],
+    "first": [
+      0,
+      20
+    ],
+    "last": [
+      20,
+      0
+    ]
+  }
+}

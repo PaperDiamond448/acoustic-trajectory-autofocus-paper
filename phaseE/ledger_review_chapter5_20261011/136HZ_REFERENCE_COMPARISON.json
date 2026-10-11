@@ -1,0 +1,15 @@
+{
+  "interval_s": [
+    905,
+    1195
+  ],
+  "median_offset_hz": -0.00863427999479427,
+  "max_abs_offset_hz": 0.1892789376905455,
+  "p90_abs_offset_hz": 0.16934621129279895,
+  "fraction_abs_offset_gt_005_hz": 0.6586206896551724,
+  "fraction_abs_offset_le_001_hz": 0.05310344827586207,
+  "fraction_abs_offset_le_002_hz": 0.08637931034482758,
+  "max_correction_full300_mHz": 33.33683641000107,
+  "max_correction_opt290_mHz": 28.311168945009513,
+  "interpretation": "The segment median is close; the full trajectory has large local departures from the strong-tonal reference."
+}

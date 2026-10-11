@@ -1,0 +1,26 @@
+[
+  {
+    "file": "fig07_real_background_injection.pdf",
+    "code": 0,
+    "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\论文集\\当前主线精选_20261003\\05_图表素材\\重写稿_JASA_20261008\\图7-8_20261011\\fig07_real_background_injection.pdf\npages: 1\nvisible text boxes: 65\nstroke paths: 108\n\n\nsummary: 0 fail, 0 warn, 1 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+    "stderr": ""
+  },
+  {
+    "file": "fig07_真实背景注入_中文.pdf",
+    "code": 0,
+    "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\论文集\\当前主线精选_20261003\\05_图表素材\\重写稿_JASA_20261008\\图7-8_20261011\\fig07_真实背景注入_中文.pdf\npages: 1\nvisible text boxes: 65\nstroke paths: 108\n\n\nsummary: 0 fail, 0 warn, 1 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+    "stderr": ""
+  },
+  {
+    "file": "fig08_natural_tonals.pdf",
+    "code": 0,
+    "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\论文集\\当前主线精选_20261003\\05_图表素材\\重写稿_JASA_20261008\\图7-8_20261011\\fig08_natural_tonals.pdf\npages: 1\nvisible text boxes: 63\nstroke paths: 174\n\n\nsummary: 0 fail, 0 warn, 1 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+    "stderr": ""
+  },
+  {
+    "file": "fig08_自然线谱_中文.pdf",
+    "code": 0,
+    "stdout": "Nature Figure Rendered Collision Audit\npdf: D:\\论文集\\当前主线精选_20261003\\05_图表素材\\重写稿_JASA_20261008\\图7-8_20261011\\fig08_自然线谱_中文.pdf\npages: 1\nvisible text boxes: 63\nstroke paths: 174\n\n\nsummary: 0 fail, 0 warn, 1 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n",
+    "stderr": ""
+  }
+]
